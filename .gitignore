@@ -45,10 +45,16 @@ CodeCoverage/
 *.binlog
 
 # MSTest test Results
-[Tt]est[Rr]esult*/*******
+[Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
 # NUnit
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+
+.vs
+_CampusFinder/appsettings.json
+_CampusFinder/appsettings.Development.json
+
