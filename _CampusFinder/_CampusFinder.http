@@ -1,6 +1,0 @@
-@_CampusFinder_HostAddress = http://localhost:5133
-
-GET {{_CampusFinder_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
