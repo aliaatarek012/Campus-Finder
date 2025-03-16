@@ -18,6 +18,6 @@ namespace _CampusFinder.Dto
         ErrorMessage = "Password must have 1 Uppercase, 1 Lowercase, 1 number, 1 non alphanumeric and at least 6 characters")]
         public string Password { get; set; }
 
-
+        
     }
 }

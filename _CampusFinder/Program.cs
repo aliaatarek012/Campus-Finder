@@ -16,7 +16,7 @@ namespace _CampusFinder
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            
 
             #region Configure Services
             // Add services to the container.
