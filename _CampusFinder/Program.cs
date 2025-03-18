@@ -1,5 +1,6 @@
 using _CampusFinder.Extenstions;
 using _CampusFinderCore.Entities.Identity;
+using _CampusFinderInfrastructure.AppDbContext;
 using _CampusFinderInfrastructure.Identity;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -13,7 +14,7 @@ namespace _CampusFinder
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
             
@@ -45,7 +46,11 @@ namespace _CampusFinder
                 options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
             });
 
-            builder.Services.Configure<CookiePolicyOptions>(options =>
+
+			builder.Services.AddDbContext<ApplicationDbContext>(options =>
+	        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+			builder.Services.Configure<CookiePolicyOptions>(options =>
             {
                 options.MinimumSameSitePolicy = SameSiteMode.None;
                 options.HttpOnly = HttpOnlyPolicy.Always;
@@ -88,20 +93,19 @@ namespace _CampusFinder
 
             var Services = Scope.ServiceProvider;//Step02, Used to Ask Service from scope 
 
-            //var _dbContext = Services.GetRequiredService<StoreContext>(); //Step03, Ask CLR for Creating Object from DbContext Explicitly  
-
-            var _identityDbContext = Services.GetRequiredService<AppIdentityDbContext>();//Take Object from IdentityDbContext Explicitly
+			  
+			var _dbcontext = Services.GetRequiredService<ApplicationDbContext>();
+			var _identityDbContext = Services.GetRequiredService<AppIdentityDbContext>();//Take Object from IdentityDbContext Explicitly
             var _userManager = Services.GetRequiredService<UserManager<AppUser>>(); //Ask CLR Create object from class (UserManager) Explicitly
 
             var loggerFactory = Services.GetRequiredService<ILoggerFactory>(); //color the error and show specific Text  
 
             try
             {
-                //_dbContext.Database.MigrateAsync(); //Step04 , ,Update-Database
-                //StoreContextSeed.SeedAnsync(_dbContext); //Data Seeding
-
-                _identityDbContext.Database.MigrateAsync();//Update Identity Database
-                AppIdentityDbContextSeed.SeedUsersAsync(_userManager);
+				
+			   await _dbcontext.Database.MigrateAsync();
+			   await _identityDbContext.Database.MigrateAsync();//Update Identity Database
+               await AppIdentityDbContextSeed.SeedUsersAsync(_userManager);
             }
 
             catch (Exception ex)
