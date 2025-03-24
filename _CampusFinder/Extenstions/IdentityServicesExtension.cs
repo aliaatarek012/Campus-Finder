@@ -34,6 +34,10 @@ namespace _CampusFinder.Extenstions
                 options.Lockout.MaxFailedAccessAttempts = 5;
 
 
+                // email confirmation
+                options.Tokens.EmailConfirmationTokenProvider = TokenOptions.DefaultEmailProvider;
+
+
             }).AddEntityFrameworkStores<AppIdentityDbContext>().AddDefaultTokenProviders();
 
             services.AddJwtBearerConfiguration(configuration); // If using JWT

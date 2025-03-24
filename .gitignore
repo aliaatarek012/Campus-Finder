@@ -58,3 +58,4 @@ nunit-*.xml
 .vs
 _CampusFinder/appsettings.json
 _CampusFinder/appsettings.Development.json
+/_CampusFinder/Properties/PublishProfiles

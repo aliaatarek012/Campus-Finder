@@ -201,6 +201,12 @@ namespace _CampusFinderInfrastructure.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<DateTime?>("ResetCodeExpiry")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ResetPasswordCode")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
@@ -210,6 +216,9 @@ namespace _CampusFinderInfrastructure.Migrations
                     b.Property<string>("UserName")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("VerificationCode")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

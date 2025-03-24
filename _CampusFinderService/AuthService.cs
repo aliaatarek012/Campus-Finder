@@ -15,11 +15,37 @@ namespace _CampusFinderService
 {
     public class AuthService : IAuthService
     {
+
         private readonly IConfiguration _configuration;
-        public AuthService(IConfiguration configuration)
+        private readonly UserManager<AppUser> _userManager;
+
+        public AuthService(IConfiguration configuration , UserManager<AppUser> userManager)
         {
             _configuration = configuration;
+            _userManager = userManager;
         }
+
+        public async Task<(bool IsAuthenticated, string Message, string Token)> CheakResetPassword(string email, string resetCode)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                return (false, "Email is incorrect!", null);
+            }
+
+            // Validate the reset code and expiry
+            if (user.ResetPasswordCode != resetCode || user.ResetCodeExpiry < DateTime.UtcNow)
+            {
+                return (false, "The reset code is invalid or has expired.", null);
+            }
+
+            // Generate a token for resetting the password
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+            return (true, "Reset code is valid.", token);
+        }
+        
+
         public async Task<string> CreateTokenAsync(AppUser user, UserManager<AppUser> userManager)
         {
             //Private Claims (User-Defined)

@@ -13,6 +13,13 @@ namespace _CampusFinderCore.Entities.Identity
         //Customize on properties of Users
         public string DisplayName { get; set; }
 
+        // Add the ResetPasswordCode property
+        public string? ResetPasswordCode { get; set; }
+
+        // Add the ResetCodeExpiry property
+        public DateTime? ResetCodeExpiry { get; set; }
+        public string? VerificationCode { get; set; }
+
 
     }
 }
