@@ -54,7 +54,6 @@ TestResult.xml
 nunit-*.xml
 
 
-
 .vs
 _CampusFinder/appsettings.json
 _CampusFinder/appsettings.Development.json
