@@ -1,6 +1,10 @@
 using _CampusFinder.Extenstions;
 using _CampusFinderCore.Entities.Identity;
+using _CampusFinderCore.Services.Contract;
+using _CampusFinderCore.Settings;
 using _CampusFinderInfrastructure.Identity;
+using _CampusFinderService;
+using CampusFinder.MiddleWares;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
@@ -8,6 +12,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.CookiePolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace _CampusFinder
 {
@@ -25,20 +30,38 @@ namespace _CampusFinder
 
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("AllowSpecificOrigins", policy =>
+                options.AddPolicy("AllowAllOrigins", policy =>
                 {
-                    policy.WithOrigins("http://localhost:5081")
-                        .AllowAnyHeader() // Or specify specific headers
-                        .AllowAnyMethod() // Or specify HTTP methods (GET, POST, etc.)
-                        .AllowCredentials(); // Required if using cookies or credentials
+                    policy.AllowAnyOrigin().AllowAnyHeader() // Or specify specific headers
+                        .AllowAnyMethod(); // Or specify HTTP methods (GET, POST, etc.)
                 });
             });
+
+            // Add logging services
+            builder.Services.AddLogging(loggingBuilder =>
+            {
+                loggingBuilder.AddConsole(); // Logs to the console
+                loggingBuilder.AddDebug();   // Logs to the debug output
+            });
+
+
+            builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
 
             builder.Services.AddControllers().AddJsonOptions(options =>
             options.JsonSerializerOptions.PropertyNamingPolicy = System.Text.Json.JsonNamingPolicy.CamelCase);
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            //builder.Services.AddDbContext<AppIdentityDbContext>(options =>
+            //{
+            //    var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+            //    var connectionString = environment == "Production"
+            //         ? builder.Configuration.GetConnectionString("ProductionConnection")
+            //         : builder.Configuration.GetConnectionString("DefaultConnection");
+
+            //    options.UseSqlServer(connectionString);
+            //});
 
             builder.Services.AddDbContext<AppIdentityDbContext>(options =>
             {
@@ -55,8 +78,8 @@ namespace _CampusFinder
 
             // Configure authentication
 
-
             builder.Services.AddIdentityServices(builder.Configuration);
+            builder.Services.AddScoped<IMailingService, MailingService>();
 
             builder.Services.AddAuthentication(o =>
             {
@@ -116,6 +139,8 @@ namespace _CampusFinder
 
             #region Configure Kestrel Middlewares
 
+            app.UseMiddleware<ExceptionMiddleware>();
+
             // Configure the HTTP request pipeline.
 
             app.UseSwagger();
@@ -124,7 +149,7 @@ namespace _CampusFinder
 
             app.UseRouting(); // Must come before UseAuthentication and UseAuthorization
 
-            app.UseCors("AllowSpecificOrigins"); // Use only one CORS policy
+            app.UseCors("AllowAllOrigins"); // Use only one CORS policy
 
             app.UseHttpsRedirection(); // Redirect HTTP to HTTPS (optional during development)
 

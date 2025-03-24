@@ -10,9 +10,8 @@ namespace _CampusFinderCore.Services.Contract
 {
     public interface IAuthService
     {
-
         Task<String> CreateTokenAsync(AppUser user, UserManager<AppUser> userManager);
-
+        Task<(bool IsAuthenticated, string Message, string Token)> CheakResetPassword(string email, string resetCode);
 
     }
 }

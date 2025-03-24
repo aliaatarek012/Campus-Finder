@@ -23,4 +23,8 @@
     <ProjectReference Include="..\_CampusFinderCore\_CampusFinderCore.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

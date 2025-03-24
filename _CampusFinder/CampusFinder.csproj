@@ -34,4 +34,8 @@
     <ProjectReference Include="..\_CampusFinderService\_CampusFinderService.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
 </Project>

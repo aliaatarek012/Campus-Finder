@@ -2,13 +2,20 @@
 using _CampusFinder.Errors;
 using _CampusFinderCore.Entities.Identity;
 using _CampusFinderCore.Services.Contract;
+using CampusFinder.Dto;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Abstractions;
+using Microsoft.AspNetCore.Mvc.Routing;
 using System.Security.Claims;
+using System;
+using System.IO;
+using Microsoft.Extensions.Logging;
 
 namespace _CampusFinder.Controllers
 {
@@ -20,20 +27,26 @@ namespace _CampusFinder.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly IAuthService _authService;
-
+        private readonly IMailingService _mailingService;
+        private readonly Microsoft.AspNetCore.Hosting.IHostingEnvironment _webHostEnvironment;
+        private readonly IUrlHelperFactory _urlHelperFactory;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
         public AccountController(UserManager<AppUser> userManager,
             SignInManager<AppUser> signInManager,
-           IAuthService authService
-
-
-            )
+           IAuthService authService, IMailingService mailingService,
+           Microsoft.AspNetCore.Hosting.IHostingEnvironment webHostEnvironment,
+            IUrlHelperFactory urlHelperFactory, IHttpContextAccessor httpContextAccessor
+                                                )
 
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _authService = authService;
-
+            _mailingService = mailingService;
+            _webHostEnvironment = webHostEnvironment;
+            _urlHelperFactory = urlHelperFactory;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         [HttpPost("register")] //Post: /api/account/register
@@ -55,9 +68,39 @@ namespace _CampusFinder.Controllers
 
             if (result.Succeeded)
             {
-                // Require Email Confirmation
+
+                //Verification Code
+                var userId = await _userManager.GetUserIdAsync(user);
+
                 var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-                return Ok(new { message = $"Please Confirm Your Email With The Code that you Have Received{code}" });
+
+                var urlHelper = _urlHelperFactory.GetUrlHelper(new ActionContext(
+                    _httpContextAccessor.HttpContext,
+                    _httpContextAccessor.HttpContext.GetRouteData(),
+                    new ActionDescriptor()));
+
+
+                var verificationUrl = _httpContextAccessor.HttpContext.Request.Scheme + "://" + _httpContextAccessor.HttpContext.Request.Host
+                    + urlHelper.Action("ConfirmEmail", "Account", new { userId = userId, code = code });
+
+
+                var filePath = Path.Combine(_webHostEnvironment.ContentRootPath, "wwwroot", "EmailTemplate.html");
+
+                if (!System.IO.File.Exists(filePath))
+                {
+                    throw new FileNotFoundException("Email template not found.", filePath);
+                }
+
+                var str = new StreamReader(filePath);
+
+                var mailText = str.ReadToEnd();
+                str.Close();
+
+                mailText = mailText.Replace("[name]", user.DisplayName).Replace("[email]", user.Email).Replace("[link]", verificationUrl);
+                await _mailingService.SendEmailAsync(user.Email, "verification Code", mailText);
+
+
+                return Ok("Successfull Register.....Please Go To Login");
             }
 
             return BadRequest(new ApiResponse(400));
@@ -65,50 +108,74 @@ namespace _CampusFinder.Controllers
 
         }
 
-        [HttpPost]
-        [Route("EmailVerification")]
-        public async Task<IActionResult> EmailVerification(string email, string code)
+
+
+        [HttpGet("ConfirmEmail")]
+        public async Task<IActionResult> ConfirmEmail(string userId, string code)
         {
-            if (email == null || code == null)
-                return BadRequest("Invalid Payload");
+            if (userId == null || code == null)
+            {
+                return BadRequest("UserId and token must be supplied for email confirmation.");
+            }
 
-
-            var user = await _userManager.FindByEmailAsync(email);
+            var user = await _userManager.FindByIdAsync(userId);
             if (user == null)
-                return BadRequest("Invalid Payload");
+            {
+                return BadRequest($"Unable to load user with ID '{userId}'.");
+            }
 
-            var isVerified = await _userManager.ConfirmEmailAsync(user, code);
-            if (isVerified.Succeeded)
-                return Ok(new
-                {
-                    message = "email confirmed"
-                });
-            return BadRequest("Something went wrong");
+            if (await _userManager.IsEmailConfirmedAsync(user))
+                return BadRequest("Email is already confirmed");
 
+            var result = await _userManager.ConfirmEmailAsync(user, code);
+            if (result.Succeeded)
+            {
+                return Ok("Email confirmed successfully.");
+            }
+
+            return BadRequest("Error confirming email.");
         }
 
         [AllowAnonymous]
         [HttpPost("login")] //Post: /api/account/login
         public async Task<ActionResult<UserDto>> Login(LoginDto model)
         {
-            var user = await _userManager.FindByEmailAsync(model.Email);
-            //This Email Not Exist at DB 
-            if (user is null)
-                return Unauthorized(new ApiResponse(401));
+                // Validate input
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
 
-            var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
+                var user = await _userManager.FindByEmailAsync(model.Email);
+                if (user == null)
+                {
+                    return Unauthorized(new ApiResponse(401, "User is not registered. Please sign up."));
+                }
+                //This Email Not Exist at DB 
+                if (!user.EmailConfirmed)
+                    return BadRequest("Email not confirmed");
 
-            if (result.Succeeded is false)
-                return Unauthorized(new ApiResponse(401));
+                var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
 
-            // If pass and Email True will return object from class UserDto
-            return Ok(new UserDto
-            {
-                DisplayName = user.DisplayName,
-                Email = user.Email,
-                Token = await _authService.CreateTokenAsync(user, _userManager)
-            });
+                if (user is null || result.Succeeded is false)
+                    return Unauthorized(new ApiResponse(401));
+
+                // If pass and Email True will return object from class UserDto
+                return Ok(new UserDto
+                {
+                    DisplayName = user.DisplayName,
+                    Email = user.Email,
+                    Token = await _authService.CreateTokenAsync(user, _userManager),
+                    // expiresOn = result.ExpiresOn
+                });
+            
+            
         }
+
+        
+
+
+
 
         [Route("ForgetPassword")]
         [HttpPost]
@@ -119,55 +186,138 @@ namespace _CampusFinder.Controllers
                 // validate user
                 var user = await _userManager.FindByEmailAsync(request.Email);
                 if (user == null)
-                    return BadRequest("Invalid Payload");
+                    return BadRequest("لم يتم العثور علي الإيميل");
 
-                var token = await _userManager.GeneratePasswordResetTokenAsync(user);
-                if (string.IsNullOrEmpty(token))
-                    return BadRequest("Something went wrong");
+                // Generate the reset code
+                string resetCode = _mailingService.GenerateCode();
 
-                var callbackUrl = $"https://localhost:7267/resetpassword?email={user.Email}&code={token}";
+                // Set the reset code and expiration time
+                user.ResetPasswordCode = resetCode;
+                user.ResetCodeExpiry = DateTime.UtcNow.AddMinutes(30); // Expiry time of 30 minutes
 
-                // Send Email 
-                return Ok(new
-                {
-                    Token = token,
-                    email = user.Email
+                // Save the reset code and expiration time in the database
+                var updateResult = await _userManager.UpdateAsync(user);
+                if (!updateResult.Succeeded)
+                    return StatusCode(500, "An error occurred while updating the user record.");
 
-                });
+                // Load the email template
+                var filePath = Path.Combine(_webHostEnvironment.ContentRootPath, "wwwroot", "ResetPassword.html");
+                string emailBody = await System.IO.File.ReadAllTextAsync(filePath);
 
+                // Customize email body with reset code if needed
+                emailBody = emailBody.Replace("{ResetCode}", resetCode);
 
+                // Send the reset code via email
+                await _mailingService.SendEmailAsync(
+                    user.Email,
+                    "Code For Reset Password",
+                    emailBody // Using the modified template with the reset code
+                );
+
+             
             }
-            return BadRequest("Invalid Payload");
+            return Ok("تم إرسال رمز التأكيد الي ايميلك");
+            //    var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+            //    if (string.IsNullOrEmpty(token))
+            //        return BadRequest("Something went wrong");
+
+            //    var callbackUrl = $"https://localhost:7267/resetpassword?email={user.Email}&code={token}";
+
+            //    // Send Email 
+            //    return Ok(new
+            //    {
+            //        Token = token,
+            //        email = user.Email
+
+            //    });
+
+
+            //}
+            //return BadRequest("Invalid Payload");
 
         }
 
-        [Route("ResetPassword")]
-        [HttpPost]
-        public async Task<IActionResult> ResetPassword(ResetPasswordRequestDto request)
-        {
-            if (!ModelState.IsValid)
-                return BadRequest("Invalid Payload");
-
-            var user = await _userManager.FindByEmailAsync(request.Email);
-            if (user == null)
-                return BadRequest("Invalid Payload");
-
-            var result = await _userManager.ResetPasswordAsync(user, request.Token, request.Password);
-            if (result.Succeeded)
-            {
-                return Ok("Password reset successful.");
-            }
-
-            return BadRequest("Something Went Wrong");
 
 
-        }
+        //[Route("ResetPassword")]
+        //[HttpPost]
+        //public async Task<IActionResult> ResetPassword(ResetPasswordRequestDto request)
+        //{
+        //    if (!ModelState.IsValid)
+        //        return BadRequest("Invalid Payload");
+
+        //    var user = await _userManager.FindByEmailAsync(request.Email);
+        //    if (user == null)
+        //        return BadRequest("Invalid Payload");
+
+        //    var result = await _userManager.ResetPasswordAsync(user, request.ResetCode, request.NewPassword);
+        //    if (result.Succeeded)
+        //    {
+        //        return Ok("Password reset successful.");
+        //    }
+
+        //    return BadRequest("Something Went Wrong");
+
+
+        //}
 
 
 
 
 
         //Get current User that sent request\made Login
+
+
+
+        [HttpPost("check-reset-code")]
+        public async Task<IActionResult> CheckResetCode([FromBody] CheckResetCodeDTO model)
+        {
+            // Convert DTO to plain data
+            var (isAuthenticated, message, token) = await _authService.CheakResetPassword(model.Email, model.ResetCode);
+
+            // Map the result to AuthDTO
+            var result = new AuthDTO
+            {
+                IsAuthenticated = isAuthenticated,
+                Message = message,
+                Token = token
+            };
+
+            if (!result.IsAuthenticated)
+                return BadRequest(result.Message);
+
+            return Ok(result);
+        
+        }
+        [Authorize]
+        [HttpPost("reset-password")]
+        public async Task<IActionResult> ChangePassword(ResetPasswordRequestDto model)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+                return BadRequest("لم يتم العثور علي الإيميل");
+
+
+            // Reset the password
+            var resetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
+            var result = await _userManager.ResetPasswordAsync(user, resetToken, model.NewPassword);
+
+            if (!result.Succeeded)
+                return BadRequest(result.Errors);
+
+            // Clear the reset code after successful password reset
+            user.ResetPasswordCode = null;
+            user.ResetCodeExpiry = null;
+            await _userManager.UpdateAsync(user);
+
+            return Ok("تم تغير كلمة السر بنجاح.");
+        }
+
+
+
         [Authorize]
         [HttpGet] //Get : /api/accounts
         public async Task<ActionResult<UserDto>> GetCurrentUser()

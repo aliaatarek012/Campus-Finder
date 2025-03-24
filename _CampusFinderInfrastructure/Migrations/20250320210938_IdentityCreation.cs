@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace _CampusFinderInfrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class IdentityInitialCreate : Migration
+    public partial class IdentityCreation : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -31,6 +31,9 @@ namespace _CampusFinderInfrastructure.Migrations
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     DisplayName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ResetPasswordCode = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ResetCodeExpiry = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    VerificationCode = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
