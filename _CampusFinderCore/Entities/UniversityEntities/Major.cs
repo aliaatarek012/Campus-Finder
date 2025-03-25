@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace _CampusFinderCore.Entities
+namespace _CampusFinderCore.Entities.UniversityEntities
 {
 	public class Major : BaseEntity
 	{

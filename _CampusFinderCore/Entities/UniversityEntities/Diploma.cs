@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _CampusFinderCore.Entities
+namespace _CampusFinderCore.Entities.UniversityEntities
 {
 	public class Diploma : BaseEntity
 	{
