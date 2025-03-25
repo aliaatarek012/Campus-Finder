@@ -1,4 +1,7 @@
-﻿namespace _CampusFinder.Errors
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Collections.Generic;
+
+namespace _CampusFinder.Errors
 {
     public class ApiResponse
     {
@@ -25,5 +28,24 @@
                 _ => null,
             };
         }
+        public virtual Dictionary<string, object> ToDictionary()
+        {
+            return new Dictionary<string, object>
+            {
+
+                { "statusCode", StatusCode },
+                { "message", Message?? "" }
+            };
+        }
+
+
+
     }
 }
+
+
+
+        
+        
+    
+
