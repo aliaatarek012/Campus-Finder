@@ -1,12 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace _CampusFinderCore.Entities.UniversityEntities
+namespace _CampusFinderCore.Entities
 {
-	internal class Major
+	public class Major : BaseEntity
 	{
+		[Key]
+		[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+		public int MajorID { get; set; }
+		[ForeignKey("College")]
+		public int CollegeID { get; set; }
+
+
+
+		public string? Description { get; set; }
+
+		public College College { get; set; }
+
 	}
 }
