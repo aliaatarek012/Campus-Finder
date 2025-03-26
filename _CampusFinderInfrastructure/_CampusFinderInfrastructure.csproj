@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\Configurations\" />
+    <Folder Include="Data\AppDbContext\DataSeed\" />
     <Folder Include="Identity\Migrations\" />
   </ItemGroup>
 

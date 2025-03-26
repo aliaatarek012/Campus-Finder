@@ -1,7 +1,8 @@
-using _CampusFinder.Extenstions;
+﻿using _CampusFinder.Extenstions;
 using _CampusFinderCore.Entities.Identity;
 using _CampusFinderCore.Services.Contract;
 using _CampusFinderCore.Settings;
+using _CampusFinderInfrastructure.Data.AppDbContext;
 using _CampusFinderInfrastructure.Identity;
 using _CampusFinderService;
 using CampusFinder.MiddleWares;
@@ -11,6 +12,7 @@ using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.CookiePolicy;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -53,20 +55,43 @@ namespace _CampusFinder
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            //builder.Services.AddDbContext<AppIdentityDbContext>(options =>
-            //{
-            //    var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
-            //    var connectionString = environment == "Production"
-            //         ? builder.Configuration.GetConnectionString("ProductionConnection")
-            //         : builder.Configuration.GetConnectionString("DefaultConnection");
+			//builder.Services.AddDbContext<AppIdentityDbContext>(options =>
+			//{
+			//    var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+			//    var connectionString = environment == "Production"
+			//         ? builder.Configuration.GetConnectionString("ProductionConnection")
+			//         : builder.Configuration.GetConnectionString("DefaultConnection");
 
-            //    options.UseSqlServer(connectionString);
-            //});
+			//    options.UseSqlServer(connectionString);
+			//});
 
-            builder.Services.AddDbContext<AppIdentityDbContext>(options =>
+
+
+			string connString = "Server=db15951.public.databaseasp.net; Database=db15951; User Id=db15951; Password=2Kb@h=A8F5-q; Encrypt=True; TrustServerCertificate=True; MultipleActiveResultSets=True;";
+
+			using (SqlConnection conn = new SqlConnection(connString)) // Couldn't Connect to Remote Database so I Forced it to Connect and Check the Connection
+			{
+				try
+				{
+					conn.Open();
+					Console.WriteLine(" Successfully connected to the database!");
+				}
+				catch (Exception ex)
+				{
+					Console.WriteLine($" Connection failed: {ex.Message}");
+				}
+			}
+
+			builder.Services.AddDbContext<AppIdentityDbContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
             });
+
+
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+			});
 
             builder.Services.Configure<CookiePolicyOptions>(options =>
             {
