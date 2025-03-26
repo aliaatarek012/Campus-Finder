@@ -2,10 +2,10 @@
 
 #nullable disable
 
-namespace _CampusFinderInfrastructure.Migrations.ApplicationDb
+namespace _CampusFinderInfrastructure.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class ResyncModels : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

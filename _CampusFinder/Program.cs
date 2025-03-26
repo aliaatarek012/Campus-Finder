@@ -136,9 +136,9 @@ namespace _CampusFinder
 
             var Services = Scope.ServiceProvider;//Step02, Used to Ask Service from scope 
 
-            //var _dbContext = Services.GetRequiredService<StoreContext>(); //Step03, Ask CLR for Creating Object from DbContext Explicitly  
-
-            var _identityDbContext = Services.GetRequiredService<AppIdentityDbContext>();//Take Object from IdentityDbContext Explicitly
+			//var _dbContext = Services.GetRequiredService<StoreContext>(); //Step03, Ask CLR for Creating Object from DbContext Explicitly  
+			var _dbcontext = Services.GetRequiredService<ApplicationDbContext>();
+			var _identityDbContext = Services.GetRequiredService<AppIdentityDbContext>();//Take Object from IdentityDbContext Explicitly
             var _userManager = Services.GetRequiredService<UserManager<AppUser>>(); //Ask CLR Create object from class (UserManager) Explicitly
 
             var loggerFactory = Services.GetRequiredService<ILoggerFactory>(); //color the error and show specific Text  
@@ -147,7 +147,7 @@ namespace _CampusFinder
             {
                 //_dbContext.Database.MigrateAsync(); //Step04 , ,Update-Database
                 //StoreContextSeed.SeedAnsync(_dbContext); //Data Seeding
-
+                _dbcontext.Database.MigrateAsync(); //Update Database
                 _identityDbContext.Database.MigrateAsync();//Update Identity Database
                 AppIdentityDbContextSeed.SeedUsersAsync(_userManager);
             }
