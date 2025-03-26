@@ -12,7 +12,7 @@ namespace _CampusFinderInfrastructure.Data.AppDbContext
 	{
 		public static async Task SeedAsync(ApplicationDbContext _dbcontext)
 		{
-			var universityData = File.ReadAllText("../_CampusFinderInfrastructure/AppDbContext/DataSeed/University.json");
+			var universityData = File.ReadAllText("../_CampusFinderInfrastructure/Data/AppDbContext/DataSeed/University.json");
 			var universities = JsonSerializer.Deserialize<List<University>>(universityData);
 			if (universities.Count > 0)
 			{
@@ -26,7 +26,36 @@ namespace _CampusFinderInfrastructure.Data.AppDbContext
 				}
 			}
 
+			var DiplomaData = File.ReadAllText("../_CampusFinderInfrastructure/Data/AppDbContext/DataSeed/Diploma.json");
+			var diplomas = JsonSerializer.Deserialize<List<Diploma>>(DiplomaData);
+			if (diplomas.Count > 0)
+			{
+				if (!(_dbcontext.Diplomas.Count() > 0))
+				{
+					foreach (var diploma in diplomas)
+					{
+						_dbcontext.Set<Diploma>().Add(diploma);
+					}
+					await _dbcontext.SaveChangesAsync();
+				}
+			}
+
+
+			var EnglishData = File.ReadAllText("../_CampusFinderInfrastructure/Data/AppDbContext/DataSeed/English_Test.json");
+			var tests = JsonSerializer.Deserialize<List<English_Test>>(EnglishData);	
+			if(tests.Count > 0)
+				{
+				if (!(_dbcontext.EnglishTests.Count() > 0))
+				{
+					foreach (var test in tests)
+					{
+						_dbcontext.Set<English_Test>().Add(test);
+					}
+					await _dbcontext.SaveChangesAsync();
+				}
+			}
 		}
+
 	}
 
 }

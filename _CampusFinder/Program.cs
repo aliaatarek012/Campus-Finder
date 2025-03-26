@@ -150,6 +150,7 @@ namespace _CampusFinder
                 _dbcontext.Database.MigrateAsync(); //Update Database
                 _identityDbContext.Database.MigrateAsync();//Update Identity Database
                 AppIdentityDbContextSeed.SeedUsersAsync(_userManager);
+                DbContextSeed.SeedAsync(_dbcontext).Wait(); //Seed Data
             }
 
             catch (Exception ex)
