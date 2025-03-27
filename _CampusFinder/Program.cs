@@ -1,9 +1,11 @@
 ﻿using _CampusFinder.Extenstions;
 using _CampusFinderCore.Entities.Identity;
+using _CampusFinderCore.Repositories.Contract;
 using _CampusFinderCore.Services.Contract;
 using _CampusFinderCore.Settings;
 using _CampusFinderInfrastructure.Data.AppDbContext;
 using _CampusFinderInfrastructure.Identity;
+using _CampusFinderInfrastructure.Repositories;
 using _CampusFinderService;
 using CampusFinder.MiddleWares;
 using Microsoft.AspNetCore.Authentication;
@@ -126,9 +128,12 @@ namespace _CampusFinder
             builder.Logging.AddConsole();
             builder.Logging.AddDebug();
 
-            #endregion
+			//Configure Schema Services
+			builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
-            var app = builder.Build();
+			#endregion
+
+			var app = builder.Build();
 
             #region Update Database
 
