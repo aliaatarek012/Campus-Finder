@@ -38,9 +38,11 @@ namespace _CampusFinderInfrastructure.Data.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<decimal>("StandardFees")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(18,2)")
+						.HasAnnotation("Relational:JsonPropertyName", "Standard Fees");
 
-                    b.Property<int>("UniversityID")
+
+					b.Property<int>("UniversityID")
                         .HasColumnType("int");
 
                     b.HasKey("CollegeID");

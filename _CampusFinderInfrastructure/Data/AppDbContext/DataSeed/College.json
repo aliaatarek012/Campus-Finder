@@ -1,0 +1,662 @@
+[
+    {
+        "Name": "Academy of Liberal Arts",
+        "UniversityID": 4,
+        "Description": "The Academy of Liberal Arts (ALA) at AUC enhances students' language, communication, and critical thinking skills through English and Arabic instruction, writing programs, and interdisciplinary learning, forming the core of AUC’s liberal arts education.",
+        "Standard Fees": 1056000
+    },
+    {
+        "Name": "Onsi Sawiris School of Business",
+        "UniversityID": 4,
+        "Description": "The Onsi Sawiris School of Business at AUC offers a globally competitive business education, emphasizing entrepreneurship, leadership, innovation, and real-world application through its accounting, economics, and management departments.",
+        "Standard Fees": 1056000
+    },
+    {
+        "Name": "School of Humanities and Social Sciences",
+        "UniversityID": 4,
+        "Description": "The School of Humanities and Social Sciences at AUC fosters critical thinking, cultural understanding, and social awareness through diverse disciplines like history, political science, psychology, philosophy, and the arts, preparing students for global engagement and leadership.",
+        "Standard Fees": 1056000
+    },
+    {
+        "Name": "School of Sciences and Engineering",
+        "UniversityID": 4,
+        "Description": "The School of Sciences and Engineering at AUC provides a cutting-edge education in science, technology, and engineering, combining theoretical knowledge, research, and hands-on experience to develop innovative solutions for real-world challenges.",
+        "Standard Fees": 1056000
+    },
+    {
+        "Name": "School of Global Affairs and Public Policy",
+        "UniversityID": 4,
+        "Description": "The School of Global Affairs and Public Policy at AUC prepares students for leadership in international relations, public policy, law, and media, emphasizing critical analysis, governance, and global engagement through interdisciplinary education and practical experience.",
+        "Standard Fees": 1056000
+    },
+    {
+        "Name": "Computer Science",
+        "UniversityID": 5,
+        "Description": "The BSc Computer Science program at UoL by EUE provides a strong foundation in computing, combining theoretical knowledge with practical applications. Students can specialize in fields like Artificial Intelligence, Web and Mobile Development, Game Development, and more, preparing them for diverse careers in technology.",
+        "Standard Fees": 380000
+    },
+    {
+        "Name": "EMFSS",
+        "UniversityID": 5,
+        "Description": "The EMFSS (Economics, Management, Finance, and Social Sciences) programs at the University of London (UoL) by EUE are academically directed by the London School of Economics and Political Science (LSE). These programs provide a strong foundation in economic analysis, business management, finance, and social sciences, equipping students with analytical and problem-solving skills. Graduates are prepared for careers in economics, finance, politics, international relations, and business management.",
+        "Standard Fees": 380000
+    },
+    {
+        "Name": "School of Law",
+        "UniversityID": 5,
+        "Description": "The School of Law at the University of London (UoL) by EUE offers a Bachelor of Laws (LLB) program under the academic direction of the Laws Consortium, which includes six prestigious UoL law schools. This program provides a strong foundation in legal principles, critical thinking, and analytical skills, preparing students for careers in law, governance, and legal consultancy.",
+        "Standard Fees": 380000
+    },
+    {
+        "Name": "Psychology",
+        "UniversityID": 5,
+        "Description": "The School of Psychology at the University of London (UoL) by EUE offers a BSc in Psychology under the academic direction of King’s College London. This program provides a deep understanding of human behavior, cognitive processes, and mental health, equipping students with analytical and research skills for careers in psychology, counseling, and mental health services.",
+        "Standard Fees": 380000
+    },
+    {
+        "Name": "Engineering",
+        "UniversityID": 6,
+        "Description": "At the European Universities in Egypt (EUE), the University of Central Lancashire (UCLan) offers a variety of undergraduate engineering programs. These programs are designed to provide students with both theoretical knowledge and practical skills, preparing them for successful careers in their respective fields",
+        "Standard Fees": 330000
+    },
+    {
+        "Name": "Cyber Security Networks",
+        "UniversityID": 7,
+        "Description": "The BSc (Hons) Cyber Security and Networks program at UEL (EUE) equips students with skills to protect systems from cyber threats. It covers network security, systems administration, programming, and risk analysis.\n\nStudents gain hands-on experience and learn from industry experts. The course includes partnerships with Microsoft IT, CompTIA, Cisco, and AWS, enhancing career opportunities in roles like Cyber Security Analyst, IT Security Auditor, and Risk Analyst.",
+        "Standard Fees": 265000
+    },
+    {
+        "Name": "Arts and Creative Industries",
+        "UniversityID": 7,
+        "Description": "The Faculty of Arts and Creative Industries at UEL (EUE) offers programs in Animation, Graphic Design, Media Production, Media & Communication, and Fashion Design.\n\nStudents develop practical skills in digital media, storytelling, visual design, and fashion innovation, guided by industry professionals. The faculty emphasizes hands-on learning, creative expression, and career readiness in diverse artistic fields.",
+        "Standard Fees": 265000
+    },
+    {
+        "Name": "Physiotherapy ",
+        "UniversityID": 7,
+        "Description": "The BSc (Hons) Physiotherapy program at UEL (EUE) prepares students to assess, diagnose, and treat physical conditions affecting movement and function.\n\nIt covers anatomy, rehabilitation techniques, and hands-on clinical practice, ensuring students gain real-world experience. Graduates can work in hospitals, sports clinics, and rehabilitation centers.",
+        "Standard Fees": 315000
+    },
+    {
+        "Name": "Sports Therapy",
+        "UniversityID": 7,
+        "Description": "The BSc (Hons) Sports Therapy program at UEL (EUE) trains students to prevent, diagnose, and rehabilitate sports-related injuries.\n\nIt covers exercise science, injury assessment, rehabilitation techniques, and hands-on clinical practice. Graduates can work in sports teams, clinics, and rehabilitation centers.",
+        "Standard Fees": 315000
+    },
+    {
+        "Name": "Business",
+        "UniversityID": 7,
+        "Description": "The Royal Docks School of Business and Law at UEL (EUE) offers BSc (Hons) Marketing and BSc (Hons) Human Resource Management programs.\n\nStudents develop skills in branding, digital marketing, business strategy, HR policies, and organizational management, preparing for careers in corporate, entrepreneurial, and global business environments.",
+        "Standard Fees": 245000
+    },
+    {
+        "Name": "Engineering",
+        "UniversityID": 8,
+        "Description": "The Faculty of Engineering,  and Environment at Coventry University offers industry-focused programs in Mechanical, Civil, Electrical, Automotive, and Aerospace Engineering. It features state-of-the-art labs, strong industry links with companies like Jaguar Land Rover and Rolls-Royce, and accredited programs by IET and IMechE. The faculty emphasizes hands-on learning, innovation, and research in sustainable energy, robotics, and smart manufacturing.\nAt The Knowledge Hub (TKH) in Egypt, students can earn a Coventry University degree while studying locally, following the same high academic standards",
+        "Standard Fees": 457000
+    },
+    {
+        "Name": "Computer Science ",
+        "UniversityID": 8,
+        "Description": "The Computing programs at Coventry University focus on cutting-edge technology, software development, cybersecurity, AI, and data science. The curriculum is industry-driven, offering hands-on experience, modern labs, and strong industry links with top tech firms.",
+        "Standard Fees": 457000
+    },
+    {
+        "Name": "Design & Media",
+        "UniversityID": 8,
+        "Description": "The Design and Media programs at Coventry University focus on creative innovation, digital media, graphic design, and animation, preparing students for careers in the creative industry",
+        "Standard Fees": 457000
+    },
+    {
+        "Name": "Business",
+        "UniversityID": 8,
+        "Description": "The Business programs at Coventry University focus on management, finance, marketing, and entrepreneurship, offering practical learning, industry links, and global opportunities. Students gain real-world experience through internships, case studies, and simulations.",
+        "Standard Fees": 386000
+    },
+    {
+        "Name": "Psychology",
+        "UniversityID": 8,
+        "Description": "The Psychology program at Coventry University explores human behavior, cognition, and mental health, combining theory, research, and practical applications. It is accredited by the British Psychological Society (BPS) and includes hands-on lab work, real-world case studies, and industry placements.",
+        "Standard Fees": 386000
+    },
+    {
+        "Name": "Environmental Engineering",
+        "UniversityID": 9,
+        "Description": "The Environmental Engineering program at NOVA University Lisbon (TKH) focuses on sustainable solutions for environmental challenges. Students learn how to:\n\nManage natural resources and reduce pollution.\nDevelop eco-friendly technologies for water, air, and soil protection.\nApply engineering principles to solve climate and environmental issues.\nThe program prepares graduates for careers in environmental consultancy, renewable energy, waste management, and sustainability projects",
+        "Standard Fees": 252500
+    },
+    {
+        "Name": "Industrial Engineering & Managemen",
+        "UniversityID": 9,
+        "Description": "BSc Industrial Engineering & Management at NOVA University (TKH) :\nThis program combines engineering, business, and management to optimize industrial systems and operations. Students learn how to:\n\nImprove production efficiency and reduce costs.\nApply data analysis and AI in industrial processes.\nManage supply chains, logistics, and quality control.\nEnhance decision-making using engineering and management principles.\nGraduates can work in manufacturing, logistics, project management, and process optimization, bridging the gap between technology and business.",
+        "Standard Fees": 252500
+    },
+    {
+        "Name": "Information Managemen",
+        "UniversityID": 9,
+        "Description": "BSc Information Management at NOVA University (TKH) \nThis program focuses on the strategic use of data and technology to improve business decision-making. Students learn how to:\n\nAnalyze big data for insights and business intelligence.\nDevelop and manage information systems for organizations.\nUse AI, machine learning, and data visualization tools.\nEnhance cybersecurity and digital transformation strategies.\nGraduates can pursue careers in data analytics, IT consulting, business intelligence, and digital innovation.",
+        "Standard Fees": 212500
+    },
+    {
+        "Name": "Management",
+        "UniversityID": 9,
+        "Description": "BSc Management at NOVA University (TKH)\nThis program provides a comprehensive business education, focusing on leadership, strategy, and decision-making. Students learn how to:\n\nDevelop business strategies for global markets.\nManage finances, marketing, and human resources.\nUse data-driven decision-making and digital tools.\nApply entrepreneurship and innovation in business.\nGraduates can work in corporate management, consulting, marketing, finance, and entrepreneurship, preparing for leadership roles in various industries.",
+        "Standard Fees": 212500
+    },
+    {
+        "Name": "Pharmacy",
+        "UniversityID": 10,
+        "Description": "The MPharm program is designed to align with global advancements in pharmacy education, equipping graduates with the competencies required for contemporary pharmaceutical practice. As the first UK-validated MPharm program in Egypt, it incorporates modern educational strategies and utilizes advanced teaching, learning, and evaluation techniques",
+        "Standard Fees": 340000
+    },
+    {
+        "Name": " pharmaceutical  Science",
+        "UniversityID": 10,
+        "Description": "The Pharmaceutical Science program at UH-GAF focuses on the study of drug discovery, development, formulation, and evaluation. It integrates pharmaceutical chemistry, pharmacology, and biotechnology to equip students with the knowledge and skills needed for careers in research, drug manufacturing, quality control, and regulatory affairs. The program emphasizes scientific innovation, laboratory techniques, and clinical applications to advance modern healthcare and medicine.",
+        "Standard Fees": 330000
+    },
+    {
+        "Name": "Psychology",
+        "UniversityID": 10,
+        "Description": "The BSc (Hons) Psychology program at the University of Hertfordshire's Global Academic Foundation (UH-GAF) in Egypt offers a comprehensive exploration into the scientific study of the mind and behavior. This program is designed to provide students with a deep understanding of psychological principles, research methodologies, and their practical applications.",
+        "Standard Fees": 330000
+    },
+    {
+        "Name": "Nutrition ",
+        "UniversityID": 10,
+        "Description": "The BSc (Hons) Nutrition & Dietetics program at the University of Hertfordshire's Global Academic Foundation (UH-GAF) in Egypt is designed to equip students with comprehensive knowledge and practical skills in nutrition and dietetics. This program focuses on promoting health and well-being through proper dietary practices and prepares students for diverse roles in healthcare and related sectors.",
+        "Standard Fees": 330000
+    },
+    {
+        "Name": "Physiotherapy",
+        "UniversityID": 10,
+        "Description": "The BSc (Hons) Physiotherapy program at the University of Hertfordshire's Global Academic Foundation (UH-GAF) in Egypt is the first UK physiotherapy program in the country, offering students a comprehensive education in physiotherapy practices",
+        "Standard Fees": 340000
+    },
+    {
+        "Name": "Engineering",
+        "UniversityID": 10,
+        "Description": "The University of Hertfordshire's Global Academic Foundation (UH-GAF) in Egypt offers a comprehensive School of Engineering and Computer Science, providing students with a range of engineering programs designed to meet modern industry standards.",
+        "Standard Fees": 335000
+    },
+    {
+        "Name": "Computer Science",
+        "UniversityID": 10,
+        "Description": "The University of Hertfordshire's Global Academic Foundation (UH-GAF) in Egypt offers specialized BSc (Hons) Computer Science programs designed to equip students with cutting-edge skills in the rapidly evolving tech industry.",
+        "Standard Fees": 335000
+    },
+    {
+        "Name": "Business",
+        "UniversityID": 10,
+        "Description": "The University of Hertfordshire's Global Academic Foundation (UH-GAF) in Egypt offers a comprehensive School of Business, providing students with globally accredited degrees from the University of Hertfordshire in the UK.",
+        "Standard Fees": 300000
+    },
+    {
+        "Name": "Mass Comunication",
+        "UniversityID": 10,
+        "Description": "The University of Hertfordshire (UH), in collaboration with the Global Academic Foundation (GAF) in Egypt, offers a Bachelor of Arts (BA) in Mass Communications. This program is designed to equip students with the necessary skills to excel in today's fast-paced media landscape, covering areas such as journalism, broadcasting, public relations, and visual communications.",
+        "Standard Fees": 300000
+    },
+    {
+        "Name": "Creative Arts ",
+        "UniversityID": 10,
+        "Description": "The University of Hertfordshire (UH), in partnership with the Global Academic Foundation (GAF) in Egypt, offers a dynamic School of Creative Arts. This school is dedicated to nurturing creativity and equipping students with the skills needed to excel in various creative industries.",
+        "Standard Fees": 330000
+    },
+    {
+        "Name": "Medicine",
+        "UniversityID": 1,
+        "Description": "The Faculty of Medicine October 6 University is committed to graduate eminent physicians who are able to meet the needs of the local, regional and international communities with merit. It also provides distinguished researchers able to develop the scientific research within the framework of professional ethics. The faculty also develops advanced medical education programs supporting continuous self learning and community services to achieve sustainable development.\n\nVision: :\nThe Faculty of Medicine October 6 University aspires to be an edifice of scientific leadership, health care, scientific research, and an excellence locally, regionally and internationally in the scope of Egypt's future vision.",
+        "Standard Fees": 150000
+    },
+    {
+        "Name": "Dentistry",
+        "UniversityID": 1,
+        "Description": "Dentistry is a branch of medicine that focuses on the diagnosis, prevention, and treatment of conditions and disorders related to the oral cavity (teeth, gums, and mouth). Dentists are healthcare professionals who specialize in maintaining oral health and treating dental diseases.",
+        "Standard Fees": 130000
+    },
+    {
+        "Name": "Pharmacy",
+        "UniversityID": 1,
+        "Description": "is a field of healthcare that focuses on the preparation, dispensing, and appropriate use of medications to ensure optimal therapeutic outcomes for patients. Pharmacists are healthcare professionals who play a critical role in patient care by ensuring the safe and effective use of medications. Here’s a detailed description of the field:",
+        "Standard Fees": 110000
+    },
+    {
+        "Name": "Physical Therapy",
+        "UniversityID": 1,
+        "Description": "The Faculty of Physical Therapy at October 6 University offers a five-year Bachelor’s degree program in English, followed by a 12-month internship, focusing on advanced education, practical training, and research to produce skilled physiotherapists.",
+        "Standard Fees": 100000
+    },
+    {
+        "Name": "Applied Health Sciences Technology",
+        "UniversityID": 1,
+        "Description": "is an interdisciplinary field that focuses on the application of scientific principles, technology, and practical skills to improve healthcare delivery, patient outcomes, and overall public health. This field combines knowledge from various domains, including biology, medicine, engineering, informatics, and management, to develop innovative solutions for addressing healthcare challenges.",
+        "Standard Fees": 90000
+    },
+    {
+        "Name": "Nursing",
+        "UniversityID": 1,
+        "Description": "is a vital and dynamic healthcare profession focused on promoting health, preventing illness, providing care to individuals, families, and communities, and advocating for patients in various healthcare settings. Nurses play a central role in the healthcare system by delivering compassionate, evidence-based care while collaborating with other healthcare professionals to ensure optimal patient outcomes.",
+        "Standard Fees": 70000
+    },
+    {
+        "Name": "Engineering",
+        "UniversityID": 1,
+        "Description": "is a broad and dynamic field that applies scientific principles, mathematics, and technical expertise to design, develop, and maintain systems, structures, technologies, and processes that solve real-world problems. Engineers use creativity, critical thinking, and innovation to create solutions that improve quality of life, enhance efficiency, and drive progress across various industries.",
+        "Standard Fees": 85000
+    },
+    {
+        "Name": "Information Systems and Computer Scienc",
+        "UniversityID": 1,
+        "Description": "The Faculty of Information Systems and Computer Science at October 6 University offers a comprehensive program that equips students with foundational knowledge and advanced skills in information systems, computer science, artificial intelligence, and network technology through a blend of theoretical learning and practical application.",
+        "Standard Fees": 80000
+    },
+    {
+        "Name": "Applied Arts",
+        "UniversityID": 1,
+        "Description": "is a broad and creative field that focuses on the application of artistic principles, techniques, and skills to functional objects, designs, and environments. Unlike fine arts, which prioritize aesthetic expression for its own sake, applied arts combine creativity with practical utility, resulting in works that serve both artistic and functional purposes. This field encompasses a wide range of disciplines, from traditional crafts to modern design practices.",
+        "Standard Fees": 65000
+    },
+    {
+        "Name": "Media & Mass Comm.",
+        "UniversityID": 1,
+        "Description": "is a dynamic academic unit dedicated to equipping students with the knowledge, skills, and critical thinking necessary to excel in the ever-evolving fields of media, journalism, public relations, advertising, broadcasting, and digital communication. This faculty focuses on preparing graduates to navigate and influence the complex landscape of modern media, where technology, culture, and society intersect.",
+        "Standard Fees": 65000
+    },
+    {
+        "Name": "Education",
+        "UniversityID": 1,
+        "Description": "is a dynamic and innovative academic unit dedicated to preparing future educators, researchers, and leaders in the field of education. It focuses on fostering a deep understanding of teaching methodologies, learning theories, and educational practices while emphasizing the importance of equity, inclusivity, and lifelong learning. The faculty equips students with the knowledge, skills, and values necessary to create meaningful and impactful learning experiences for diverse populations.",
+        "Standard Fees": 60000
+    },
+    {
+        "Name": "Languages",
+        "UniversityID": 2,
+        "Description": "The Faculty of Languages aims to meet the demands of a fast-changing world by offering programs that enhance students' understanding of global cultures while preserving national identity. The faculty focuses on developing critical thinking, professional skills, and deep knowledge in English Language Studies. ",
+        "Standard Fees": 70000
+    },
+    {
+        "Name": "Arts & Design",
+        "UniversityID": 2,
+        "Description": "This faculty empowers students to explore innovative techniques and creative practices, preparing them for dynamic careers in art and design industries. ",
+        "Standard Fees": 75000
+    },
+    {
+        "Name": "Biotechnology",
+        "UniversityID": 2,
+        "Description": "Equips students with cutting-edge knowledge in genetic engineering and stem cell research, paving the way for impactful careers in healthcare and science.",
+        "Standard Fees": 95000
+    },
+    {
+        "Name": "Computer Science",
+        "UniversityID": 2,
+        "Description": "Provides specialized training in advanced computing fields, connecting students to global tech leaders like Cisco, Oracle, and IBM.",
+        "Standard Fees": 95000
+    },
+    {
+        "Name": "Dentistry",
+        "UniversityID": 2,
+        "Description": "Validated by the EU, this faculty offers state-of-the-art facilities, advanced research labs, and extensive opportunities for both undergraduate and postgraduate studies.",
+        "Standard Fees": 130000
+    },
+    {
+        "Name": "Engineering",
+        "UniversityID": 2,
+        "Description": "Offers cutting-edge programs in various engineering disciplines, fostering technical expertise.",
+        "Standard Fees": 100000
+    },
+    {
+        "Name": "Mass Communication",
+        "UniversityID": 2,
+        "Description": "Provides cutting-edge programs and curricula designed to meet the specific job requirements of both the present and the future.",
+        "Standard Fees": 75000
+    },
+    {
+        "Name": "Management Sciences",
+        "UniversityID": 2,
+        "Description": "Offers advanced programs in Management, Accounting, and Economics, equipping students with the skills required for dynamic business environments.",
+        "Standard Fees": 75000
+    },
+    {
+        "Name": "Pharmacy",
+        "UniversityID": 2,
+        "Description": "Offers diverse programs in pharmaceutical sciences, emphasizing innovation and the latest laboratory standards in collaboration with the University of Greenwich.",
+        "Standard Fees": 120000
+    },
+    {
+        "Name": "Physical Therapy",
+        "UniversityID": 2,
+        "Description": "Focuses on combining academic study with practical training. Graduates earn a Bachelor’s Degree after 195 credits and a one-year compulsory internship.",
+        "Standard Fees": 95000
+    },
+    {
+        "Name": "Medicine",
+        "UniversityID": 3,
+        "Description": "Established in 1996, the College of Medicine aims to graduate highly efficient doctors capable of providing integrated healthcare and conducting scientific research. The faculty promotes social responsibility, supports digital transformation, and aligns with Egypt's Vision 2030.",
+        "Standard Fees": 150000
+    },
+    {
+        "Name": "Applied Health Science Technology (AHST)",
+        "UniversityID": 3,
+        "Description": "This college seeks excellence through its educational programs that reflect recent trends in applied health sciences. It aims to prepare students to be influential participants in the healthcare sector, capable of self-learning and critical thinking, and to contribute to community service and environmental activities.",
+        "Standard Fees": 60000
+    },
+    {
+        "Name": "Physical Therapy",
+        "UniversityID": 3,
+        "Description": " Committed to graduating physiotherapy practitioners who meet the needs of national and regional markets, the college also focuses on scientific research and community service within ethical standards.",
+        "Standard Fees": 80000
+    },
+    {
+        "Name": "College of Pharmaceutical Sciences and Drug Manufacturing",
+        "UniversityID": 3,
+        "Description": "This college is committed to graduating pharmacists who meet local and regional labor market needs and the requirements of advanced drug manufacturing. It also emphasizes innovative scientific research and community pharmaceutical care.",
+        "Standard Fees": 90000
+    },
+    {
+        "Name": "College of Oral and Dental Surgery",
+        "UniversityID": 3,
+        "Description": "A leading college in private education in Egypt, it aims to develop students' skills according to academic standards and graduate dentists who meet job market needs. The college also encourages creativity in scientific research and supports community service.",
+        "Standard Fees": 120000
+    },
+    {
+        "Name": "College of Nursing",
+        "UniversityID": 3,
+        "Description": "Provides education and training in various nursing specialties, preparing students to deliver high-quality patient care in diverse healthcare settings.",
+        "Standard Fees": 50000
+    },
+    {
+        "Name": "Biotechnology",
+        "UniversityID": 3,
+        "Description": "The College of Biotechnology at Misr University for Science and Technology (MUST) is committed to advancing the field of biotechnology through comprehensive education and research. The college offers a Bachelor’s degree in Biotechnology and two Master's degree programs:\n\nMaster's Degree in Medical and Pharmaceutical Biotechnology: This program delves into the applications of biotechnology in medicine and pharmaceuticals, focusing on areas such as molecular diagnostics, gene therapy, and drug development.\n\nMaster's Degree in Environmental and Agricultural Biotechnology: This program emphasizes the use of biotechnology in environmental conservation and agricultural enhancement, including bioremediation, sustainable agriculture, and the development of genetically modified organisms for improved crop yield.",
+        "Standard Fees": 70000
+    },
+    {
+        "Name": "Engineering",
+        "UniversityID": 3,
+        "Description": "The College of Engineering at Misr University for Science and Technology (MUST) is dedicated to providing comprehensive engineering education that combines theoretical foundations with practical applications. The college offers a range of undergraduate programs across various engineering disciplines, each designed to equip students with the necessary skills and knowledge to excel in their respective fields.",
+        "Standard Fees": 80000
+    },
+    {
+        "Name": "Engineering",
+        "UniversityID": 11,
+        "Description": "The Faculty of Engineering at the British University in Egypt (BUE) offers a British-accredited curriculum that combines theoretical knowledge with practical applications. It prepares students for careers in construction, manufacturing, technology, and infrastructure development.\n\nKey Features:\n • Diverse Specializations – Includes Civil, Mechanical, Electrical, Architectural, and Mechatronics Engineering.\n • Hands-On Training – Access to advanced labs, workshops, and industry-based projects.\n • Cutting-Edge Technology – Focus on AI, robotics, renewable energy, and smart infrastructure.\n • Career Opportunities – Graduates can work in engineering firms, construction companies, manufacturing, and research institutions.",
+        "Standard Fees": 240000
+    },
+    {
+        "Name": "Computer Science & informatics",
+        "UniversityID": 11,
+        "Description": "The Faculty of Informatics & Computer Science at the British University in Egypt (BUE) offers a modern, tech-driven curriculum that prepares students for careers in software development, AI, cybersecurity, and data science.\n\nKey Features:\n • Diverse Specializations – Covers Artificial Intelligence, Cybersecurity, Data Science, and Software Engineering.\n • Hands-On Experience – Focus on coding, app development, and real-world tech projects.\n • Cutting-Edge Technologies – Includes machine learning, cloud computing, and blockchain.\n • Career Opportunities – Graduates can work in tech companies, startups, cybersecurity firms, and AI research.",
+        "Standard Fees": 189000
+    },
+    {
+        "Name": "Business Administration",
+        "UniversityID": 11,
+        "Description": "The Faculty of Business Administration, Economics & Political Science at the British University in Egypt (BUE) offers a comprehensive, globally oriented program that prepares students for leadership roles in corporate management, finance, marketing, and entrepreneurship.\n\nKey Features:\n • Diverse Specializations – Covers Marketing, Finance, Human Resources, Entrepreneurship, and International Business.\n • Practical Learning – Includes case studies, business simulations, and industry internships.\n • Entrepreneurial Focus – Encourages innovation, startup development, and strategic management.\n • Career Opportunities – Graduates can work in multinational corporations, banks, startups, and consulting firms.",
+        "Standard Fees": 175000
+    },
+    {
+        "Name": "Arts & Humanities",
+        "UniversityID": 11,
+        "Description": "The Faculty of Arts & Humanities at the British University in Egypt (BUE) offers a broad, interdisciplinary education that enhances critical thinking, communication, and cultural understanding.\n\nKey Features:\n • Diverse Specializations – Includes Psychology, English Language & Literature, and Translation.\n • Practical Experience – Focuses on research, creative writing, and linguistic analysis.\n • Global Perspective – Incorporates international literature, cultural studies, and modern psychology theories.\n • Career Opportunities – Graduates can work in education, publishing, media, counseling, and translation.",
+        "Standard Fees": 185000
+    },
+    {
+        "Name": "Arts & Design",
+        "UniversityID": 11,
+        "Description": "The Faculty of Arts & Design at the British University in Egypt (BUE) combines creativity with technical skills to prepare students for careers in art, design, and multimedia industries.\n\nKey Features:\n • Diverse Specializations – Includes Interior Architecture, Fine Arts, Graphics & Media Arts, and Fashion & Textiles.\n • Hands-On Learning – Focuses on practical projects, digital design, and studio work.\n • Cutting-Edge Technology – Incorporates 3D modeling, animation, and fashion design software.\n • Career Opportunities – Graduates can work in architecture firms, fashion houses, advertising agencies, and digital media.",
+        "Standard Fees": 225000
+    },
+    {
+        "Name": "Engineering",
+        "UniversityID": 12,
+        "Description": "Offers cutting-edge programs in architecture, construction, telecommunications, and mechatronics/robotics, blending Egyptian and Russian engineering expertise with practical training.",
+        "Standard Fees": 54000
+    },
+    {
+        "Name": "Pharmacy",
+        "UniversityID": 12,
+        "Description": "Provides comprehensive pharmaceutical education through Pharm D and Clinical Pharmacy tracks, focusing on drug development, patient care, and clinical practice.",
+        "Standard Fees": 67000
+    },
+    {
+        "Name": "Oral and Dental Medicine",
+        "UniversityID": 12,
+        "Description": "Trains students in dental care, oral surgery, and diagnostics, with hands-on clinical experience in modern facilities.",
+        "Standard Fees": 90000
+    },
+    {
+        "Name": "Artificial Intelligence",
+        "UniversityID": 12,
+        "Description": "Focuses on AI technologies like machine learning and data analysis, equipping students for roles in the rapidly evolving tech sector.",
+        "Standard Fees": 54000
+    },
+    {
+        "Name": "Applied Arts",
+        "UniversityID": 12,
+        "Description": "Emphasizes practical design skills for fields like urban planning and aesthetics, fostering creativity with real-world applications.",
+        "Standard Fees": 40000
+    },
+    {
+        "Name": "Fine Arts",
+        "UniversityID": 12,
+        "Description": "Cultivates artistic talent through a blend of Egyptian and Russian influences, focusing on cultural expression and creativity.",
+        "Standard Fees": 40000
+    },
+    {
+        "Name": "Al-Alsun (Languages)",
+        "UniversityID": 12,
+        "Description": "Specializes in translation and linguistics (Russian, English, and potentially other languages), preparing students for multilingual careers.",
+        "Standard Fees": 40000
+    },
+    {
+        "Name": "Engineering and Technology",
+        "UniversityID": 13,
+        "Description": "Offers programs in fields such as Construction and Building Engineering, Renewable Energy Engineering, and Software Engineering & Information Technology. The faculty focuses on equipping students with the latest technological advancements in engineering and innovation.",
+        "Standard Fees": 56000
+    },
+    {
+        "Name": "Economics and International Trade",
+        "UniversityID": 13,
+        "Description": "The Faculty of Economics and International Trade at the Egyptian Chinese University (ECU) aims to prepare students for careers in economics, international trade, and business. The faculty offers a comprehensive curriculum that combines theoretical knowledge with practical training in various financial institutions and international business organizations. It emphasizes developing students' analytical, communication, and problem-solving skills to effectively engage in global economic and trade environments.",
+        "Standard Fees": 48000
+    },
+    {
+        "Name": "Physical Therapy",
+        "UniversityID": 13,
+        "Description": "Integrates traditional Chinese medicine with modern physical therapy techniques. The faculty aims to produce highly skilled professionals in rehabilitation and therapeutic sciences.",
+        "Standard Fees": 82000
+    },
+    {
+        "Name": "Pharmacy and Drug Technology",
+        "UniversityID": 13,
+        "Description": "Focuses on pharmaceutical sciences and drug manufacturing technology. Students gain hands-on experience in research, drug formulation, and clinical applications.",
+        "Standard Fees": 98000
+    },
+    {
+        "Name": "Computer Science and Information Systems",
+        "UniversityID": 13,
+        "Description": "Offers programs in computer science, information technology, and artificial intelligence. It prepares students for careers in software development, cybersecurity, and data science.",
+        "Standard Fees": 56000
+    },
+    {
+        "Name": "Arts and Design",
+        "UniversityID": 13,
+        "Description": "Includes various artistic and design-related disciplines to meet the needs of the local and international creative industries. Programs cover interior design, graphic design, and visual arts.",
+        "Standard Fees": 52000
+    },
+    {
+        "Name": "Dentistry",
+        "UniversityID": 13,
+        "Description": "The Dentistry program at ECU typically spans 5 years (Bachelor's Degree). This is a standard duration for dental programs in many universities, including ECU.\nTotal Study Duration: 5 academic years followed by 1 internship year (clinical training).\nInternship Year: Mandatory practical training in hospitals and university clinics under professional supervision.",
+        "Standard Fees": 98000
+    },
+    {
+        "Name": "Dentistry",
+        "UniversityID": 14,
+        "Description": "The Faculty of Dentistry prepares students to become professionals in oral health care. The curriculum includes subjects like oral anatomy, pathology, restorative dentistry, orthodontics, and surgery, with practical training in state-of-the-art dental clinics.",
+        "Standard Fees": 190000
+    },
+    {
+        "Name": "Pharmacy",
+        "UniversityID": 14,
+        "Description": "This faculty focuses on the clinical aspects of pharmacy, preparing students to work in hospitals and health centers. It emphasizes drug therapy management, pharmacology, and clinical practice, ensuring students can safely and effectively administer pharmaceutical care.",
+        "Standard Fees": 77000
+    },
+    {
+        "Name": "Physical Therapy",
+        "UniversityID": 14,
+        "Description": "This faculty offers a program that prepares students to become licensed physiotherapists. The curriculum combines theoretical coursework with clinical experience, teaching students about rehabilitation, movement disorders, and physical therapy techniques to treat patients effectively.",
+        "Standard Fees": 100000
+    },
+    {
+        "Name": "Engineering",
+        "UniversityID": 14,
+        "Description": "The Faculty of Engineering offers various specializations in engineering, including civil, mechanical, electrical, and computer engineering. The program is designed to develop problem-solving skills and hands-on training, preparing students for careers in engineering fields in both the private and public sectors.",
+        "Standard Fees": 60000
+    },
+    {
+        "Name": "Business Administration",
+        "UniversityID": 14,
+        "Description": "This program focuses on developing managerial and leadership skills in Arabic. The curriculum covers areas like marketing, accounting, finance, human resources, and entrepreneurship, preparing students for various managerial roles in businesses and corporations in the Arab world.",
+        "Standard Fees": 45000
+    },
+    {
+        "Name": "Medicine",
+        "UniversityID": 14,
+        "Description": "The Faculty of Medicine at HUE offers a comprehensive medical education designed to train students in the skills required to practice medicine. Students receive theoretical knowledge alongside clinical training, including hospital rotations, to ensure they are prepared for medical practice in various specialties.",
+        "Standard Fees": 170000
+    },
+    {
+        "Name": "Applied Health Sciences Technology",
+        "UniversityID": 14,
+        "Description": "This faculty combines health science with technology. Students are trained to work with advanced health technologies, including diagnostic devices, medical imaging, and health informatics systems. The program equips students for roles in medical technology fields, focusing on improving healthcare delivery.",
+        "Standard Fees": 70000
+    },
+    {
+        "Name": "Fine Arts and Design",
+        "UniversityID": 14,
+        "Description": "The Fine Arts and Design Faculty offers students training in various art forms such as visual arts, design, photography, and digital media. The program encourages creativity while also focusing on technical skills, preparing students for careers in the art and design industries.",
+        "Standard Fees": 65000
+    },
+    {
+        "Name": "Al_Alsun and Translation",
+        "UniversityID": 14,
+        "Description": "This faculty focuses on language studies, including translation and interpretation, and prepares students to work as translators, interpreters, or language experts in various fields. Students study multiple languages and learn linguistic and cultural analysis, preparing them for a wide range of career opportunities.",
+        "Standard Fees": 50000
+    },
+    {
+        "Name": "Artificial Intelligence and Information",
+        "UniversityID": 14,
+        "Description": "The AI and Information Faculty prepares students for careers in artificial intelligence, machine learning, data science, and software development. The curriculum includes programming, data analysis, AI algorithms, and advanced technologies, providing students with the knowledge to thrive in the fast-evolving tech industry.",
+        "Standard Fees": 75000
+    },
+    {
+        "Name": "Oral and Dental Medicine",
+        "UniversityID": 15,
+        "Description": "The Faculty of Oral and Dental Medicine at Alsalam University offers a comprehensive program in dentistry, focusing on both theoretical knowledge and hands-on clinical practice. Students are trained in areas such as oral surgery, orthodontics, prosthodontics, periodontology, and pediatric dentistry, preparing them to become skilled dental professionals.",
+        "Standard Fees": 180000
+    },
+    {
+        "Name": "Physiotherapy",
+        "UniversityID": 15,
+        "Description": "The Faculty of Physiotherapy focuses on the rehabilitation of patients suffering from physical disabilities or injuries. Students learn techniques for therapeutic exercise, manual therapy, and the use of physical modalities such as heat and cold therapy. The curriculum combines theoretical education with clinical practice, allowing students to gain real-world experience in hospitals and rehabilitation centers.",
+        "Standard Fees": 120000
+    },
+    {
+        "Name": "Pharmacy",
+        "UniversityID": 15,
+        "Description": "The Faculty of Pharmacy prepares students for careers in the pharmaceutical field, emphasizing both the clinical and industrial aspects of pharmacy. The program includes courses on pharmacology, medicinal chemistry, and pharmacotherapy. Students gain knowledge on drug development, distribution, and the safe use of medications in clinical settings.",
+        "Standard Fees": 130000
+    },
+    {
+        "Name": "Nursing",
+        "UniversityID": 15,
+        "Description": "The Faculty of Nursing provides students with the skills and knowledge required to become registered nurses. The program includes both theoretical coursework and practical clinical training, covering subjects like anatomy, pharmacology, nursing ethics, and patient care management. Graduates are prepared to work in various healthcare settings, including hospitals and community health centers.",
+        "Standard Fees": 50000
+    },
+    {
+        "Name": "Applied Arts",
+        "UniversityID": 15,
+        "Description": "The Faculty of Applied Arts offers programs in fields such as graphic design, industrial design, fashion design, and multimedia arts. The program emphasizes creativity and technical skills, with students gaining knowledge in design principles, digital art, and other artistic disciplines. Graduates are equipped to work in creative industries, including advertising, product design, and visual communication.",
+        "Standard Fees": 55000
+    },
+    {
+        "Name": "Engineering",
+        "UniversityID": 15,
+        "Description": "The Faculty of Engineering at Alsalam University provides students with a strong foundation in various engineering disciplines, including civil, mechanical, and electrical engineering. The program combines theoretical education with practical training, helping students develop problem-solving skills, design capabilities, and technical knowledge in preparation for careers in engineering fields.",
+        "Standard Fees": 70000
+    },
+    {
+        "Name": "Veterinary Medicine",
+        "UniversityID": 16,
+        "Description": "This faculty focuses on the study of animal health and treatment. Students learn about veterinary medicine, surgery, animal behavior, and preventive care. The program includes practical work in animal clinics and research, providing students with the skills needed to treat animals and manage animal healthcare facilities.",
+        "Standard Fees": 130000
+    },
+    {
+        "Name": "Computer Science and Artificial Intelligence",
+        "UniversityID": 16,
+        "Description": "The Computer Science and AI program at Sphinx University focuses on the development of software, systems, and applications using cutting-edge technologies like artificial intelligence, machine learning, and data science. Students will gain skills in programming, algorithms, data structures, and AI development, preparing them for careers in technology and innovation.",
+        "Standard Fees": 75000
+    },
+    {
+        "Name": "Medicine and Surgery",
+        "UniversityID": 17,
+        "Description": "This program is designed to train students to become doctors through a comprehensive curriculum covering various aspects of medical science, including anatomy, physiology, biochemistry, pathology, pharmacology, and clinical practices. The course is structured with theoretical studies, practical labs, and clinical internships, preparing graduates to enter the healthcare field as qualified medical practitioners.",
+        "Standard Fees": 115500
+    },
+    {
+        "Name": "Dentistry",
+        "UniversityID": 17,
+        "Description": "The Dentistry program focuses on the prevention, diagnosis, and treatment of oral health issues. Students learn about dental anatomy, oral surgery, dental materials, radiology, and patient care. Clinical training is provided to develop practical skills in dental procedures, making graduates proficient in handling various dental issues and treatments.",
+        "Standard Fees": 106700
+    },
+    {
+        "Name": "Nursing",
+        "UniversityID": 17,
+        "Description": "The Nursing program at KSIU prepares students to become registered nurses with the skills to provide comprehensive healthcare. The curriculum includes courses in anatomy, physiology, pharmacology, nursing theory, patient care, and healthcare management. Students also undergo clinical placements to gain hands-on experience in hospitals and other healthcare settings.",
+        "Standard Fees": 31000
+    },
+    {
+        "Name": "Al-Alsun & Applied Languages ",
+        "UniversityID": 17,
+        "Description": "This program focuses on language proficiency and translation skills, offering students in-depth knowledge of linguistics and interpretation techniques. The course includes translation theory, interpreting techniques, and cultural studies, training students to work as professional translators and interpreters in various sectors, including international business, diplomacy, and media.",
+        "Standard Fees": 43000
+    },
+    {
+        "Name": "Art and Design",
+        "UniversityID": 17,
+        "Description": "The Art and Design faculty offers programs in various design disciplines, including interior design and graphic design. Students are trained in both the theoretical and practical aspects of design, including visual communication, color theory, and design software. Graduates are equipped to work in creative fields such as interior design, graphic design, advertising, and multimedia.",
+        "Standard Fees": 49000
+    },
+    {
+        "Name": "Tourism and Hospitality",
+        "UniversityID": 17,
+        "Description": "This faculty focuses on the management of the tourism and hospitality industries. Students learn about hotel management, event planning, customer service, travel operations, and the economics of the tourism sector. The program combines practical skills with theoretical knowledge to prepare students for leadership roles in hotels, resorts, travel agencies, and tourism organizations.",
+        "Standard Fees": 40000
+    },
+    {
+        "Name": "Architecture",
+        "UniversityID": 17,
+        "Description": "The Architecture program trains students in the design and construction of buildings and infrastructure. The curriculum covers architectural history, theory, urban planning, design principles, and construction technology. Students also engage in hands-on projects and internships to develop practical skills for a career in architecture and urban development.",
+        "Standard Fees": 69000
+    },
+    {
+        "Name": "Administrative Science",
+        "UniversityID": 17,
+        "Description": "This program offers specialized tracks in accounting, marketing, and finance, preparing students to work in the business sector. Courses include financial accounting, business law, economics, marketing strategies, and investment analysis. The program equips students with the skills needed to succeed in business management, finance, and marketing roles.",
+        "Standard Fees": 46000
+    },
+    {
+        "Name": "Agricultural Sciences",
+        "UniversityID": 17,
+        "Description": "The Agricultural Sciences faculty focuses on the application of engineering and biotechnology in agriculture. Students learn about sustainable farming techniques, agricultural machinery, food production, and biotechnological innovations. Graduates can pursue careers in agricultural research, farm management, food production, and agricultural technology.",
+        "Standard Fees": 43000
+    },
+    {
+        "Name": "Basic Sciences",
+        "UniversityID": 17,
+        "Description": "This faculty offers programs in specialized scientific fields such as petroleum chemistry and marine biology. Students study chemical processes in the petroleum industry and explore marine ecosystems, environmental protection, and biodiversity. The program combines laboratory research with field studies, preparing graduates for careers in environmental science, marine research, and energy sectors.",
+        "Standard Fees": 48000
+    }
+]

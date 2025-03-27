@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace _CampusFinderCore.Entities.UniversityEntities
 {
@@ -16,7 +17,7 @@ namespace _CampusFinderCore.Entities.UniversityEntities
 
 		public string? Description { get; set; }
 		[Column(TypeName = "decimal(18,2)")]
-
+		[JsonPropertyName("Standard Fees")]
 		public decimal StandardFees { get; set; }
 
 		public University University { get; set; }

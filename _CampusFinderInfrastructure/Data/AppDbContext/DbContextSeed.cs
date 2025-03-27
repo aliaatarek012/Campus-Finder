@@ -54,6 +54,20 @@ namespace _CampusFinderInfrastructure.Data.AppDbContext
 					await _dbcontext.SaveChangesAsync();
 				}
 			}
+
+			var collegesData = File.ReadAllText("../_CampusFinderInfrastructure/Data/AppDbContext/DataSeed/College.json");
+			var colleges = JsonSerializer.Deserialize<List<College>>(collegesData);
+			if (colleges.Count > 0)
+			{
+				if (!(_dbcontext.Colleges.Count() > 0))
+				{
+					foreach (var college in colleges)
+					{
+						_dbcontext.Set<College>().Add(college);
+					}
+					await _dbcontext.SaveChangesAsync();
+				}
+			}
 		}
 
 	}
