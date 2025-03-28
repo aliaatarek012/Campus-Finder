@@ -7,6 +7,7 @@ using _CampusFinderInfrastructure.Data.AppDbContext;
 using _CampusFinderInfrastructure.Identity;
 using _CampusFinderInfrastructure.Repositories;
 using _CampusFinderService;
+using CampusFinder.Helpers;
 using CampusFinder.MiddleWares;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -130,7 +131,7 @@ namespace _CampusFinder
 
 			//Configure Schema Services
 			builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-
+            builder.Services.AddAutoMapper(M => M.AddProfile(typeof(MappingProfiles)));
 			#endregion
 
 			var app = builder.Build();
