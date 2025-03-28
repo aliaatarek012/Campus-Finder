@@ -18,14 +18,34 @@ namespace _CampusFinderInfrastructure.Repositories
         {
 			_dbcontext = dbcontext;
 		}
-        public async  Task<IReadOnlyList<T>> GetAllAsync()
+
+
+		public async  Task<IReadOnlyList<T>> GetAllAsync()
 		{
+			//if(typeof(T) == typeof(University))
+			//{
+			//	return await _dbcontext.Set<University>().Include(u => u.Colleges).ToListAsync() as IReadOnlyList<T>;
+			//}
 			return await _dbcontext.Set<T>().ToListAsync();
 		}
-
 		public async Task<T> GetByIdAsync(int id) 
 		{
 			return await _dbcontext.Set<T>().FindAsync(id);
+		}
+		public Task<T> AddAsync(T entity)
+		{
+			throw new NotImplementedException();
+		}
+
+		public Task DeleteAsync(T entity)
+		{
+			throw new NotImplementedException();
+		}
+
+
+		public Task UpdateAsync(T entity)
+		{
+			throw new NotImplementedException();
 		}
 	}
 }
