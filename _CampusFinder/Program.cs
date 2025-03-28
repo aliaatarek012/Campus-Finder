@@ -131,7 +131,7 @@ namespace _CampusFinder
 
 			//Configure Schema Services
 			builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-            builder.Services.AddAutoMapper(M => M.AddProfile(typeof(MappingProfiles)));
+            builder.Services.AddAutoMapper(typeof(MappingProfiles));
 			#endregion
 
 			var app = builder.Build();
@@ -187,7 +187,7 @@ namespace _CampusFinder
 
             app.UseAuthentication(); // Authenticate users
             app.UseAuthorization(); // Enforce authorization policies
-
+            app.UseStaticFiles(); // Serve static files
             app.UseStatusCodePagesWithRedirects("/errors/{0}"); // Handle status codes
 
             app.MapControllers(); // Map API controllers

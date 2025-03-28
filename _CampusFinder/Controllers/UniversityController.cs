@@ -22,10 +22,11 @@ namespace CampusFinder.Controllers
 		}
 
 		[HttpGet]
-		public async Task<ActionResult<IEnumerable<University>>> GetUniversities()
+		public async Task<ActionResult<IEnumerable<UniversityDto>>> GetUniversities()
 		{
 			var universities = await _universityRepo.GetAllAsync();
-			return Ok(universities);
+			var universityDtos = _mapper.Map< IEnumerable<University>,IEnumerable<UniversityDto>>(universities);
+			return Ok(universityDtos);
 		}
 		[HttpGet("HomePage")]
 		public async Task<ActionResult<IEnumerable<HomePageDto>>> HomePage()
@@ -42,7 +43,8 @@ namespace CampusFinder.Controllers
 			{
 				return NotFound(new ApiResponse(404).ToDictionary());
 			}
-			return Ok(university);
+			var universityDtos = _mapper.Map<University, UniversityDto>(university);
+			return Ok(universityDtos);
 		}
 	}
 }
