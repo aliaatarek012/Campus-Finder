@@ -30,22 +30,30 @@ namespace _CampusFinderInfrastructure.Repositories
 		}
 		public async Task<T> GetByIdAsync(int id) 
 		{
+			//if (typeof(T) == typeof(University))
+			//{
+			//	return await _dbcontext.Set<University>().Where(u => u.UniversityID == id).Include(u => u.Colleges).FirstOrDefaultAsync() as T;
+			//}
 			return await _dbcontext.Set<T>().FindAsync(id);
 		}
-		public Task<T> AddAsync(T entity)
+		public async Task<T> AddAsync(T entity)
 		{
-			throw new NotImplementedException();
+			await _dbcontext.Set<T>().AddAsync(entity);
+			await _dbcontext.SaveChangesAsync();
+			return entity;
 		}
 
-		public Task DeleteAsync(T entity)
+		public async Task DeleteAsync(T entity)
 		{
-			throw new NotImplementedException();
+			_dbcontext.Set<T>().Remove(entity);
+			await _dbcontext.SaveChangesAsync();
 		}
 
 
-		public Task UpdateAsync(T entity)
+		public async Task UpdateAsync(T entity)
 		{
-			throw new NotImplementedException();
+			_dbcontext.Set<T>().Update(entity);
+			await _dbcontext.SaveChangesAsync();
 		}
 	}
 }
