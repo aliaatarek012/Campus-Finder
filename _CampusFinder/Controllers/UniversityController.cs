@@ -1,6 +1,7 @@
 ﻿using _CampusFinder.Controllers;
 using _CampusFinderCore.Entities.UniversityEntities;
 using _CampusFinderCore.Repositories.Contract;
+using _CampusFinderInfrastructure.Specifications.University_Specs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,9 +18,11 @@ namespace CampusFinder.Controllers
 		}
 
 		[HttpGet]
-		public async Task<ActionResult<IEnumerable<University>>> GetUniversities()
+		public async Task<ActionResult<IEnumerable<University>>> GetUniversities([FromQuery] UniversitySpecParams specParams)
 		{
-			var universities = await _universityRepo.GetAllAsync();
+            // Create a specification for filtering universities
+            var spec = new UniversityWithCollegesSpecifications(specParams);
+            var universities = await _universityRepo.GetAllAsync();
 			return Ok(universities);
 		}
 	}

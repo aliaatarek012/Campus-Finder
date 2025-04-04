@@ -37,5 +37,16 @@ namespace _CampusFinderCore.Specifications
             Criteria = criteriaExpression;  
         }
 
+        //Two Methods  Act as Setter to OrderBy/Desc 
+        public void AddOrderBy(Expression<Func<T, object>> orderByExpression)
+        {
+            OrderBy = orderByExpression; //P => P.Name
+        }
+
+        public void AddOrderByDesc(Expression<Func<T, object>> OrderByDescExpression)
+        {
+            OrderByDesc = OrderByDescExpression;
+        }
+
     }
 }
