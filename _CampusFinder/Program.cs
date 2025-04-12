@@ -3,10 +3,13 @@ using _CampusFinderCore.Entities.Identity;
 using _CampusFinderCore.Repositories.Contract;
 using _CampusFinderCore.Services.Contract;
 using _CampusFinderCore.Settings;
+using _CampusFinderCore.Specifications;
+using _CampusFinderInfrastructure;
 using _CampusFinderInfrastructure.Data.AppDbContext;
 using _CampusFinderInfrastructure.Identity;
 using _CampusFinderInfrastructure.Repositories;
 using _CampusFinderService;
+using CampusFinder.Helpers;
 using CampusFinder.MiddleWares;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -50,9 +53,11 @@ namespace _CampusFinder
 
 
             builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
-
-            builder.Services.AddControllers().AddJsonOptions(options =>
-            options.JsonSerializerOptions.PropertyNamingPolicy = System.Text.Json.JsonNamingPolicy.CamelCase);
+            builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+    });
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -92,7 +97,8 @@ namespace _CampusFinder
 
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
             {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+                .LogTo(Console.WriteLine, LogLevel.Information); ;
 			});
 
             builder.Services.Configure<CookiePolicyOptions>(options =>
@@ -128,12 +134,15 @@ namespace _CampusFinder
             builder.Logging.AddConsole();
             builder.Logging.AddDebug();
 
-			//Configure Schema Services
-			builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            //Configure Schema Services
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            builder.Services.AddScoped<IUniversityService, UniversityService>();
+            builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            builder.Services.AddAutoMapper(typeof(MappingProfiles));
+            
+            #endregion
 
-			#endregion
-
-			var app = builder.Build();
+            var app = builder.Build();
 
             #region Update Database
 
@@ -186,7 +195,7 @@ namespace _CampusFinder
 
             app.UseAuthentication(); // Authenticate users
             app.UseAuthorization(); // Enforce authorization policies
-
+            app.UseStaticFiles(); // Serve static files
             app.UseStatusCodePagesWithRedirects("/errors/{0}"); // Handle status codes
 
             app.MapControllers(); // Map API controllers

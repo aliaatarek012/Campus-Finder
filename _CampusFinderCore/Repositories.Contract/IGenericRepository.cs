@@ -12,9 +12,14 @@ namespace _CampusFinderCore.Repositories.Contract
 	{
 		Task<T> GetByIdAsync(int id);
 		Task<IReadOnlyList<T>> GetAllAsync();
-        //Task<T> AddAsync(T entity);
-        //Task UpdateAsync(T entity);
-        //Task DeleteAsync(T entity);
+
+        Task AddAsync(T entity);
+
+
+        void UpdateAsync(T entity);
+
+
+        void DeleteAsync(T entity);
 
 
         Task<IReadOnlyList<T>> GetAllWithSpecAsync(ISpecifications<T> spec);
