@@ -68,7 +68,23 @@ namespace _CampusFinderInfrastructure.Data.AppDbContext
 					await _dbcontext.SaveChangesAsync();
 				}
 			}
-		}
+
+            var majorsData = File.ReadAllText("../_CampusFinderInfrastructure/Data/AppDbContext/DataSeed/Major.json");
+            var majors = JsonSerializer.Deserialize<List<Major>>(majorsData);
+            if (majors.Count > 0)
+            {
+                if (!(_dbcontext.Majors.Count() > 0))
+                {
+                    foreach (var major in majors)
+                    {
+                        _dbcontext.Set<Major>().Add(major);
+                        Console.WriteLine($"Is Entity Tracked: {_dbcontext.Entry(major).State}");
+                    }
+                    await _dbcontext.SaveChangesAsync();
+                    
+                }
+            }
+        }
 
 	}
 

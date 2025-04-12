@@ -1,2688 +1,2240 @@
 [
     {
-        "MajorID": 1,
         "CollegeID": 35,
         "Name": "Internal Medicine",
         "Description": "Focuses on the diagnosis, treatment, and prevention of adult diseases. Internists manage conditions like diabetes, hypertension, heart disease, and infections."
     },
     {
-        "MajorID": 2,
         "CollegeID": 35,
         "Name": "General Surgery",
         "Description": "Deals with surgical procedures to treat diseases, injuries, or deformities. Surgeons perform operations on organs like the stomach, liver, and intestines."
     },
     {
-        "MajorID": 3,
         "CollegeID": 35,
         "Name": "Pediatrics",
         "Description": "Specializes in the medical care of infants, children, and adolescents. Pediatricians manage growth, development, and childhood illnesses."
     },
     {
-        "MajorID": 4,
         "CollegeID": 35,
         "Name": "Obstetrics and Gynecology (OB/GYN)",
         "Description": "Focuses on women’s health, including pregnancy, childbirth, and reproductive system disorders. OB/GYNs perform surgeries like cesarean sections and hysterectomies"
     },
     {
-        "MajorID": 5,
         "CollegeID": 35,
         "Name": "Orthopedics",
         "Description": "Deals with the musculoskeletal system, including bones, joints, ligaments, and muscles. Orthopedic surgeons treat fractures, arthritis, and sports injuries."
     },
     {
-        "MajorID": 6,
         "CollegeID": 35,
         "Name": "Cardiology",
         "Description": "Focuses on heart and vascular system disorders. Cardiologists manage conditions like heart failure, arrhythmias, and coronary artery disease."
     },
     {
-        "MajorID": 7,
         "CollegeID": 35,
         "Name": "Neurology",
         "Description": "Specializes in disorders of the nervous system, including the brain, spinal cord, and nerves. Neurologists treat conditions like epilepsy, stroke, and multiple sclerosis."
     },
     {
-        "MajorID": 8,
         "CollegeID": 35,
         "Name": "Radiology",
         "Description": "Uses imaging techniques like X-rays, CT scans, and MRIs to diagnose and treat diseases. Radiologists interpret images to guide treatment plans."
     },
     {
-        "MajorID": 9,
         "CollegeID": 46,
         "Name": "BA (Hons) in English Language Studies (Translation)",
         "Description": "Extensive training in written, consecutive, and simultaneous translation, preparing graduates to handle knowledge transfer between languages."
     },
     {
-        "MajorID": 10,
         "CollegeID": 46,
         "Name": "BA (Hons) in English Language Studies (Executive Skills)",
         "Description": "Training in managerial fields, including human resources management, business administration, and organizational behavior, equipping graduates with practical skills for employment."
     },
     {
-        "MajorID": 11,
         "CollegeID": 46,
         "Name": "BA (Hons) in English Language Studies (Teaching English as a Foreign Language - TEFL)",
         "Description": "Qualifies students for teaching careers in national and international institutions, offering up-to-date teaching methods and approaches."
     },
     {
-        "MajorID": 12,
         "CollegeID": 46,
         "Name": "BA (Hons) in English Language Studies (Comparative Studies)",
         "Description": "Focuses on literature, cinema, and theatre, enhancing students' critical thinking and research skills."
     },
     {
-        "MajorID": 13,
         "CollegeID": 47,
         "Name": "Interior Design",
         "Description": "Focuses on designing functional and aesthetically pleasing indoor spaces."
     },
     {
-        "MajorID": 14,
         "CollegeID": 47,
         "Name": "Fashion Design",
         "Description": "Centers on creating clothing and accessories that blend style with functionality"
     },
     {
-        "MajorID": 15,
         "CollegeID": 47,
         "Name": "Graphic & Media Arts",
         "Description": "Emphasizes visual communication through digital and traditional media."
     },
     {
-        "MajorID": 16,
         "CollegeID": 47,
         "Name": "Cinema and Theatre & Production Design",
         "Description": "nvolves designing sets and visuals for film and theater productions."
     },
     {
-        "MajorID": 17,
         "CollegeID": 48,
         "Name": "Genetic Engineering",
         "Description": "tudies the manipulation of organisms' genes to alter their characteristics."
     },
     {
-        "MajorID": 18,
         "CollegeID": 48,
         "Name": "Stem Cell Research",
         "Description": "Explores the potential of stem cells in treating various diseases."
     },
     {
-        "MajorID": 19,
         "CollegeID": 49,
         "Name": "Computer Science:",
         "Description": "Covers the theoretical foundations and practical applications of computing."
     },
     {
-        "MajorID": 20,
         "CollegeID": 49,
         "Name": "Software Engineering",
         "Description": "Focuses on designing, developing, and maintaining software systems."
     },
     {
-        "MajorID": 21,
         "CollegeID": 50,
         "Name": "Oral and Dental Medicine",
         "Description": "Encompasses the diagnosis, prevention, and treatment of oral diseases."
     },
     {
-        "MajorID": 22,
         "CollegeID": 51,
         "Name": "Architectural Systems Engineering",
         "Description": "Combines architecture with engineering principles to design building systems."
     },
     {
-        "MajorID": 23,
         "CollegeID": 51,
         "Name": "Civil Engineering Systems",
         "Description": "Focuses on designing and constructing infrastructure projects."
     },
     {
-        "MajorID": 24,
         "CollegeID": 51,
         "Name": "Computer Systems Engineering",
         "Description": "Integrates computer science with electronic engineering to develop computer systems."
     },
     {
-        "MajorID": 25,
         "CollegeID": 51,
         "Name": "Electrical Communication & Electronics Systems Engineering",
         "Description": "Deals with electronic devices and communication systems."
     },
     {
-        "MajorID": 26,
         "CollegeID": 51,
         "Name": "Industrial Systems Engineering",
         "Description": "Optimizes complex processes and systems in manufacturing and services."
     },
     {
-        "MajorID": 27,
         "CollegeID": 51,
         "Name": "Mechatronics Systems Engineering",
         "Description": "Combines mechanical, electronic, and computer engineering to create smart machines."
     },
     {
-        "MajorID": 28,
         "CollegeID": 52,
         "Name": "Multimedia Journalism",
         "Description": "Covers digital journalism and social media."
     },
     {
-        "MajorID": 29,
         "CollegeID": 52,
         "Name": "Broadcast Platforms",
         "Description": "Focuses on production and webcasting."
     },
     {
-        "MajorID": 30,
         "CollegeID": 52,
         "Name": "Strategic Communication",
         "Description": "Includes corporate communication and marketing communication"
     },
     {
-        "MajorID": 31,
         "CollegeID": 53,
         "Name": "Accounting",
         "Description": "Focuses on financial reporting and analysis."
     },
     {
-        "MajorID": 32,
         "CollegeID": 53,
         "Name": "Economics",
         "Description": "Studies the production, distribution, and consumption of goods and services."
     },
     {
-        "MajorID": 33,
         "CollegeID": 53,
         "Name": "Management Information Systems",
         "Description": "Integrates IT solutions with business processes."
     },
     {
-        "MajorID": 34,
         "CollegeID": 53,
         "Name": "Marketing and International Business",
         "Description": "Explores global marketing strategies and business operations."
     },
     {
-        "MajorID": 35,
         "CollegeID": 53,
         "Name": "Human Resources Management",
         "Description": "Deals with recruitment, training, and employee welfare."
     },
     {
-        "MajorID": 36,
         "CollegeID": 53,
         "Name": "Finance & Investment Management",
         "Description": "Focuses on financial planning and investment strategies."
     },
     {
-        "MajorID": 37,
         "CollegeID": 54,
         "Name": "Pharmaceutical Sciences",
         "Description": "Studies drug development, production, and regulation."
     },
     {
-        "MajorID": 38,
         "CollegeID": 55,
         "Name": "Physical Therapy",
         "Description": "Involves rehabilitation and treatment of physical impairments."
     },
     {
-        "MajorID": 39,
         "CollegeID": 56,
         "Name": "General Medicine & Subspecialties Department",
         "Description": "This department encompasses various internal medicine disciplines, including:\n\nCardiovascular: Focuses on the study of the heart and vascular diseases, covering both medical and interventional management approaches.\n\nCritical Care: Emphasizes the integration of medical knowledge in managing life-threatening conditions.\n\nGeneral Medicine: Addresses diseases affecting various organ systems, from diagnosis to treatment.\n\nGeriatric Medicine: Studies the aging process and diseases common in older adults, aiming to promote healthy aging.\n\nNeuropsychiatry: Explores the interface between neurological and psychiatric disorders."
     },
     {
-        "MajorID": 40,
         "CollegeID": 56,
         "Name": "Surgery Department",
         "Description": "This department covers various surgical specialties, including:\n\nCardiothoracic Surgery: Deals with surgical procedures involving the heart and thoracic organs.\n\nGeneral Surgery: Focuses on surgical management of a wide range of diseases, emphasizing timely decision-making and basic surgical skills.\n\nNeurosurgery: Specializes in surgical interventions for neurological disorders."
     },
     {
-        "MajorID": 41,
         "CollegeID": 56,
         "Name": "Obstetrics & Gynecology Department",
         "Description": "Concentrates on women's reproductive health, including pregnancy, childbirth, and disorders of the reproductive system."
     },
     {
-        "MajorID": 42,
         "CollegeID": 56,
         "Name": "Pediatrics Department",
         "Description": "Dedicated to the medical care of infants, children, and adolescents, addressing both acute and chronic health issues."
     },
     {
-        "MajorID": 43,
         "CollegeID": 56,
         "Name": " Psychiatry Department",
         "Description": "Focuses on the diagnosis, treatment, and prevention of mental health disorders, aiming to improve patients' mental well-being."
     },
     {
-        "MajorID": 44,
         "CollegeID": 56,
         "Name": "Physical Medicine Department",
         "Description": "Emphasizes rehabilitation and physical therapy to enhance and restore functional ability and quality of life."
     },
     {
-        "MajorID": 45,
         "CollegeID": 56,
         "Name": "Urology Department",
         "Description": "Deals with diseases of the urinary tract and the male reproductive system, offering both medical and surgical treatments."
     },
     {
-        "MajorID": 46,
         "CollegeID": 56,
         "Name": " Dermatology, Venereology, and Andrology Department",
         "Description": "Specializes in skin diseases, sexually transmitted infections, and male reproductive health."
     },
     {
-        "MajorID": 47,
         "CollegeID": 56,
         "Name": "Anesthesiology & Intensive Care Unit (ICU) Department",
         "Description": "Focuses on pain relief during surgeries and critical care management in the ICU."
     },
     {
-        "MajorID": 48,
         "CollegeID": 56,
         "Name": "Neurology Department",
         "Description": "Dedicated to disorders of the nervous system, including the brain, spinal cord, and peripheral nerves."
     },
     {
-        "MajorID": 49,
         "CollegeID": 56,
         "Name": "Radiology Department",
         "Description": "Utilizes imaging technologies, such as X-rays and MRIs, for diagnosis and treatment planning."
     },
     {
-        "MajorID": 50,
         "CollegeID": 56,
         "Name": "Anatomy Department",
         "Description": "Studies the structure of the human body, providing foundational knowledge for medical practice."
     },
     {
-        "MajorID": 51,
         "CollegeID": 56,
         "Name": "Physiology Department",
         "Description": "Explores the functions and mechanisms of the human body, essential for understanding health and disease."
     },
     {
-        "MajorID": 52,
         "CollegeID": 56,
         "Name": "Biochemistry Department",
         "Description": "Investigates the chemical processes within the human body, crucial for comprehending metabolic functions."
     },
     {
-        "MajorID": 53,
         "CollegeID": 56,
         "Name": "Histology Department",
         "Description": "Examines the microscopic structure of tissues, aiding in the understanding of normal and pathological conditions."
     },
     {
-        "MajorID": 54,
         "CollegeID": 56,
         "Name": "Pathology Department",
         "Description": "Studies disease mechanisms and effects, bridging basic science and clinical practice."
     },
     {
-        "MajorID": 55,
         "CollegeID": 56,
         "Name": "Pharmacology Department",
         "Description": "Focuses on drug actions and interactions, essential for effective and safe therapeutic practices."
     },
     {
-        "MajorID": 56,
         "CollegeID": 56,
         "Name": "Microbiology Department",
         "Description": "Investigates microorganisms and their roles in human health and disease, emphasizing infection control."
     },
     {
-        "MajorID": 57,
         "CollegeID": 56,
         "Name": "Parasitology Department",
         "Description": "Studies parasites and their impact on human health, contributing to the prevention and treatment of parasitic diseases."
     },
     {
-        "MajorID": 58,
         "CollegeID": 56,
         "Name": "Community Medicine Department",
         "Description": "Emphasizes public health principles, aiming to improve health outcomes at the community level."
     },
     {
-        "MajorID": 59,
         "CollegeID": 56,
         "Name": "Family Medicine Department",
         "Description": "Provides comprehensive healthcare across all ages, focusing on continuous and holistic patient care."
     },
     {
-        "MajorID": 60,
         "CollegeID": 56,
         "Name": "Forensic Medicine & Toxicology Department",
         "Description": "Deals with medical aspects of the law and the effects of chemicals on the human body, playing a crucial role in legal investigations."
     },
     {
-        "MajorID": 61,
         "CollegeID": 56,
         "Name": "Ophthalmology Department",
         "Description": "Specializes in the diagnosis and treatment of eye disorders, promoting visual health."
     },
     {
-        "MajorID": 62,
         "CollegeID": 56,
         "Name": "Otorhinolaryngology (ENT) Department",
         "Description": "Focuses on diseases of the ear, nose, and throat, addressing both medical and surgical treatments."
     },
     {
-        "MajorID": 63,
         "CollegeID": 57,
         "Name": "Nursing",
         "Description": "Focuses on providing comprehensive patient care, health promotion, and disease prevention."
     },
     {
-        "MajorID": 64,
         "CollegeID": 57,
         "Name": "Technology of Medical Laboratory",
         "Description": "Emphasizes the analysis of biological samples to diagnose diseases."
     },
     {
-        "MajorID": 65,
         "CollegeID": 57,
         "Name": "Radiological Imaging Technology",
         "Description": "Centers on using imaging techniques like X-rays and MRIs for medical diagnosis."
     },
     {
-        "MajorID": 66,
         "CollegeID": 57,
         "Name": "Technology of Respiratory Care",
         "Description": "Specializes in caring for patients with respiratory disorders."
     },
     {
-        "MajorID": 67,
         "CollegeID": 58,
         "Name": "Department of Basic Sciences for Physical Therapy",
         "Description": "This department focuses on foundational sciences that underpin physical therapy practices, ensuring students grasp essential concepts necessary for effective patient care."
     },
     {
-        "MajorID": 68,
         "CollegeID": 58,
         "Name": "Unit of Biomechanics",
         "Description": "Dedicated to understanding human movement, this unit emphasizes the mechanical aspects of motion, crucial for assessing and improving physical function."
     },
     {
-        "MajorID": 69,
         "CollegeID": 58,
         "Name": "Department of Physical Therapy for Cardiopulmonary Disorders and the Elderly",
         "Description": "Specializing in therapies for heart and lung conditions, this department also addresses the unique needs of aging populations, promoting optimal respiratory and cardiovascular health."
     },
     {
-        "MajorID": 70,
         "CollegeID": 58,
         "Name": "Department of Physical Therapy for Musculoskeletal Diseases and Its Surgeries",
         "Description": "Focusing on conditions affecting muscles, bones, and joints, this department provides therapeutic interventions to restore mobility and alleviate pain."
     },
     {
-        "MajorID": 71,
         "CollegeID": 58,
         "Name": "Unit of Physical Therapy for Surgeries & Burns",
         "Description": "This unit offers rehabilitation strategies for patients recovering from surgeries and burn injuries, aiming to restore function and improve quality of life."
     },
     {
-        "MajorID": 72,
         "CollegeID": 58,
         "Name": "Department of Physical Therapy for Neuromuscular Diseases and Its Surgeries",
         "Description": "Concentrating on disorders of the nervous and muscular systems, this department provides therapies to enhance neural function and muscle strength."
     },
     {
-        "MajorID": 73,
         "CollegeID": 58,
         "Name": "Department of Physical Therapy for Pediatric Diseases and Its Surgeries",
         "Description": "Tailored for children, this department addresses developmental and surgical conditions, ensuring young patients achieve optimal physical development."
     },
     {
-        "MajorID": 74,
         "CollegeID": 58,
         "Name": "Unit of Physical Therapy for Women’s Health",
         "Description": "Focusing on health issues unique to women, this unit provides therapies addressing conditions related to childbirth, pelvic health, and more."
     },
     {
-        "MajorID": 75,
         "CollegeID": 59,
         "Name": "Pharmaceutics",
         "Description": "This department focuses on the formulation, preparation, and testing of pharmaceutical dosage forms, ensuring that medications are safe, effective, and of high quality."
     },
     {
-        "MajorID": 76,
         "CollegeID": 59,
         "Name": "Industrial Pharmacy",
         "Description": "Emphasizing the large-scale production of pharmaceuticals, this department integrates principles of engineering and quality assurance to optimize manufacturing processes and ensure compliance with regulatory standards."
     },
     {
-        "MajorID": 77,
         "CollegeID": 59,
         "Name": "Clinical Pharmacy Practice",
         "Description": "Dedicated to the application of pharmacological knowledge in clinical settings, this department trains students to work directly with healthcare teams to optimize patient medication therapies and improve health outcomes."
     },
     {
-        "MajorID": 78,
         "CollegeID": 59,
         "Name": "Pharmacognosy",
         "Description": "This department investigates medicinal substances derived from natural sources, including plants and marine organisms, focusing on the discovery and development of new therapeutic agents."
     },
     {
-        "MajorID": 79,
         "CollegeID": 59,
         "Name": "Pharmaceutical Analytical Chemistry",
         "Description": "Specializing in the techniques and methods used to analyze pharmaceutical compounds, this department ensures the purity, potency, and quality of drugs through rigorous testing and validation processes"
     },
     {
-        "MajorID": 80,
         "CollegeID": 59,
         "Name": "Pharmaceutical Chemistry",
         "Description": "Concentrating on the chemical aspects of drug design and development, this department explores the synthesis and characterization of new pharmaceutical agents, contributing to the advancement of medicinal chemistry."
     },
     {
-        "MajorID": 81,
         "CollegeID": 59,
         "Name": "Pharmacology",
         "Description": "This department studies the effects of drugs on biological systems, providing essential insights into drug actions, therapeutic uses, and potential adverse effects."
     },
     {
-        "MajorID": 82,
         "CollegeID": 59,
         "Name": "Microbiology and Immunology",
         "Description": "Focusing on microorganisms and the immune system, this department examines the interactions between pathogens and hosts, contributing to the development of vaccines and antimicrobial therapies."
     },
     {
-        "MajorID": 83,
         "CollegeID": 59,
         "Name": "Biochemistry",
         "Description": "This department explores the chemical processes within living organisms, offering a deeper understanding of drug interactions at the molecular level and supporting the development of targeted therapies."
     },
     {
-        "MajorID": 84,
         "CollegeID": 60,
         "Name": "Oral Pathology & Oral Surgery Department",
         "Description": "This department aims to provide students with the scientific foundations and intellectual skills necessary to diagnose a wide range of oral diseases. It also equips dentists to manage cases involving tooth extractions, jaw fractures, tumors, and temporomandibular joint disorders."
     },
     {
-        "MajorID": 85,
         "CollegeID": 60,
         "Name": "Pediatric Dentistry, Orthodontics, & Oral Biology Department",
         "Description": "This department educates students on dental terminology, tooth morphology, structure, and physiology. It prepares students to handle primary teeth in infants and children, including those with special healthcare needs. Additionally, it provides knowledge for diagnosing, preventing, intercepting, and treating malocclusion anomalies."
     },
     {
-        "MajorID": 86,
         "CollegeID": 60,
         "Name": "Prosthodontic Department",
         "Description": "This department imparts laboratory and clinical knowledge for constructing complete, partial, and fixed prosthodontics. It also educates students on the chemical, physical, and biological properties of dental materials and their applications across various branches of dentistry."
     },
     {
-        "MajorID": 87,
         "CollegeID": 60,
         "Name": "Conservative Surgery Department",
         "Description": "This department focuses on the prevention, diagnosis, and treatment of dental caries and diseases affecting the dental pulp and surrounding tissues. It emphasizes preserving natural teeth through restorative techniques and treatments."
     },
     {
-        "MajorID": 88,
         "CollegeID": 62,
         "Name": "Department of Medical Biotechnology",
         "Description": "This department focuses on molecular medicine, including the diagnosis and treatment of diseases through gene therapy and stem cell research."
     },
     {
-        "MajorID": 89,
         "CollegeID": 62,
         "Name": "Department of Pharmaceutical and Industrial Biotechnology",
         "Description": "This department emphasizes biopharmaceuticals, pharmacogenomics, drug design, and personalized medicine, preparing students to tackle challenges in pharmaceutical development and industrial biotechnology.\n\n"
     },
     {
-        "MajorID": 90,
         "CollegeID": 62,
         "Name": "Department of Agricultural Biotechnology",
         "Description": "This department centers on the genetic manipulation of plants and animals to improve yield quality and quantity, including the development of transgenic plants and animals for various beneficial traits.\n\n"
     },
     {
-        "MajorID": 91,
         "CollegeID": 62,
         "Name": "Department of Environmental Biotechnology",
         "Description": "This department addresses environmental conservation through bioremediation strategies, wastewater treatment, renewable energy production, and the development of biofertilizers and biopesticides."
     },
     {
-        "MajorID": 92,
         "CollegeID": 62,
         "Name": "Department of Bioinformatics and Functional Genomics",
         "Description": "This department integrates biotechnology with information technology to analyze biological data, aiding in understanding diseases and biological processes through computational tools."
     },
     {
-        "MajorID": 93,
         "CollegeID": 63,
         "Name": "Construction Engineering:",
         "Description": "Focuses on the planning, design, and management of construction projects, ensuring structures are safe, sustainable, and cost-effective."
     },
     {
-        "MajorID": 94,
         "CollegeID": 1,
         "Name": "Arabic Language Instruction",
         "Description": "The Department of Arabic Language Instruction (ALI) at AUC provides Arabic language courses for both native and non-native speakers, focusing on linguistic proficiency, cultural immersion, and academic communication. It supports students in mastering Modern Standard Arabic (MSA), colloquial Arabic, and Arabic for special purposes, ensuring they gain the skills needed for academic and professional success in Arabic-speaking environments."
     },
     {
-        "MajorID": 95,
         "CollegeID": 1,
         "Name": "English Language Instruction",
         "Description": "The Department of English Language Instruction (ELI) equips students with academic English proficiency, emphasizing reading, writing, speaking, and listening skills. It offers intensive programs to prepare students for university coursework and professional communication, ensuring they meet AUC’s rigorous academic standards and thrive in an English-medium learning environment."
     },
     {
-        "MajorID": 96,
         "CollegeID": 1,
         "Name": "Rhetoric and Composition",
         "Description": "The Department of Rhetoric and Composition focuses on critical thinking, argumentation, and effective writing. It prepares students to analyze, construct, and communicate ideas clearly across disciplines, enhancing their ability to engage in academic research, persuasive writing, and public discourse. The department plays a key role in AUC’s core curriculum, ensuring all students develop strong communication and analytical skills."
     },
     {
-        "MajorID": 97,
         "CollegeID": 2,
         "Name": "Accounting",
         "Description": "The Youssef Nabih Department of Accounting at AUC provides students with a comprehensive understanding of financial reporting, auditing, taxation, and managerial accounting. It equips future professionals with analytical skills, ethical awareness, and technical expertise to navigate complex financial environments, ensuring they are prepared for careers in corporate finance, public accounting, and financial consulting."
     },
     {
-        "MajorID": 98,
         "CollegeID": 2,
         "Name": "Economics",
         "Description": "The Mohamed Shafik Gabr Department of Economics focuses on economic theory, policy analysis, and global financial systems. Through a rigorous curriculum, students develop quantitative, analytical, and problem-solving skills to assess economic challenges and propose data-driven solutions. Graduates pursue careers in government, banking, international organizations, and economic research."
     },
     {
-        "MajorID": 99,
         "CollegeID": 2,
         "Name": "Management",
         "Description": "The Heikal Department of Management prepares students for leadership roles in business, entrepreneurship, and organizational strategy. It emphasizes innovation, decision-making, and strategic planning, equipping graduates with the skills to excel in corporate leadership, startups, and business consultancy in a rapidly evolving global economy."
     },
     {
-        "MajorID": 100,
         "CollegeID": 3,
         "Name": "Applied Linguistics and Educational Studies",
         "Description": "This department focuses on language acquisition, teaching methodologies, and educational policy. It prepares students to address challenges in language learning, curriculum development, and multilingual education, equipping them with the skills for careers in teaching, research, and educational consultancy."
     },
     {
-        "MajorID": 101,
         "CollegeID": 3,
         "Name": "Arab and Islamic Civilizations",
         "Description": "Dedicated to exploring the history, literature, philosophy, and cultural heritage of the Arab and Islamic worlds, this department provides students with a deep understanding of classical and modern Arabic texts, Islamic traditions, and Middle Eastern history, preparing them for roles in academia, cultural preservation, and diplomacy."
     },
     {
-        "MajorID": 102,
         "CollegeID": 3,
         "Name": "Arts",
         "Description": "A hub for creative expression, this department offers programs in visual arts, music, film, and theater, blending theory, history, and hands-on practice. It nurtures artists, performers, and cultural scholars, equipping them to contribute to the creative industries, media, and arts education."
     },
     {
-        "MajorID": 103,
         "CollegeID": 3,
         "Name": "English and Comparative Literature",
         "Description": "This department explores literary traditions, critical theory, and global narratives, encouraging students to engage with texts across different cultures, time periods, and languages. Graduates excel in writing, publishing, academia, and cultural analysis."
     },
     {
-        "MajorID": 104,
         "CollegeID": 3,
         "Name": "History",
         "Description": "Focusing on historical research, archival studies, and global historical narratives, this department helps students develop critical thinking and analytical skills. It prepares them for careers in academia, museum curation, policy analysis, and journalism."
     },
     {
-        "MajorID": 105,
         "CollegeID": 3,
         "Name": "Philosophy",
         "Description": "This department delves into ethics, metaphysics, epistemology, and logic, training students to analyze complex ideas, question assumptions, and construct logical arguments. Graduates pursue paths in law, academia, ethics consulting, and public policy."
     },
     {
-        "MajorID": 106,
         "CollegeID": 3,
         "Name": "Political Science",
         "Description": "Offering expertise in international relations, governance, and political theory, this department equips students with the tools to analyze political systems, global conflicts, and public policy. Graduates find careers in government, diplomacy, NGOs, and research institutions."
     },
     {
-        "MajorID": 107,
         "CollegeID": 3,
         "Name": "Psychology",
         "Description": "Focusing on human behavior, cognition, and mental health, this department prepares students for roles in clinical psychology, counseling, organizational psychology, and research, combining scientific inquiry with practical application."
     },
     {
-        "MajorID": 108,
         "CollegeID": 3,
         "Name": "Sociology, Egyptology, and Anthropology",
         "Description": "This interdisciplinary department studies social structures, ancient civilizations, and human cultures. Students explore contemporary social issues, archaeological discoveries, and anthropological research, leading to careers in cultural heritage management, archaeology, social work, and policy development."
     },
     {
-        "MajorID": 109,
         "CollegeID": 4,
         "Name": "Architecture",
         "Description": "Blending design, sustainability, and urban planning, this department prepares students to create innovative and functional spaces while addressing environmental and societal challenges. Graduates pursue careers in architectural design, urban development, and green building technologies."
     },
     {
-        "MajorID": 110,
         "CollegeID": 4,
         "Name": "Biology",
         "Description": "Focusing on genetics, molecular biology, ecology, and biomedical sciences, this department equips students with a deep understanding of life sciences and environmental sustainability, leading to careers in biotechnology, research, and healthcare."
     },
     {
-        "MajorID": 111,
         "CollegeID": 4,
         "Name": "Chemistry",
         "Description": "Covering analytical, organic, inorganic, and physical chemistry, this department provides hands-on experience in laboratory research and chemical analysis, preparing students for roles in pharmaceuticals, materials science, and industrial chemistry."
     },
     {
-        "MajorID": 112,
         "CollegeID": 4,
         "Name": "Computer Science",
         "Description": "Offering expertise in artificial intelligence, cybersecurity, software development, and data science, this department trains students to solve real-world problems using cutting-edge technology, leading to careers in tech startups, research, and software engineering."
     },
     {
-        "MajorID": 113,
         "CollegeID": 4,
         "Name": "Construction Engineering",
         "Description": "Specializing in infrastructure development, project management, and sustainable construction, this department prepares students for leadership roles in civil engineering, urban development, and smart city planning.\n"
     },
     {
-        "MajorID": 114,
         "CollegeID": 4,
         "Name": "Electronics and Communications",
         "Description": "Focusing on circuit design, wireless communication, and digital systems, this department prepares students to work in telecommunications, semiconductor industries, and embedded systems development."
     },
     {
-        "MajorID": 115,
         "CollegeID": 4,
         "Name": "Mathematics and Actuarial Science",
         "Description": "Developing expertise in mathematical modeling, statistical analysis, and risk assessment, this department equips students for careers in finance, insurance, data science, and quantitative research."
     },
     {
-        "MajorID": 116,
         "CollegeID": 4,
         "Name": "Mechanical Engineering",
         "Description": "Exploring robotics, energy systems, thermodynamics, and manufacturing processes, this department prepares students for innovation in aerospace, automotive, and renewable energy industries.\n"
     },
     {
-        "MajorID": 117,
         "CollegeID": 4,
         "Name": "Petroleum and Energy Engineering",
         "Description": "Focusing on energy resource management, sustainable extraction, and oil and gas technologies, this department trains students for careers in energy exploration, environmental consulting, and renewable energy solutions."
     },
     {
-        "MajorID": 118,
         "CollegeID": 4,
         "Name": "Physics",
         "Description": "Investigating quantum mechanics, electromagnetism, and material science, this department prepares students for scientific research, advanced technology development, and engineering applications in industries like aerospace, healthcare, and energy."
     },
     {
-        "MajorID": 119,
         "CollegeID": 5,
         "Name": "Journalism and Mass Communication",
         "Description": "This department trains students in media production, digital journalism, and strategic communication, equipping them with the skills to thrive in broadcasting, public relations, and investigative reporting while upholding ethical and professional standards."
     },
     {
-        "MajorID": 120,
         "CollegeID": 5,
         "Name": "Public Policy and Administration",
         "Description": "Focusing on governance, policymaking, and public service leadership, this department prepares students to analyze and implement policies that address economic, social, and political challenges, leading to careers in government agencies, NGOs, and international organizations."
     },
     {
-        "MajorID": 121,
         "CollegeID": 5,
         "Name": "Law",
         "Description": "Offering a deep understanding of legal systems, human rights, and international law, this department trains students to engage in legal advocacy, corporate law, and policy reform, preparing them for roles in law firms, international courts, and public service."
     },
     {
-        "MajorID": 122,
         "CollegeID": 6,
         "Name": " Machine Learning and Artificial Intelligence",
         "Description": " Focuses on developing algorithms that enable computers to learn from and make decisions based on data. Students explore neural networks, deep learning, and natural language processing"
     },
     {
-        "MajorID": 123,
         "CollegeID": 6,
         "Name": "Data Science",
         "Description": "Emphasizes techniques for collecting, analyzing, and interpreting large datasets. Courses cover statistical methods, data visualization, and predictive modeling"
     },
     {
-        "MajorID": 124,
         "CollegeID": 6,
         "Name": "Web and Mobile Development",
         "Description": "Concentrates on designing and building applications for the web and mobile platforms. Topics include responsive design, user experience (UX) principles, and mobile app development"
     },
     {
-        "MajorID": 125,
         "CollegeID": 6,
         "Name": "Physical Computing and the Internet of Things (IoT)",
         "Description": "Explores the integration of computing with physical devices. Students learn about sensor technologies, embedded systems, and IoT applications"
     },
     {
-        "MajorID": 126,
         "CollegeID": 6,
         "Name": "Games Development",
         "Description": "Covers the creation of interactive entertainment experiences. Areas of study include game design principles, graphics programming, and interactive storytelling"
     },
     {
-        "MajorID": 127,
         "CollegeID": 6,
         "Name": "User Experience (UX)",
         "Description": "Focuses on enhancing user satisfaction by improving the usability and accessibility of digital products. Topics include user research, interface design, and usability testing"
     },
     {
-        "MajorID": 128,
         "CollegeID": 7,
         "Name": "Accounting and Finance",
         "Description": "This programme focuses on the principles of accounting and financial management. Students learn to analyze financial information, understand financial reporting, and evaluate financial performance, preparing them for careers in accounting, auditing, and finance"
     },
     {
-        "MajorID": 129,
         "CollegeID": 7,
         "Name": "Business and Management",
         "Description": "Students explore complex international business and management issues, developing skills in strategic planning, organizational behavior, and decision-making. The curriculum prepares graduates for leadership roles in various business sectors"
     },
     {
-        "MajorID": 130,
         "CollegeID": 7,
         "Name": "Data Science and Business Analytics",
         "Description": "This programme combines data science techniques with business strategy. Students learn to solve interdisciplinary problems and make strategic decisions using data analytics, equipping them for roles in data analysis, business intelligence, and consultancy"
     },
     {
-        "MajorID": 131,
         "CollegeID": 7,
         "Name": "Economics",
         "Description": "Focusing on the forces that drive human behavior, global economies, and resource distribution, this programme provides a deep understanding of economic theories and their applications, preparing students for careers in economic analysis, policy-making, and research"
     },
     {
-        "MajorID": 132,
         "CollegeID": 7,
         "Name": "Economics and Finance",
         "Description": "Students learn to solve practical problems arising in both economics and finance, gaining insights into financial markets, investment strategies, and economic policy, suitable for careers in financial analysis, investment banking, and economic consultancy"
     },
     {
-        "MajorID": 133,
         "CollegeID": 7,
         "Name": "Economics and Management",
         "Description": "This programme applies economic principles, frameworks, and methodologies to management practice. Students develop analytical and problem-solving skills relevant to managerial roles in various industries"
     },
     {
-        "MajorID": 134,
         "CollegeID": 7,
         "Name": "Finance",
         "Description": "Focusing on financial systems, markets, and instruments, students gain a thorough understanding of corporate finance, investment, and risk management, preparing them for careers in financial services, banking, and investment management"
     },
     {
-        "MajorID": 137,
         "CollegeID": 10,
         "Name": "Mechatronics & Intelligent Machines",
         "Description": "Focuses on the integration of mechanical systems with intelligent control, preparing students for careers in automation and robotics"
     },
     {
-        "MajorID": 138,
         "CollegeID": 10,
         "Name": "Mechanical Engineering",
         "Description": "Covers the principles of mechanics and energy, equipping students to design and analyze mechanical systems"
     },
     {
-        "MajorID": 139,
         "CollegeID": 10,
         "Name": "Motorsports Engineering",
         "Description": "Specializes in the engineering aspects of motorsport vehicles, including design, performance, and safety considerations"
     },
     {
-        "MajorID": 140,
         "CollegeID": 10,
         "Name": "Electrical & Electronic Engineering",
         "Description": "Emphasizes the study of electrical systems and electronic devices, preparing students for roles in various industries"
     },
     {
-        "MajorID": 141,
         "CollegeID": 10,
         "Name": "Aerospace Engineering with Pilot Studies",
         "Description": "Combines aerospace engineering fundamentals with pilot training, offering a unique blend of skills for the aviation industry"
     },
     {
-        "MajorID": 142,
         "CollegeID": 10,
         "Name": "Aerospace Engineering",
         "Description": "Concentrates on the design, development, and maintenance of aircraft and spacecraft."
     },
     {
-        "MajorID": 143,
         "CollegeID": 10,
         "Name": "Manufacturing Engineering",
         "Description": "Addresses the processes involved in producing goods, emphasizing efficiency and innovation"
     },
     {
-        "MajorID": 144,
         "CollegeID": 10,
         "Name": "Renewable and Sustainable Energy Engineering",
         "Description": "Explores sustainable energy solutions, preparing students to tackle environmental challenges through engineering"
     },
     {
-        "MajorID": 146,
         "CollegeID": 12,
         "Name": "Animation",
         "Description": "This program covers 2D & 3D animation, visual effects, and storytelling techniques. Students learn to create animated films, games, and digital media, gaining skills in character design, motion graphics, and CGI."
     },
     {
-        "MajorID": 147,
         "CollegeID": 12,
         "Name": "Graphic Design",
         "Description": "Focuses on visual communication, branding, typography, and digital media design. Students develop expertise in Adobe Creative Suite, UX/UI design, and marketing materials, preparing for careers in advertising, publishing, and corporate branding."
     },
     {
-        "MajorID": 148,
         "CollegeID": 12,
         "Name": "Media and Communication",
         "Description": "Explores journalism, digital media, PR, and social media strategies. Students learn about content creation, media ethics, and audience engagement, preparing for roles in broadcasting, content marketing, and public relations."
     },
     {
-        "MajorID": 149,
         "CollegeID": 12,
         "Name": "Media Production",
         "Description": "Covers film, TV, and digital content creation, teaching cinematography, video editing, sound design, and directing. Students gain hands-on experience in documentary filmmaking, online media, and studio production."
     },
     {
-        "MajorID": 150,
         "CollegeID": 12,
         "Name": "Fashion Design",
         "Description": "Combines fashion illustration, garment construction, textiles, and trend forecasting. Students design and create clothing collections, focusing on sustainability, brand identity, and the global fashion industry.\n\nEach major emphasizes practical experience, industry collaborations, and career readiness."
     },
     {
-        "MajorID": 153,
         "CollegeID": 15,
         "Name": "Marketing",
         "Description": "This program focuses on branding, digital marketing, consumer behavior, and market research. Students gain skills in social media marketing, advertising, data analytics, and strategic marketing planning, preparing for careers in marketing agencies, corporate marketing, and e-commerce."
     },
     {
-        "MajorID": 154,
         "CollegeID": 15,
         "Name": "Human Resource Management",
         "Description": "Covers recruitment, employee relations, performance management, and workplace policies. Students learn about HR strategy, organizational behavior, labor laws, and talent development, equipping them for roles in HR consulting, corporate HR departments, and people management.\n\nBoth programs emphasize real-world case studies, industry partnerships, and career readiness."
     },
     {
-        "MajorID": 155,
         "CollegeID": 16,
         "Name": "Mechanical Engineering",
         "Description": "Focuses on designing, developing, and manufacturing mechanical systems.\nCovers thermodynamics, materials science, robotics, and automotive engineering.\nIndustry links with Jaguar Land Rover, Rolls-Royce, and aerospace firms."
     },
     {
-        "MajorID": 156,
         "CollegeID": 16,
         "Name": "Electrical and Electronic Engineering",
         "Description": "Deals with power systems, circuit design, telecommunications, and renewable energy.\nCovers AI, embedded systems, and microelectronics.\nPrepares students for careers in smart technology, automation, and green energy"
     },
     {
-        "MajorID": 157,
         "CollegeID": 16,
         "Name": "Automotive Engineering",
         "Description": "Focuses on vehicle design, manufacturing, and performance optimization.\nCovers hybrid/electric vehicles, aerodynamics, and motorsport engineering.\nStrong links with Jaguar Land Rover, Aston Martin, and Formula 1 teams"
     },
     {
-        "MajorID": 158,
         "CollegeID": 16,
         "Name": "Aerospace Engineering",
         "Description": "Specializes in aircraft and spacecraft design, propulsion, and aerodynamics.\nIncludes flight simulation, materials science, and satellite technology."
     },
     {
-        "MajorID": 159,
         "CollegeID": 16,
         "Name": "Biomedical Engineering",
         "Description": "Combines engineering and medicine to develop medical devices, prosthetics, and biomaterials.\nCovers biomechanics, imaging technology, and bioinformatics.\nCareers in healthcare tech, rehabilitation, and medical research."
     },
     {
-        "MajorID": 160,
         "CollegeID": 17,
         "Name": "Software Engineering",
         "Description": "Deals with developing, testing, and maintaining complex software systems.\nIncludes agile methodologies, cloud computing, and DevOps.\nPrepares students for roles in app development, enterprise software, and tech startups."
     },
     {
-        "MajorID": 161,
         "CollegeID": 17,
         "Name": "Artificial Intelligence & Data Science",
         "Description": "Focuses on machine learning, big data, and AI-driven applications.\nCovers deep learning, natural language processing, and automation.\nCareers in AI research, fintech, and predictive analytics."
     },
     {
-        "MajorID": 162,
         "CollegeID": 17,
         "Name": "Cybersecurity",
         "Description": "Specializes in protecting systems, networks, and data from cyber threats.\nIncludes ethical hacking, cryptography, and digital forensics.\nStrong industry links with cybersecurity firms and government agencies."
     },
     {
-        "MajorID": 163,
         "CollegeID": 18,
         "Name": "Graphic Design",
         "Description": "Focuses on visual communication, branding, and digital illustration.\nCovers typography, UI/UX design, and motion graphics.\nPrepares students for careers in advertising, publishing, and digital media."
     },
     {
-        "MajorID": 164,
         "CollegeID": 18,
         "Name": "Digital Media",
         "Description": "Specializes in multimedia production, interactive content, and digital storytelling.\nIncludes video production, web design, and augmented reality.\nCareers in social media, film, and entertainment industries."
     },
     {
-        "MajorID": 165,
         "CollegeID": 18,
         "Name": "Animation & VFX",
         "Description": "Focuses on 2D/3D animation, CGI, and visual effects for film and gaming.\nCovers character design, motion capture, and rendering techniques.\nIndustry connections with animation studios and gaming companies."
     },
     {
-        "MajorID": 166,
         "CollegeID": 18,
         "Name": "Interior Design",
         "Description": "Deals with space planning, aesthetics, and architectural design.\nIncludes 3D modeling, sustainable design, and material selection.\nPrepares students for roles in residential, commercial, and exhibition design."
     },
     {
-        "MajorID": 167,
         "CollegeID": 18,
         "Name": "Fashion Design",
         "Description": "Specializes in clothing design, textiles, and fashion marketing.\nCovers pattern-making, trend forecasting, and sustainable fashion.\nCareer paths in fashion houses, retail, and personal styling."
     },
     {
-        "MajorID": 168,
         "CollegeID": 19,
         "Name": "Business Management",
         "Description": "Focuses on leadership, strategy, and organizational operations.\nCovers finance, marketing, HR, and entrepreneurship.\nPrepares students for management roles in various industries."
     },
     {
-        "MajorID": 169,
         "CollegeID": 19,
         "Name": "International Business",
         "Description": "Specializes in global trade, cross-cultural management, and international markets.\nIncludes business law, global supply chains, and economic policies.\nCareers in multinational corporations, trade organizations, and consulting."
     },
     {
-        "MajorID": 170,
         "CollegeID": 19,
         "Name": "Marketing",
         "Description": "Focuses on brand strategy, digital marketing, and consumer behavior.\nCovers SEO, social media marketing, and data analytics.\nPrepares students for roles in advertising, market research, and PR"
     },
     {
-        "MajorID": 171,
         "CollegeID": 19,
         "Name": "Finance & Accounting",
         "Description": "Deals with financial management, investment analysis, and auditing.\nIncludes corporate finance, taxation, and risk management.\nStrong industry links with banks, accounting firms, and fintech companies."
     },
     {
-        "MajorID": 172,
         "CollegeID": 19,
         "Name": "Entrepreneurship & Innovation",
         "Description": "Focuses on startups, business development, and venture capital.\nCovers business planning, funding strategies, and innovation management.\nIdeal for future entrepreneurs and business consultants."
     },
     {
-        "MajorID": 173,
         "CollegeID": 21,
         "Name": "Water Resources & Treatment",
         "Description": "Focuses on water supply, wastewater treatment, and desalination.\nCovers hydrology, water purification technologies, and pollution control.\nCareers in water management, sanitation, and environmental protection."
     },
     {
-        "MajorID": 174,
         "CollegeID": 21,
         "Name": "Renewable Energy & Sustainability",
         "Description": "Explores solar, wind, hydro, and bioenergy technologies.\nTeaches energy efficiency, green building design, and carbon footprint reduction.\nLeads to roles in renewable energy industries, sustainability consulting, and climate policy"
     },
     {
-        "MajorID": 175,
         "CollegeID": 21,
         "Name": "Air Pollution & Climate Change",
         "Description": "Studies air quality monitoring, emissions control, and climate adaptation.\nIncludes greenhouse gas mitigation, urban air pollution solutions, and environmental policy.\nPrepares for jobs in environmental consultancy, government agencies, and climate research."
     },
     {
-        "MajorID": 176,
         "CollegeID": 21,
         "Name": "Waste Management & Recycling",
         "Description": "Covers solid waste treatment, hazardous waste disposal, and circular economy principles.\nFocuses on recycling technologies, landfill management, and sustainable waste solutions.\nLeads to careers in waste management, environmental engineering, and sustainability consulting."
     },
     {
-        "MajorID": 177,
         "CollegeID": 21,
         "Name": "Environmental Impact Assessment & Policy",
         "Description": "Teaches risk assessment, environmental regulations, and legal frameworks.\nIncludes land-use planning, industrial sustainability, and corporate responsibility.\nCareers in government policy-making, environmental law, and regulatory compliance"
     },
     {
-        "MajorID": 178,
         "CollegeID": 22,
         "Name": "Production & Operations Management",
         "Description": "Focuses on optimizing manufacturing and production systems.\nCovers lean manufacturing, Six Sigma, and automation technologies.\nCareers in operations management, process improvement, and manufacturing engineering."
     },
     {
-        "MajorID": 179,
         "CollegeID": 22,
         "Name": "Supply Chain & Logistics",
         "Description": "Studies efficient transportation, inventory control, and distribution networks.\nIncludes supply chain optimization, procurement strategies, and warehouse management.\nLeads to careers in logistics management, supply chain analysis, and e-commerce operations"
     },
     {
-        "MajorID": 180,
         "CollegeID": 22,
         "Name": "Data Analytics & Artificial Intelligence in Industry",
         "Description": "Explores machine learning, AI-driven automation, and big data analytics.\nFocuses on predictive maintenance, smart factories, and digital transformation.\nPrepares for roles in data science, industrial automation, and AI-driven decision-making."
     },
     {
-        "MajorID": 181,
         "CollegeID": 22,
         "Name": "Quality Control & Process Optimization",
         "Description": "Covers statistical process control, ISO standards, and quality assurance techniques.\nIncludes risk management, defect prevention, and compliance strategies.\nLeads to jobs in quality assurance, compliance management, and operational excellence."
     },
     {
-        "MajorID": 182,
         "CollegeID": 22,
         "Name": "Business Strategy & Industrial Management",
         "Description": "Teaches business leadership, financial decision-making, and project management.\nCovers entrepreneurship, strategic planning, and technology management.\nIdeal for careers in management consulting, industrial project leadership, and business development."
     },
     {
-        "MajorID": 183,
         "CollegeID": 22,
         "Name": "Sustainable & Green Manufacturing",
         "Description": "Focuses on eco-friendly production, energy efficiency, and circular economy principles.\nIncludes waste reduction, green supply chains, and sustainable product design.\nCareers in sustainability consulting, renewable energy industries, and green engineering."
     },
     {
-        "MajorID": 184,
         "CollegeID": 23,
         "Name": "Data Science & Business Analytics ",
         "Description": "Focuses on big data, predictive analytics, and machine learning.\nTeaches statistical modeling, data mining, and decision support systems.\nCareers in data analysis, business intelligence, and AI-driven insights."
     },
     {
-        "MajorID": 185,
         "CollegeID": 23,
         "Name": "Information Systems & Digital Transformation",
         "Description": "Covers enterprise software, cloud computing, and IT infrastructure.\nExplores digital business models, automation, and innovation strategies.\nLeads to jobs in IT consulting, system architecture, and business process management"
     },
     {
-        "MajorID": 186,
         "CollegeID": 23,
         "Name": "Cybersecurity & Risk Management",
         "Description": "Focuses on data privacy, network security, and risk mitigation.\nCovers ethical hacking, compliance regulations, and cyber resilience.\nPrepares for roles in cybersecurity analysis, IT governance, and risk consulting."
     },
     {
-        "MajorID": 187,
         "CollegeID": 23,
         "Name": "Artificial Intelligence & Decision Support Systems",
         "Description": "Studies AI-powered automation, natural language processing, and intelligent systems.\nIncludes AI-driven business solutions, recommendation engines, and robotics.\nLeads to careers in AI development, smart technologies, and innovation management."
     },
     {
-        "MajorID": 188,
         "CollegeID": 23,
         "Name": "Digital Marketing & E-Commerce Analytics",
         "Description": "Covers SEO, social media analytics, and customer behavior modeling.\nExplores digital campaign strategies, online consumer trends, and performance metrics.\nCareers in digital marketing strategy, e-commerce optimization, and customer experience management."
     },
     {
-        "MajorID": 189,
         "CollegeID": 23,
         "Name": "Financial & Business Intelligence ",
         "Description": "Focuses on financial data analysis, forecasting, and risk assessment.\nCovers blockchain technology, fintech solutions, and market trend analysis.\nPrepares for roles in financial consulting, investment analysis, and economic modeling."
     },
     {
-        "MajorID": 190,
         "CollegeID": 24,
         "Name": "Business Strategy & Leadership",
         "Description": "Focuses on corporate strategy, business growth, and organizational leadership.\nCovers competitive analysis, strategic decision-making, and change management.\nCareers in business consulting, executive management, and entrepreneurship."
     },
     {
-        "MajorID": 191,
         "CollegeID": 24,
         "Name": "Finance & Investment",
         "Description": "Studies financial management, investment strategies, and risk assessment.\nIncludes corporate finance, banking, and stock market analysis.\nLeads to roles in financial consulting, investment banking, and asset management."
     },
     {
-        "MajorID": 192,
         "CollegeID": 24,
         "Name": "Marketing & Brand Management",
         "Description": "Covers market research, consumer behavior, and digital marketing strategies.\nExplores branding, social media management, and product positioning.\nCareers in marketing strategy, brand management, and advertising."
     },
     {
-        "MajorID": 193,
         "CollegeID": 24,
         "Name": "Human Resource Management",
         "Description": "Focuses on talent acquisition, employee engagement, and workplace culture.\nCovers HR analytics, leadership development, and organizational behavior.\nLeads to jobs in HR management, recruitment, and corporate training."
     },
     {
-        "MajorID": 194,
         "CollegeID": 25,
         "Name": "Mpharm",
         "Description": "The MPharm (Master of Pharmacy) program at UH-GAF is a four-year professional degree that prepares students for careers in the pharmaceutical and healthcare industries. It integrates pharmaceutical sciences, clinical practice, and patient care to develop skilled pharmacists."
     },
     {
-        "MajorID": 195,
         "CollegeID": 30,
         "Name": "Mechanical Engineering",
         "Description": "Focuses on the design, analysis, and manufacturing of mechanical systems, preparing students for careers in various industries, including automotive, aerospace, and energy."
     },
     {
-        "MajorID": 196,
         "CollegeID": 30,
         "Name": "Electronic Engineering",
         "Description": "Covers the principles and applications of electrical systems, electronics, and electromagnetism, equipping students with skills applicable to telecommunications, robotics, and power generation sectors."
     },
     {
-        "MajorID": 197,
         "CollegeID": 30,
         "Name": "Civil Engineering",
         "Description": "Emphasizes the planning, design, and construction of infrastructure projects such as buildings, roads, and bridges, addressing both technical and environmental challenges."
     },
     {
-        "MajorID": 198,
         "CollegeID": 31,
         "Name": "Artificial Intelligence",
         "Description": "This program focuses on developing expertise in software development, programming, and artificial intelligence (AI). Students learn to design and implement AI solutions applicable across various sectors"
     },
     {
-        "MajorID": 199,
         "CollegeID": 31,
         "Name": "Cyber Security and Networks",
         "Description": "This program emphasizes mastering network security and enhancing programming skills. Students gain knowledge in protecting systems and networks from cyber threats."
     },
     {
-        "MajorID": 200,
         "CollegeID": 32,
         "Name": "Accounting and Finance",
         "Description": "This program focuses on financial accounting, management accounting, finance, taxation, and auditing, preparing students for careers in accounting and financial management."
     },
     {
-        "MajorID": 201,
         "CollegeID": 32,
         "Name": "Business Administration",
         "Description": "This comprehensive program covers various aspects of business operations, including management, marketing, human resources, and strategic planning, providing a broad understanding of business practices."
     },
     {
-        "MajorID": 202,
         "CollegeID": 32,
         "Name": "Advertising and Digital Marketing",
         "Description": "This program emphasizes the principles of advertising, digital marketing strategies, consumer behavior, and brand management, preparing students for roles in the dynamic field of marketing."
     },
     {
-        "MajorID": 203,
         "CollegeID": 32,
         "Name": "Economics and Finance",
         "Description": "This program combines economic theories with financial principles, providing insights into how economic factors influence financial markets and business decisions."
     },
     {
-        "MajorID": 204,
         "CollegeID": 32,
         "Name": "Business Management with Leadership and Management",
         "Description": "This program concentrates on developing leadership skills and understanding management theories, preparing students to lead teams and manage organizations effectively."
     },
     {
-        "MajorID": 205,
         "CollegeID": 33,
         "Name": "Digital Design",
         "Description": "Developing skills in creating digital content for various platforms"
     },
     {
-        "MajorID": 206,
         "CollegeID": 33,
         "Name": "Film and Video-Making",
         "Description": "Learning the art of visual storytelling through film production."
     },
     {
-        "MajorID": 207,
         "CollegeID": 33,
         "Name": "Advertising and Public Relations",
         "Description": "Understanding strategies to promote brands and manage public perception."
     },
     {
-        "MajorID": 208,
         "CollegeID": 33,
         "Name": "Multimedia and Broadcast Journalism",
         "Description": "Reporting news across multiple media channels."
     },
     {
-        "MajorID": 209,
         "CollegeID": 34,
         "Name": "Digital Media Design",
         "Description": "This program explores the digital field, including game design, multimedia platforms, mobile devices, creating web-based content, interactive video, live performance technology, digital art installations, and creating augmented and virtual reality applications. "
     },
     {
-        "MajorID": 210,
         "CollegeID": 34,
         "Name": "Interior Architecture and Design",
         "Description": "This program specializes in the design and production of immersive, innovative, and surprising interior spaces, emphasizing the understanding and use of materials as students explore surface design and detailing."
     },
     {
-        "MajorID": 211,
         "CollegeID": 34,
         "Name": "Fashion and Fashion Business",
         "Description": "This program focuses on fashion design and the business aspects of the fashion industry, preparing students for careers in fashion design, merchandising, and brand management."
     },
     {
-        "MajorID": 212,
         "CollegeID": 34,
         "Name": "Architecture",
         "Description": "This program emphasizes the design and development of buildings and structures, integrating aesthetic, functional, and environmental considerations to prepare students for careers in architecture and related fields"
     },
     {
-        "MajorID": 213,
         "CollegeID": 64,
         "Name": "Mechanical Engineering",
         "Description": "Focuses on the design, analysis, and manufacturing of mechanical systems, preparing students for careers in various industries, including automotive, aerospace, and energy."
     },
     {
-        "MajorID": 214,
         "CollegeID": 64,
         "Name": "Electronic Engineering",
         "Description": "Covers the principles and applications of electrical systems, electronics, and electromagnetism, equipping students with skills applicable to telecommunications, robotics, and power generation sectors."
     },
     {
-        "MajorID": 215,
         "CollegeID": 64,
         "Name": "Civil Engineering",
         "Description": "Emphasizes the planning, design, and construction of infrastructure projects such as buildings, roads, and bridges, addressing both technical and environmental challenges."
     },
     {
-        "MajorID": 216,
         "CollegeID": 65,
         "Name": "Artificial Intelligence",
         "Description": "This program focuses on developing expertise in software development, programming, and artificial intelligence (AI). Students learn to design and implement AI solutions applicable across various sectors"
     },
     {
-        "MajorID": 217,
         "CollegeID": 65,
         "Name": "Cyber Security and Networks",
         "Description": "This program emphasizes mastering network security and enhancing programming skills. Students gain knowledge in protecting systems and networks from cyber threats."
     },
     {
-        "MajorID": 218,
         "CollegeID": 65,
         "Name": "Software enginieering",
         "Description": "ex :flutter , front end"
     },
     {
-        "MajorID": 219,
         "CollegeID": 66,
         "Name": "Accounting and Finance",
         "Description": "This program focuses on financial accounting, management accounting, finance, taxation, and auditing, preparing students for careers in accounting and financial management."
     },
     {
-        "MajorID": 220,
         "CollegeID": 66,
         "Name": "Business Administration",
         "Description": "This comprehensive program covers various aspects of business operations, including management, marketing, human resources, and strategic planning, providing a broad understanding of business practices."
     },
     {
-        "MajorID": 221,
         "CollegeID": 66,
         "Name": "Advertising and Digital Marketing",
         "Description": "This program emphasizes the principles of advertising, digital marketing strategies, consumer behavior, and brand management, preparing students for roles in the dynamic field of marketing."
     },
     {
-        "MajorID": 222,
         "CollegeID": 66,
         "Name": "Economics and Finance",
         "Description": "This program combines economic theories with financial principles, providing insights into how economic factors influence financial markets and business decisions."
     },
     {
-        "MajorID": 223,
         "CollegeID": 66,
         "Name": "Business Management with Leadership and Management",
         "Description": "This program concentrates on developing leadership skills and understanding management theories, preparing students to lead teams and manage organizations effectively."
     },
     {
-        "MajorID": 224,
         "CollegeID": 67,
         "Name": "Digital Design",
         "Description": "Developing skills in creating digital content for various platforms"
     },
     {
-        "MajorID": 225,
         "CollegeID": 67,
         "Name": "Film and Video-Making",
         "Description": "Learning the art of visual storytelling through film production."
     },
     {
-        "MajorID": 226,
         "CollegeID": 67,
         "Name": "Advertising and Public Relations",
         "Description": "Understanding strategies to promote brands and manage public perception."
     },
     {
-        "MajorID": 227,
         "CollegeID": 67,
         "Name": "Multimedia and Broadcast Journalism",
         "Description": "Reporting news across multiple media channels."
     },
     {
-        "MajorID": 228,
         "CollegeID": 68,
         "Name": "Digital Media Design",
         "Description": "This program explores the digital field, including game design, multimedia platforms, mobile devices, creating web-based content, interactive video, live performance technology, digital art installations, and creating augmented and virtual reality applications. "
     },
     {
-        "MajorID": 229,
         "CollegeID": 68,
         "Name": "Interior Architecture and Design",
         "Description": "This program specializes in the design and production of immersive, innovative, and surprising interior spaces, emphasizing the understanding and use of materials as students explore surface design and detailing."
     },
     {
-        "MajorID": 230,
         "CollegeID": 68,
         "Name": "Fashion and Fashion Business",
         "Description": "This program focuses on fashion design and the business aspects of the fashion industry, preparing students for careers in fashion design, merchandising, and brand management."
     },
     {
-        "MajorID": 231,
         "CollegeID": 68,
         "Name": "Architecture",
         "Description": "This program emphasizes the design and development of buildings and structures, integrating aesthetic, functional, and environmental considerations to prepare students for careers in architecture and related fields"
     },
     {
-        "MajorID": 232,
         "CollegeID": 69,
         "Name": "Architecture Engineering",
         "Description": "Focuses on designing buildings and structures, blending aesthetics, functionality, and sustainability with technical skills in planning and construction."
     },
     {
-        "MajorID": 233,
         "CollegeID": 69,
         "Name": "Construction Engineering",
         "Description": "Emphasizes the design, planning, and management of infrastructure projects like roads, bridges, and buildings, with a focus on structural integrity and materials."
     },
     {
-        "MajorID": 234,
         "CollegeID": 69,
         "Name": "Telecommunications Engineering",
         "Description": "Covers the design and maintenance of communication systems, including wireless networks, satellite systems, and data transmission technologies."
     },
     {
-        "MajorID": 235,
         "CollegeID": 69,
         "Name": "Mechatronics and Robotics Engineering",
         "Description": "Combines mechanical, electrical, and computer engineering to develop automated systems, robots, and smart machinery for industrial and tech applications."
     },
     {
-        "MajorID": 236,
         "CollegeID": 70,
         "Name": "Bachelor of Pharmacy (Pharm D)",
         "Description": "Trains students in drug development, dispensing, and patient care, preparing them for roles in pharmacies, hospitals, and pharmaceutical industries."
     },
     {
-        "MajorID": 237,
         "CollegeID": 70,
         "Name": "Bachelor of Pharmacy (Clinical Pharmacy) (Pharm D Clinical)",
         "Description": "Focuses on advanced patient-centered care, optimizing medication therapy, and working directly with healthcare teams in clinical settings."
     },
     {
-        "MajorID": 238,
         "CollegeID": 75,
         "Name": "Russian Language",
         "Description": "rains students in Russian translation and linguistics, preparing them for roles in interpretation, education, or international communication."
     },
     {
-        "MajorID": 239,
         "CollegeID": 75,
         "Name": "English Language",
         "Description": "Focuses on English translation and language skills, equipping students for translation, teaching, or global business roles."
     },
     {
-        "MajorID": 240,
         "CollegeID": 75,
         "Name": "Other languages (",
         "Description": "focusing on multilingual translation and communication skills."
     },
     {
-        "MajorID": 241,
         "CollegeID": 76,
         "Name": "Civil Engineering",
         "Description": "Duration: 5 years\nMechanics of Materials\nStructural Analysis\nTransportation Engineering\nConcrete and Steel Structures\nWater and Wastewater Engineering\nConstruction Project Management"
     },
     {
-        "MajorID": 242,
         "CollegeID": 76,
         "Name": "Renewable Energy Engineering",
         "Description": "Duration: 5 years\nFundamentals of Renewable Energy\nSolar and Wind Power Technologies\nElectrical Engineering\nBattery Technologies\nEnergy Storage Systems"
     },
     {
-        "MajorID": 243,
         "CollegeID": 76,
         "Name": "Software Engineering",
         "Description": "Duration: 5 years\nProgramming in C++ and Java\nSoftware Design and Analysis\nSoftware Engineering Principles\nDatabase Systems\nMobile Application Development"
     },
     {
-        "MajorID": 244,
         "CollegeID": 76,
         "Name": "Information Technology",
         "Description": "Duration: 5 years\nInformation Systems Management\nComputer Networks and Security\nCloud Computing Technologies\nDatabase Management Systems\nWeb Development"
     },
     {
-        "MajorID": 245,
         "CollegeID": 77,
         "Name": "Economics",
         "Description": "Focuses on the principles of microeconomics, macroeconomics, and economic policy.\nIncludes subjects like economic theory, financial economics, and applied economics."
     },
     {
-        "MajorID": 246,
         "CollegeID": 77,
         "Name": "International Trade",
         "Description": "This specialization deals with the theory and practice of global trade.\nIt includes subjects like international marketing, trade negotiations, global business strategies, and international economic relations."
     },
     {
-        "MajorID": 247,
         "CollegeID": 77,
         "Name": "Finance and Banking",
         "Description": "This department offers courses on financial management, banking operations, financial markets, and investment strategies.\nStudents learn about corporate finance, risk management, and financial analysis."
     },
     {
-        "MajorID": 248,
         "CollegeID": 77,
         "Name": "Business Administration",
         "Description": "Covers topics related to managing organizations, human resources, marketing, and strategic management.\nIncludes subjects like management theory, organizational behavior, and entrepreneurship."
     },
     {
-        "MajorID": 249,
         "CollegeID": 77,
         "Name": "Accounting",
         "Description": "Students study the principles of accounting, financial reporting, taxation, and auditing.\nFocuses on preparing students for careers in corporate accounting, auditing, and financial management."
     },
     {
-        "MajorID": 250,
         "CollegeID": 77,
         "Name": "Marketing",
         "Description": "A focus on strategic marketing, digital marketing, consumer behavior, and brand management.\nTeaches the tools needed for effective market research and product management."
     },
     {
-        "MajorID": 251,
         "CollegeID": 78,
         "Name": "Basic Science Department",
         "Description": "Duration: 1-2 years\nDescription: Focuses on foundational knowledge in biology, physics, chemistry, and anatomy that are crucial for understanding physical therapy techniques."
     },
     {
-        "MajorID": 252,
         "CollegeID": 78,
         "Name": "Physical Therapy for Internal Diseases Department",
         "Description": "Duration: 2 years\nDescription: Specializes in applying physical therapy to treat patients with internal diseases, focusing on rehabilitation and recovery."
     },
     {
-        "MajorID": 253,
         "CollegeID": 78,
         "Name": "Physical Therapy for Women's Health Department",
         "Description": "Duration: 2 years\nDescription: Offers specialized treatments for women's health issues, including pregnancy-related conditions, pelvic floor dysfunction, and osteoporosis."
     },
     {
-        "MajorID": 254,
         "CollegeID": 78,
         "Name": "Physical Therapy for Neurological Disorders Department",
         "Description": "Duration: 2-3 years\nDescription: Concentrates on treating neurological conditions like stroke, Parkinson's, and spinal cord injuries, using physical therapy to restore motor function."
     },
     {
-        "MajorID": 255,
         "CollegeID": 78,
         "Name": "Physical Therapy for Skin and Tissues Department",
         "Description": "Duration: 2 years\nDescription: Focuses on the use of physical therapy techniques to treat skin conditions, wounds, and tissue repair after surgeries or injuries."
     },
     {
-        "MajorID": 256,
         "CollegeID": 78,
         "Name": "Physical Therapy for Pediatric Patients Department",
         "Description": "Duration: 2 years\nDescription: Specializes in providing physical therapy to children, addressing developmental issues and injuries to promote physical and motor development."
     },
     {
-        "MajorID": 257,
         "CollegeID": 78,
         "Name": "Traditional Chinese Medicine Clinic",
         "Description": "Duration: Throughout the program\nDescription: A unique offering at ECU that integrates traditional Chinese medical practices like acupuncture and herbal treatments with physical therapy for holistic treatment."
     },
     {
-        "MajorID": 258,
         "CollegeID": 79,
         "Name": "Clinical Pharmacy Department",
         "Description": "Duration: 5 years.\nFocuses on training students to provide pharmaceutical care and consult on drug therapy management."
     },
     {
-        "MajorID": 259,
         "CollegeID": 79,
         "Name": "Pharmaceutical Chemistry Department",
         "Description": "Duration: 5 years.\nSpecializes in the chemistry of drugs and pharmaceutical formulations."
     },
     {
-        "MajorID": 260,
         "CollegeID": 79,
         "Name": "Pharmaceutical Technology Department",
         "Description": "Duration: 5 years.\nDeals with the development and manufacturing of pharmaceutical products."
     },
     {
-        "MajorID": 261,
         "CollegeID": 80,
         "Name": "Department of Computer Science",
         "Description": "Study Focus: Focuses on algorithms, programming, artificial intelligence, data analysis, and network security. It aims to train students in software design and complex systems.\nDuration: 4 years."
     },
     {
-        "MajorID": 262,
         "CollegeID": 80,
         "Name": "Department of Information Systems",
         "Description": "Study Focus: Focuses on integrating technology with business strategies, including system analysis and design, database management, and network technologies. It aims to develop students' skills in improving organizational performance through technology.\nDuration: 4 years."
     },
     {
-        "MajorID": 263,
         "CollegeID": 81,
         "Name": "Department of Graphic Design",
         "Description": "Description:\nThis department focuses on developing students' skills in graphic design, including logos, advertisements, and digital media. Students learn to use various design tools like Photoshop, Illustrator, and others.\nDuration: 4 years.\nContent: Students learn to combine creativity with technology to design effective visual materials."
     },
     {
-        "MajorID": 264,
         "CollegeID": 81,
         "Name": "Department of Fine Arts",
         "Description": "Description:\nThis department focuses on developing artistic skills in drawing, sculpture, painting, and traditional art forms. The aim is to teach students how to express their ideas using various artistic materials.\nDuration: 4 years.\nContent: Students learn different art techniques, including academic drawing, sculpting on wood, pottery, and other forms of fine arts."
     },
     {
-        "MajorID": 265,
         "CollegeID": 81,
         "Name": "Department of Fashion Design",
         "Description": "Description:\nThis department teaches students how to design clothing and various styles, focusing on creativity in fashion design, fabric selection, and color coordination. Students are trained on how to bring their designs to life.\nDuration: 4 years.\nContent: Students study the latest fashion trends, innovation in design, as well as learning sewing skills and project management."
     },
     {
-        "MajorID": 266,
         "CollegeID": 81,
         "Name": "Department of Interior Design",
         "Description": "Description:\nThis department specializes in designing indoor spaces and coordinating decorations that meet the needs of a place and its occupants. Students learn how to organize spaces and select colors and furniture that reflect the personality of the place.\nDuration: 4 years.\nContent: Students learn how to design homes, offices, and commercial spaces, and how to create comfortable and aesthetically pleasing environments."
     },
     {
-        "MajorID": 267,
         "CollegeID": 81,
         "Name": "Department of Animation",
         "Description": "Description:\nThis department focuses on animation techniques and moving images. Students learn how to design and animate characters and stories, using advanced technologies like programming and 3D graphics.\nDuration: 4 years.\nContent: Students use animation software like \"Adobe After Effects\" and \"Autodesk Maya\" to create animated visuals."
     },
     {
-        "MajorID": 268,
         "CollegeID": 81,
         "Name": "Department of Digital Arts",
         "Description": "Description:\nThis department focuses on arts that use technology as a primary tool for creativity, such as digital arts, digital photography, and videos.\nDuration: 4 years.\nContent: Students learn how to transform ideas into artistic works using digital tools, such as digital drawing and photography."
     },
     {
-        "MajorID": 269,
         "CollegeID": 82,
         "Name": "Anatomy and Histology",
         "Description": "This department focuses on the study of human anatomy and tissues, especially those related to the oral and maxillofacial regions. Students learn about the structure of teeth, gums, jaws, and related tissues to understand their function and relation to overall health."
     },
     {
-        "MajorID": 270,
         "CollegeID": 82,
         "Name": "Physiology",
         "Description": "This department deals with the functions and mechanisms of various body systems, including those related to oral health. Students learn how bodily functions interact and how diseases affect the normal operation of the oral cavity."
     },
     {
-        "MajorID": 271,
         "CollegeID": 82,
         "Name": "Biochemistry",
         "Description": "It covers the chemical processes and substances that occur within living organisms. Students study how biochemical reactions relate to oral health and diseases, including metabolic functions and nutrition."
     },
     {
-        "MajorID": 272,
         "CollegeID": 82,
         "Name": "Microbiology & Immunology",
         "Description": "This department teaches students about microorganisms, including bacteria, viruses, and fungi, that can cause oral diseases. It also covers the immune response and how the body defends itself against infections."
     },
     {
-        "MajorID": 273,
         "CollegeID": 82,
         "Name": "General Pathology",
         "Description": "The study of diseases affecting the entire body, with a particular focus on conditions that may impact oral health. Students learn how diseases develop, their symptoms, and potential treatments."
     },
     {
-        "MajorID": 274,
         "CollegeID": 82,
         "Name": "Oral Pathology & Periodontology",
         "Description": "This field focuses on diagnosing and treating diseases of the oral cavity and supporting structures, such as gums and bones. It also emphasizes preventive measures and promoting periodontal health."
     },
     {
-        "MajorID": 275,
         "CollegeID": 82,
         "Name": "Oral and Maxillofacial Surgery",
         "Description": "Students learn about surgical procedures involving the mouth, jaws, and face. This includes extractions, dental implants, trauma management, and corrective surgeries."
     },
     {
-        "MajorID": 276,
         "CollegeID": 82,
         "Name": "Orthodontics",
         "Description": "This department specializes in diagnosing, preventing, and correcting dental irregularities. Students learn about braces, aligners, and other corrective devices used to enhance dental alignment."
     },
     {
-        "MajorID": 277,
         "CollegeID": 82,
         "Name": "Pediatric Dentistry",
         "Description": "Focuses on dental care for children and adolescents, including preventive and therapeutic techniques to address childhood dental issues."
     },
     {
-        "MajorID": 278,
         "CollegeID": 82,
         "Name": "Endodontics",
         "Description": "This department teaches the treatment of dental pulp disorders and procedures to save damaged teeth through root canal therapy."
     },
     {
-        "MajorID": 279,
         "CollegeID": 82,
         "Name": "Prosthodontics",
         "Description": "Students learn to design and place dental prosthetics, including crowns, bridges, dentures, and implants, to restore damaged or missing teeth."
     },
     {
-        "MajorID": 280,
         "CollegeID": 82,
         "Name": "Preventive Dentistry",
         "Description": "This department emphasizes techniques to prevent oral diseases, such as dental caries and gum diseases, through patient education and clinical strategies."
     },
     {
-        "MajorID": 281,
         "CollegeID": 82,
         "Name": "Public Health Dentistry",
         "Description": "Focuses on promoting oral health at the community level, analyzing public health policies, and developing programs to improve dental health awareness."
     },
     {
-        "MajorID": 282,
         "CollegeID": 83,
         "Name": "Department of Basic Dental Sciences",
         "Description": "Focuses on foundational subjects such as Biochemistry, Histology, and Microbiology to provide students with a strong understanding of the biological and chemical principles underlying dental practice."
     },
     {
-        "MajorID": 283,
         "CollegeID": 83,
         "Name": "Department of Medical Sciences",
         "Description": "Covers essential medical subjects including Physiology, Pathology, and Pharmacology, ensuring students comprehend the medical aspects relevant to dental care."
     },
     {
-        "MajorID": 284,
         "CollegeID": 83,
         "Name": "Department of Oral and Maxillofacial Surgery",
         "Description": "Provides training in the surgical management of diseases, injuries, and defects of the oral and facial regions, including procedures like tooth extractions and corrective surgeries."
     },
     {
-        "MajorID": 285,
         "CollegeID": 83,
         "Name": "Department of Orthodontics and Pediatric Dentistry",
         "Description": "Specializes in diagnosing and treating dental and facial irregularities in children and adolescents, as well as providing preventive and corrective orthodontic care."
     },
     {
-        "MajorID": 286,
         "CollegeID": 83,
         "Name": "Department of Periodontology and Oral Medicine",
         "Description": "Focuses on the study and treatment of gum diseases and conditions affecting the oral mucosa, integrating aspects of general medicine into dental practice."
     },
     {
-        "MajorID": 287,
         "CollegeID": 83,
         "Name": "Department of Prosthodontics",
         "Description": "Deals with the design, creation, and fitting of artificial replacements for teeth and other parts of the mouth, aiming to restore function and aesthetics."
     },
     {
-        "MajorID": 288,
         "CollegeID": 83,
         "Name": "Department of Conservative Dentistry and Endodontics",
         "Description": "Emphasizes the preservation of tooth structure through restorative procedures and the treatment of pulp-related diseases."
     },
     {
-        "MajorID": 289,
         "CollegeID": 84,
         "Name": "Pharm.D.",
         "Description": "Duration: 5 years\nDescription:\nThe Pharm.D. program is a comprehensive 5-year undergraduate course designed to provide students with deep knowledge in pharmaceutical sciences, clinical pharmacy, and drug development. The program includes practical training in both community and hospital pharmacy settings, focusing on the application of theoretical knowledge in real-world situations. Students gain clinical experience through internships, enhancing their ability to interact with patients and healthcare professionals. The program is designed to meet international standards and is accredited by the National Authority for Quality Assurance and Accreditation of Education (NAQAAE).\nFocus Areas:\nPharmaceutical Sciences\nClinical Pharmacy\nDrug Development and Research\nPatient Care"
     },
     {
-        "MajorID": 290,
         "CollegeID": 84,
         "Name": "Clinical Pharmacy",
         "Description": "Duration: 5 years\nDescription:\nThis specialized program focuses on the clinical aspects of pharmacy practice. It is designed to train students to become experts in providing pharmaceutical care in healthcare settings. The curriculum is built around the clinical application of pharmaceutical knowledge, with a strong emphasis on patient care, clinical decision-making, and medication therapy management. The program includes hands-on experience in hospitals and clinics to prepare students for real-life situations in clinical pharmacy.\nFocus Areas:\nPatient-Centered Pharmacy Practice\nClinical Decision-Making\nMedication Therapy Management\nPharmacokinetics and Pharmacodynamics"
     },
     {
-        "MajorID": 291,
         "CollegeID": 84,
         "Name": "Research and Development Track",
         "Description": "Duration: 5 years (with additional research opportunities)\nDescription:\nThis track offers students the opportunity to delve deeper into pharmaceutical research, focusing on the development and innovation of new drugs, formulations, and therapies. Students in this program are trained to conduct research in pharmaceutical sciences, including drug discovery, formulation science, and drug delivery systems. This program provides strong foundations in research methodologies and prepares students for careers in pharmaceutical industry research, academia, or regulatory agencies.\nFocus Areas:\nDrug Discovery and Development\nPharmaceutical Formulation\nDrug Delivery Systems\nClinical Research and Regulatory Affairs"
     },
     {
-        "MajorID": 292,
         "CollegeID": 84,
         "Name": "Pharmaceutical Technology",
         "Description": "Duration: 5 years\nDescription:\nThe Pharmaceutical Technology program focuses on the technological aspects of pharmacy, such as the development of pharmaceutical products, manufacturing, and quality control. Students will study pharmaceutical engineering, the production of drug dosage forms, and various technologies used in the pharmaceutical industry. The program prepares graduates to work in the pharmaceutical manufacturing industry, ensuring the quality and safety of pharmaceutical products.\nFocus Areas:\nPharmaceutical Manufacturing\nQuality Control and Assurance\nDrug Formulation Technologies\nIndustrial Pharmaceutical Technology"
     },
     {
-        "MajorID": 293,
         "CollegeID": 85,
         "Name": "Basic Sciences Department",
         "Description": "5 Years\n\nThis department provides foundational academic knowledge and basic physical therapy sciences. Students are introduced to anatomy, physiology, pathology, and biomechanics which prepare them for more advanced clinical courses throughout the five-year program."
     },
     {
-        "MajorID": 294,
         "CollegeID": 85,
         "Name": "Biomechanics Department",
         "Description": "5 Years\n\nThe Biomechanics Department focuses on the study of human body movements and the mechanical principles underlying those movements. Students learn how to analyze motion and apply these principles to physical therapy practices."
     },
     {
-        "MajorID": 295,
         "CollegeID": 85,
         "Name": "Physical Therapy for Internal Medicine and Geriatrics Department",
         "Description": "5 Years\n\nThis department specializes in treating internal diseases and health problems related to aging. It covers cardiopulmonary rehabilitation, diabetes management, and improving the quality of life for elderly patients through therapeutic exercises and interventions."
     },
     {
-        "MajorID": 296,
         "CollegeID": 85,
         "Name": "Physical Therapy for Surgery and Burns Department",
         "Description": "5 Years\n\nStudents in this department are trained to manage wounds, burns, and complications from surgeries. They learn techniques for post-operative care, scar management, and rehabilitation strategies to enhance patient recovery and mobility."
     },
     {
-        "MajorID": 297,
         "CollegeID": 85,
         "Name": "Physical Therapy for Orthopedic Surgery Department",
         "Description": "5 Years\n\nThis department focuses on musculoskeletal disorders, including fractures, joint replacements, and sports injuries. Students are trained in orthopedic rehabilitation, exercise prescription, and the use of orthotics and prosthetics."
     },
     {
-        "MajorID": 298,
         "CollegeID": 85,
         "Name": "Physical Therapy for Obstetrics and Gynecology Department",
         "Description": "5 Years\n\nStudents learn specialized techniques for prenatal and postnatal care. The department addresses pelvic floor disorders, post-surgical rehabilitation, and exercises aimed at enhancing women's health during and after pregnancy."
     },
     {
-        "MajorID": 299,
         "CollegeID": 85,
         "Name": "Physical Therapy for Neurology and Neurosurgery Department ",
         "Description": "5 Years\n\nThis department deals with neurological conditions, including stroke, spinal cord injuries, multiple sclerosis, and Parkinson’s disease. Students learn rehabilitation techniques to help patients regain mobility, coordination, and independence."
     },
     {
-        "MajorID": 300,
         "CollegeID": 85,
         "Name": "Physical Therapy for Pediatrics and Pediatric Surgery Department",
         "Description": "5 Years\n\nThe Pediatric Department focuses on children with developmental delays, congenital disorders, or musculoskeletal issues. The curriculum covers motor development, therapeutic exercises, and rehabilitation strategies specific to pediatric patients."
     },
     {
-        "MajorID": 301,
         "CollegeID": 86,
         "Name": "Architectural Engineering Department",
         "Description": "5 Years\nThis department focuses on the design and planning of buildings and structures, considering both aesthetic and functional aspects. Students learn architectural design principles, construction techniques, and urban planning."
     },
     {
-        "MajorID": 302,
         "CollegeID": 86,
         "Name": "Mechatronics Engineering Department",
         "Description": "5 Years\nThis program combines mechanical engineering, electrical engineering, and computer engineering. Students gain skills in designing and developing smart systems, automation, and robotics."
     },
     {
-        "MajorID": 303,
         "CollegeID": 86,
         "Name": "Computer Engineering and Artificial Intelligence Department",
         "Description": "5 Years\nThis department emphasizes designing and developing computer systems and artificial intelligence applications. Students study computer programming, software design, and AI applications in various fields."
     },
     {
-        "MajorID": 304,
         "CollegeID": 87,
         "Name": "Business Administration Department",
         "Description": "4 Years\nThis department focuses on teaching students management, planning, organization, leadership skills, as well as marketing strategies and human resource management."
     },
     {
-        "MajorID": 305,
         "CollegeID": 87,
         "Name": "Accounting Department",
         "Description": "4 Years\nThis department provides students with knowledge of accounting principles, financial analysis, and report preparation, qualifying them to work as professional accountants in various sectors."
     },
     {
-        "MajorID": 306,
         "CollegeID": 87,
         "Name": "Economics Department",
         "Description": "4 Years\nThis department offers a deep understanding of economic theories, monetary and fiscal policies, and market analysis, helping students analyze and interpret economic phenomena."
     },
     {
-        "MajorID": 307,
         "CollegeID": 87,
         "Name": "Quantitative Methods Department",
         "Description": "4 Years\nThis department focuses on applying mathematical and statistical models to solve administrative problems and make data-driven decisions."
     },
     {
-        "MajorID": 308,
         "CollegeID": 88,
         "Name": "Human Anatomy and Embryology",
         "Description": "Description: Focuses on the structure of the human body, including the study of organs, tissues, and systems.\nDuration: 1 year (usually studied in the first two years)."
     },
     {
-        "MajorID": 309,
         "CollegeID": 88,
         "Name": "Department of Physiology",
         "Description": "Description: The study of the functions of the human body, including how organs and systems work together to maintain homeostasis.\nDuration: 1 year (typically during the first two years)"
     },
     {
-        "MajorID": 310,
         "CollegeID": 88,
         "Name": "Department of Biochemistry",
         "Description": "Description: Covers the chemical processes in living organisms, including metabolism and the roles of proteins, enzymes, and hormones.\nDuration: 1 year (early stages of the program)"
     },
     {
-        "MajorID": 311,
         "CollegeID": 88,
         "Name": "Department of Pathology",
         "Description": "Description: The study of diseases, including their causes, processes, and effects on the body.\nDuration: 1 year (usually during the third year)."
     },
     {
-        "MajorID": 312,
         "CollegeID": 88,
         "Name": "Department of Pharmacology",
         "Description": "Description: Focuses on the study of drugs, their effects, mechanisms of action, and therapeutic uses in the treatment of diseases.\nDuration: 1 year (usually in the third year)."
     },
     {
-        "MajorID": 313,
         "CollegeID": 88,
         "Name": "Department of Microbiology and Immunology",
         "Description": "Description: Focuses on the study of drugs, their effects, mechanisms of action, and therapeutic uses in the treatment of diseases.\nDuration: 1 year (usually in the third year)."
     },
     {
-        "MajorID": 314,
         "CollegeID": 88,
         "Name": "Department of Parasitology",
         "Description": "Description: Covers the study of microorganisms (such as bacteria and viruses) and the immune system's role in defending the body against infections.\nDuration: 1 year (usually in the third year)."
     },
     {
-        "MajorID": 315,
         "CollegeID": 88,
         "Name": "Department of Community Medicine and Public Health",
         "Description": "Description: Studies parasitic organisms that affect humans, including their life cycles and how they cause disease.\nDuration: 1 year (typically in the early years of study)"
     },
     {
-        "MajorID": 316,
         "CollegeID": 88,
         "Name": "Department of Family Medicine",
         "Description": "Description: Focuses on preventing diseases and promoting health within communities through education, policy, and management.\nDuration: 1 year (usually in the later years of the program)."
     },
     {
-        "MajorID": 317,
         "CollegeID": 88,
         "Name": "Department of Forensic Medicine",
         "Description": "Description: Provides students with knowledge about comprehensive healthcare for individuals and families, emphasizing prevention and long-term care.\nDuration: 1 year (usually in the later years of the program)"
     },
     {
-        "MajorID": 318,
         "CollegeID": 88,
         "Name": "Department of Surgery",
         "Description": "Description: This department deals with applying medical knowledge to legal cases, such as determining the causes of death and identifying poisons or toxins.\nDuration: 1 year (typically in the later years of study)."
     },
     {
-        "MajorID": 319,
         "CollegeID": 88,
         "Name": "Department of Pediatrics",
         "Description": "Description: The study and practice of surgical techniques, procedures, and interventions for treating various medical conditions.\nDuration: 2 years (usually in the later years of the program)."
     },
     {
-        "MajorID": 320,
         "CollegeID": 88,
         "Name": "Department of Obstetrics and Gynecology",
         "Description": "Description: Focuses on the medical care of infants, children, and adolescents, covering a wide range of childhood diseases and conditions.\nDuration: 1 year (usually in the final years of study)."
     },
     {
-        "MajorID": 321,
         "CollegeID": 88,
         "Name": "Department of Ophthalmology",
         "Description": "Description: Specializes in the care of women’s health, including pregnancy, childbirth, and disorders related to the female reproductive system.\nDuration: 1 year (final years of the program)."
     },
     {
-        "MajorID": 322,
         "CollegeID": 88,
         "Name": "Department of Otorhinolaryngology (ENT)",
         "Description": "Description: The study of diseases and disorders related to the eyes, including vision problems and surgical procedures for eye diseases.\nDuration: 1 year (typically in the final years of study)."
     },
     {
-        "MajorID": 323,
         "CollegeID": 88,
         "Name": "Department of Psychiatry",
         "Description": "Description: Focuses on the diagnosis, treatment, and prevention of mental health disorders and emotional well-being.\nDuration: 1 year (final years of the program)"
     },
     {
-        "MajorID": 324,
         "CollegeID": 89,
         "Name": "Department of Radiological Sciences and Medical Imaging",
         "Description": "Description: This department trains students in the use of medical imaging technologies, such as X-ray, MRI, CT scans, and ultrasound, to help diagnose diseases and conditions. Students learn how to operate imaging equipment, interpret images, and work with healthcare professionals to provide accurate diagnostic results.\nDuration: 4 years (Bachelor's degree in Radiological Sciences and Medical Imaging)"
     },
     {
-        "MajorID": 325,
         "CollegeID": 89,
         "Name": "Department of Medical Laboratory Sciences",
         "Description": "Description: Focuses on teaching students how to perform laboratory tests that aid in the diagnosis, treatment, and prevention of diseases. Students gain knowledge in microbiology, biochemistry, hematology, and immunology, and develop skills in analyzing blood, tissues, and other biological samples.\nDuration: 4 years (Bachelor's degree in Medical Laboratory Sciences)"
     },
     {
-        "MajorID": 326,
         "CollegeID": 89,
         "Name": "Department of Physical Therapy and Rehabilitation",
         "Description": "Description: This department provides students with the knowledge and practical skills needed to work as physical therapists. Students learn how to assess and treat physical impairments or injuries through exercise, manual therapy, and other rehabilitation techniques to help patients recover mobility and functionality.\nDuration: 4 years (Bachelor's degree in Physical Therapy and Rehabilitation)"
     },
     {
-        "MajorID": 327,
         "CollegeID": 89,
         "Name": "Department of Health Information Management",
         "Description": "Description: This program focuses on managing healthcare data and information systems within medical institutions. Students learn about health information technology, data management, privacy laws, and medical record keeping, which are essential for maintaining accurate and accessible patient records.\nDuration: 4 years (Bachelor's degree in Health Information Management)"
     },
     {
-        "MajorID": 328,
         "CollegeID": 90,
         "Name": "Department of Fine Arts",
         "Description": "Description: This department focuses on traditional arts such as painting, sculpture, and drawing. Students are trained in both classical and modern techniques to develop their creative skills and artistic vision.\nDuration: 5 years (Bachelor's degree in Fine Arts)"
     },
     {
-        "MajorID": 329,
         "CollegeID": 90,
         "Name": "Department of Graphic Design",
         "Description": "Description: Focuses on digital and print design, where students learn to create visual content for media, advertisements, websites, and more. It combines both artistic and technical skills in design principles.\nDuration: 5 years (Bachelor's degree in Graphic Design)"
     },
     {
-        "MajorID": 330,
         "CollegeID": 90,
         "Name": "Department of Interior Design",
         "Description": "Description: This department prepares students to design functional, aesthetic, and safe interior spaces for homes, offices, and commercial establishments. Students learn about space planning, materials, lighting, and furniture design.\nDuration: 5 years (Bachelor's degree in Interior Design)"
     },
     {
-        "MajorID": 331,
         "CollegeID": 90,
         "Name": "Department of Fashion Design",
         "Description": "Description: Students in this department study the art of designing clothing and accessories. They are trained in fashion illustration, fabric selection, garment construction, and fashion trend forecasting.\nDuration: 5 years (Bachelor's degree in Fashion Design)"
     },
     {
-        "MajorID": 332,
         "CollegeID": 90,
         "Name": "Department of Industrial Design",
         "Description": "Description: This department focuses on designing products that are both functional and aesthetically pleasing. Students learn about the design and manufacturing process for items like furniture, gadgets, and other consumer goods.\nDuration: 5 years (Bachelor's degree in Industrial Design)"
     },
     {
-        "MajorID": 333,
         "CollegeID": 90,
         "Name": "Department of Architecture",
         "Description": "Description: The department trains students in the art and science of designing buildings and other structures. Students learn architectural design principles, building construction, and urban planning.\nDuration: 5 years (Bachelor's degree in Architecture)"
     },
     {
-        "MajorID": 334,
         "CollegeID": 91,
         "Name": "Department of English Language and Literature",
         "Description": "Description: This department focuses on the study of the English language, literature, and translation. Students are trained in both literary analysis and translation techniques, with an emphasis on English grammar, vocabulary, and writing skills.\nDuration: 4 years (Bachelor's degree in English Language and Literature)"
     },
     {
-        "MajorID": 335,
         "CollegeID": 91,
         "Name": "Department of German Language and Literature",
         "Description": "Description: This department provides students with a deep understanding of the German language and its literature. It also trains students in translation skills, focusing on both written and oral translation between German and other languages.\nDuration: 4 years (Bachelor's degree in German Language and Literature)"
     },
     {
-        "MajorID": 336,
         "CollegeID": 91,
         "Name": "Department of Chinese Language and Literature",
         "Description": "Description: The department offers programs in the Chinese language, including its grammar, literature, and translation. Students learn to bridge communication between Arabic and Chinese speakers, with a focus on translation and cultural exchange.\nDuration: 4 years (Bachelor's degree in Chinese Language and Literature)"
     },
     {
-        "MajorID": 337,
         "CollegeID": 92,
         "Name": "Artificial Intelligence and Information",
         "Description": "Students in this program will learn the fundamentals of artificial intelligence (AI), machine learning, data science, and information technology. The program prepares graduates to design intelligent systems and analyze large datasets.\nDuration: 4 years."
     },
     {
-        "MajorID": 338,
         "CollegeID": 93,
         "Name": "Department of Endodontics (Root Canal Treatment)",
         "Description": "Duration: 5 years + 1 year internship\nDescription: This department focuses on the diagnosis and treatment of diseases related to the roots of the teeth. Endodontics primarily involves root canal treatments to save teeth that are infected or damaged."
     },
     {
-        "MajorID": 339,
         "CollegeID": 93,
         "Name": "Department of Oral and Maxillofacial Surgery",
         "Description": "Duration: 5 years + 1 year internship\nDescription: This department deals with the surgical treatment of injuries, tumors, and deformities that affect the mouth, jaw, and face. Procedures include surgeries for impacted teeth, fractures, and other complex conditions."
     },
     {
-        "MajorID": 340,
         "CollegeID": 93,
         "Name": "Department of Orthodontics",
         "Description": "Duration: 5 years + 1 year internship\nDescription: The orthodontics department focuses on diagnosing, preventing, and treating dental and facial irregularities. Treatment methods often involve braces, retainers, and other devices to align the teeth and jaw."
     },
     {
-        "MajorID": 341,
         "CollegeID": 93,
         "Name": "Department of Periodontology (Gum Diseases)",
         "Description": "Duration: 5 years + 1 year internship\nDescription: This department is concerned with the diagnosis and treatment of gum diseases, such as gingivitis and periodontitis. Periodontists focus on maintaining the health of the gums and supporting structures of the teeth."
     },
     {
-        "MajorID": 342,
         "CollegeID": 93,
         "Name": "Department of Prosthodontics (Restorative Dentistry)",
         "Description": "Duration: 5 years + 1 year internship\nDescription: Prosthodontics involves the restoration and replacement of missing or damaged teeth. This includes the use of crowns, bridges, dentures, and implants to restore function and appearance."
     },
     {
-        "MajorID": 343,
         "CollegeID": 94,
         "Name": "Department of Cardiac Physiotherapy",
         "Description": "Duration: 5 years + 1-year internship\nDescription: This department focuses on treating patients with cardiovascular diseases such as heart failure, hypertension, and post-surgical recovery. Treatment plans include exercise, breathing techniques, and other physical rehabilitation methods to improve heart function and increase the patient's endurance and overall well-being."
     },
     {
-        "MajorID": 344,
         "CollegeID": 94,
         "Name": "Department of Neurological Physiotherapy",
         "Description": "Duration: 5 years + 1-year internship\nDescription: The neurological physiotherapy department deals with patients suffering from neurological disorders such as stroke, spinal cord injury, Parkinson's disease, and multiple sclerosis. The primary goal is to restore movement, improve coordination, and alleviate symptoms through physical therapy and rehabilitation techniques."
     },
     {
-        "MajorID": 345,
         "CollegeID": 94,
         "Name": "Department of Musculoskeletal Physiotherapy",
         "Description": "Duration: 5 years + 1-year internship\nDescription: This department addresses musculoskeletal problems, including joint pain, fractures, sprains, and post-surgical recovery. It focuses on physical therapy methods to improve mobility, strengthen muscles, and reduce pain through treatments like manual therapy, electrotherapy, and exercises designed to restore normal function."
     },
     {
-        "MajorID": 346,
         "CollegeID": 94,
         "Name": "Department of Pediatric Physiotherapy",
         "Description": "Duration: 5 years + 1-year internship\nDescription: Pediatric physiotherapy specializes in treating children with developmental delays, cerebral palsy, musculoskeletal problems, or neurological disorders. The department uses specialized techniques and activities tailored to the child’s needs to improve motor skills, strength, and overall development."
     },
     {
-        "MajorID": 347,
         "CollegeID": 94,
         "Name": "Department of Geriatric Physiotherapy",
         "Description": "Duration: 5 years + 1-year internship\nDescription: This department focuses on providing physiotherapy services to elderly patients, addressing issues like arthritis, osteoporosis, balance disorders, and mobility issues due to aging. Treatment aims to improve the quality of life by enhancing mobility, flexibility, and reducing the risk of falls."
     },
     {
-        "MajorID": 348,
         "CollegeID": 94,
         "Name": "Department of Sports Physiotherapy",
         "Description": "Duration: 5 years + 1-year internship\nDescription: Sports physiotherapy focuses on the rehabilitation and prevention of sports-related injuries. The department works with athletes to recover from injuries, improve flexibility and strength, and prevent future injuries through targeted rehabilitation programs and performance-enhancing exercises."
     },
     {
-        "MajorID": 349,
         "CollegeID": 94,
         "Name": "Department of Respiratory Physiotherapy",
         "Description": "Duration: 5 years + 1-year internship\nDescription: This department treats patients with respiratory issues such as asthma, chronic obstructive pulmonary disease (COPD), and post-surgical lung rehabilitation. Respiratory physiotherapy helps patients improve lung function and breathing efficiency through exercises and specialized techniques that promote better oxygen flow."
     },
     {
-        "MajorID": 350,
         "CollegeID": 94,
         "Name": "Department of Dermatological Physiotherapy",
         "Description": "Duration: 5 years + 1-year internship\nDescription: Dermatological physiotherapy focuses on treating skin conditions that affect physical function, such as burn injuries, chronic wounds, and skin ulcers. The department applies physical treatments that promote healing, reduce pain, and improve the patient's quality of life."
     },
     {
-        "MajorID": 351,
         "CollegeID": 94,
         "Name": "Department of Physiotherapy for Oncology (Cancer Rehabilitation)",
         "Description": "Duration: 5 years + 1-year internship\nDescription: This department offers rehabilitation to cancer patients to improve their physical health during and after cancer treatment. Physiotherapists help patients recover strength, mobility, and endurance while managing fatigue and the side effects of chemotherapy or radiation therapy."
     },
     {
-        "MajorID": 352,
         "CollegeID": 94,
         "Name": "Department of Internal Medicine Physiotherapy",
         "Description": "Duration: 5 years + 1-year internship\nDescription: This department focuses on the treatment and rehabilitation of patients with internal medical conditions like diabetes, hypertension, and obesity. The goal is to help patients improve their functional abilities, prevent complications, and maintain a healthy lifestyle through physical therapy methods and exercise regimens."
     },
     {
-        "MajorID": 353,
         "CollegeID": 95,
         "Name": "Department of Clinical Pharmacy",
         "Description": "Duration: 5 years + 1-year internship\nDescription: This department focuses on the application of pharmaceutical sciences in direct patient care. Clinical pharmacists work closely with healthcare teams to ensure the safe and effective use of medications. Students are trained to evaluate patient conditions, manage pharmacotherapy, and prevent drug-related problems through evidence-based practices. They also gain skills in counseling patients and educating them about proper medication use."
     },
     {
-        "MajorID": 354,
         "CollegeID": 95,
         "Name": "Department of Pharmaceutical Chemistry",
         "Description": "Duration: 5 years + 1-year internship\nDescription: This department specializes in the study of the chemical composition and structure of drugs. It involves the design, synthesis, and analysis of pharmaceutical compounds. Students learn how to develop new drugs, optimize drug formulations, and ensure their safety and efficacy. Research in this field aims to innovate in drug development and improve existing medications."
     },
     {
-        "MajorID": 355,
         "CollegeID": 95,
         "Name": "Department of Microbiology and Immunology in Pharmacy",
         "Description": "Duration: 5 years + 1-year internship\nDescription: Students in this department explore the role of microorganisms in disease and the body’s immune response. They study bacterial, viral, fungal, and parasitic infections and their treatment with antimicrobial drugs. The department also delves into immunology, training students to understand how drugs interact with the immune system, particularly in vaccine development and immunotherapy."
     },
     {
-        "MajorID": 356,
         "CollegeID": 95,
         "Name": "Department of Industrial Pharmacy",
         "Description": "Duration: 5 years + 1-year internship\nDescription: Industrial pharmacy focuses on the processes involved in the manufacturing, quality control, and distribution of pharmaceutical products. Students learn about drug formulation, production techniques, and regulatory requirements for the pharmaceutical industry. The department also covers the development of new drug delivery systems and ensures the safety and quality of pharmaceutical products at scale."
     },
     {
-        "MajorID": 357,
         "CollegeID": 95,
         "Name": "Department of Toxicology and Forensic Pharmacy",
         "Description": "Duration: 5 years + 1-year internship\nDescription: This department examines the harmful effects of drugs and chemicals on the body. Students learn how to assess poisoning, drug overdose, and the safety of pharmaceutical products. They are trained in forensic pharmacy to understand the legal aspects of drugs, including how substances are analyzed in criminal investigations and medical malpractice cases."
     },
     {
-        "MajorID": 358,
         "CollegeID": 95,
         "Name": "Department of Neuropharmacology",
         "Description": "Duration: 5 years + 1-year internship\nDescription: This department focuses on the study of how drugs affect the nervous system. It includes the exploration of drugs used to treat neurological disorders such as Parkinson’s disease, epilepsy, and schizophrenia. Students are trained to understand the mechanisms of action of these drugs and how they can be used to treat conditions that affect the brain and spinal cord."
     },
     {
-        "MajorID": 359,
         "CollegeID": 95,
         "Name": "Department of Pharmaceutical Care",
         "Description": "Duration: 5 years + 1-year internship\nDescription: Pharmaceutical care is a patient-centered approach where pharmacists take responsibility for managing and optimizing drug therapy. Students in this department are trained to assess patients’ needs, develop personalized treatment plans, and monitor patient outcomes. The goal is to enhance therapeutic outcomes and minimize adverse effects of medications."
     },
     {
-        "MajorID": 360,
         "CollegeID": 95,
         "Name": "Department of Pharmacology and Therapeutics",
         "Description": "Duration: 5 years + 1-year internship\nDescription: Students in this department learn about the interaction of drugs with the body, focusing on drug absorption, distribution, metabolism, and excretion (ADME). The curriculum covers the therapeutic use of drugs in treating various conditions and diseases, and students gain hands-on experience in prescribing and managing medication therapies effectively."
     },
     {
-        "MajorID": 361,
         "CollegeID": 95,
         "Name": "Department of Analytical Chemistry",
         "Description": "Duration: 5 years + 1-year internship\nDescription: This department focuses on the techniques used to analyze the chemical composition of pharmaceutical substances. Students learn how to use advanced laboratory equipment to test the purity, strength, and safety of drugs. Analytical chemistry is essential for quality control, drug development, and ensuring compliance with industry standards and regulations."
     },
     {
-        "MajorID": 362,
         "CollegeID": 95,
         "Name": "Department of Biopharmaceutical Sciences",
         "Description": "Duration: 5 years + 1-year internship\nDescription: The Biopharmaceutical Sciences department integrates biology, chemistry, and pharmacology to study how biological substances affect drug formulation and action. Students explore the pharmacokinetics and pharmacodynamics of various drugs, and they gain expertise in understanding how drugs interact with the body on a molecular level."
     },
     {
-        "MajorID": 363,
         "CollegeID": 96,
         "Name": "Department of Medical-Surgical Nursing",
         "Description": "Duration: 4 years + 1-year internship\nDescription: This department focuses on providing nursing care to patients in medical and surgical settings. Students in this department are trained to assist in the management of patients undergoing surgeries or being treated for various medical conditions. They develop critical thinking skills, clinical decision-making abilities, and learn how to manage pre- and post-operative care, pain management, and recovery."
     },
     {
-        "MajorID": 364,
         "CollegeID": 96,
         "Name": "Department of Critical Care and Emergency Nursing",
         "Description": "Duration: 4 years + 1-year internship\nDescription: This department prepares students to work in high-pressure environments such as intensive care units (ICU) and emergency departments (ED). The program emphasizes advanced skills in monitoring, stabilizing, and treating patients with life-threatening conditions. Students also learn how to handle trauma, cardiac emergencies, respiratory failure, and other critical health situations."
     },
     {
-        "MajorID": 365,
         "CollegeID": 96,
         "Name": "Department of Obstetrics and Gynecological Nursing",
         "Description": "Duration: 4 years + 1-year internship\nDescription: This department specializes in the care of women during pregnancy, childbirth, and the postpartum period. Students gain hands-on experience in labor and delivery rooms, assisting with childbirth and providing care to both mothers and newborns. They also study the nursing care of women’s reproductive health, including gynecological surgeries and postpartum recovery."
     },
     {
-        "MajorID": 366,
         "CollegeID": 96,
         "Name": "Department of Pediatric Nursing",
         "Description": "Duration: 4 years + 1-year internship\nDescription: In this department, students are trained to provide nursing care to infants, children, and adolescents. The focus is on child development, pediatric diseases, and treatments. Students gain practical experience in pediatric wards, working with children of various ages and handling common pediatric conditions, vaccinations, and emergency care."
     },
     {
-        "MajorID": 367,
         "CollegeID": 96,
         "Name": "Department of Mental Health and Psychiatric Nursing",
         "Description": "Duration: 4 years + 1-year internship\nDescription: This department focuses on the mental and emotional well-being of patients. Students are trained to provide nursing care to individuals suffering from mental health disorders, such as anxiety, depression, and schizophrenia. The program includes understanding psychiatric conditions, managing patient behavior, and offering therapeutic interventions. Students also gain insight into various psychiatric therapies, medications, and crisis interventions."
     },
     {
-        "MajorID": 368,
         "CollegeID": 97,
         "Name": "Department of Advertising Arts and Animation",
         "Description": "Duration: 5 years + 1-year internship\nDescription: This department focuses on creating visual solutions for advertising campaigns and media through animation and graphic design. Students learn to design print, digital, and animated advertisements, focusing on branding, communication strategies, and creative visual storytelling. The curriculum also includes skills in motion graphics, 2D/3D animation, and digital media tools, preparing students for roles in advertising agencies, media production companies, and digital design firms."
     },
     {
-        "MajorID": 369,
         "CollegeID": 97,
         "Name": "Department of Fashion Design and Jewelry",
         "Description": "Duration: 5 years + 1-year internship\nDescription: Students in this department explore both fashion design and jewelry design, with a focus on creativity and craftsmanship. They gain practical skills in designing clothing, accessories, and jewelry collections, learning about textile technology, pattern making, and the art of jewelry crafting. The curriculum combines traditional techniques with modern fashion trends, providing students with the tools needed to pursue careers as fashion designers, jewelry designers, or fashion merchandisers."
     },
     {
-        "MajorID": 370,
         "CollegeID": 97,
         "Name": "Department of Interior Design and Decoration",
         "Description": "Duration: 5 years + 1-year internship\nDescription: This department trains students in the art and science of designing interior spaces that are functional, aesthetic, and comfortable. Students learn to create residential, commercial, and institutional interior designs, focusing on space planning, materials, lighting, color theory, and decoration. The department emphasizes creativity, technical skills, and sustainability in design, preparing students for careers in interior design firms, architecture firms, or as independent designers."
     },
     {
-        "MajorID": 371,
         "CollegeID": 98,
         "Name": "Department of Civil Engineering",
         "Description": "Duration: 5 years\nDescription: This department focuses on the design, construction, and maintenance of infrastructure, including buildings, roads, bridges, and dams. Students will study structural engineering, materials science, geotechnical engineering, and construction management. The program prepares students for careers in urban planning, construction, and infrastructure development."
     },
     {
-        "MajorID": 372,
         "CollegeID": 98,
         "Name": "Department of Mechanical Engineering",
         "Description": "Duration: 5 years\nDescription: This department deals with the design, analysis, and manufacturing of mechanical systems and machines. Students will learn about thermodynamics, fluid mechanics, materials science, and mechanical design. The program prepares students for work in industries such as automotive, aerospace, energy, and manufacturing."
     },
     {
-        "MajorID": 373,
         "CollegeID": 98,
         "Name": "Department of Electrical Engineering",
         "Description": "Duration: 5 years\nDescription: Students in this department focus on designing and developing electrical systems and equipment, including power generation, distribution systems, and electrical devices. The program covers topics such as circuits, control systems, power systems, electronics, and telecommunications. Graduates can work in industries like energy, telecommunications, electronics, and automation."
     },
     {
-        "MajorID": 374,
         "CollegeID": 98,
         "Name": "Department of Computer Engineering",
         "Description": "Duration: 5 years\nDescription: This department focuses on the design and development of computer systems, software, and networks. Students will learn about programming, computer architecture, databases, algorithms, and network security. The program prepares students for careers in software development, network management, cybersecurity, and IT consulting."
     },
     {
-        "MajorID": 375,
         "CollegeID": 98,
         "Name": "Department of Architectural Engineering",
         "Description": "Duration: 5 years\nDescription: This department prepares students to design and plan buildings and structures, with an emphasis on both aesthetics and functionality. Students will study architectural design, building systems, urban planning, and sustainable design. The program equips graduates to work in architectural firms, construction companies, and urban development projects."
     },
     {
-        "MajorID": 376,
         "CollegeID": 98,
         "Name": "Department of Electronics and Communication Engineering",
         "Description": "Duration: 5 years\nDescription: Students in this department learn how to design, develop, and maintain electronic systems and communication technologies, such as mobile networks, satellite communication, and broadband systems. The program covers topics like signal processing, telecommunications, digital electronics, and embedded systems. Graduates can pursue careers in telecommunications, electronics, and data communication industries."
     },
     {
-        "MajorID": 377,
         "CollegeID": 99,
         "Name": "Anatomy and Embryology",
         "Description": "Description: This department focuses on the detailed structural organization of animals, including the study of bones, muscles, organs, blood vessels, and nerves. It also covers the developmental processes from fertilization to the formation of a complete organism, emphasizing comparative anatomy between various species.\nYears of Study: Mainly covered during 1st and 2nd years."
     },
     {
-        "MajorID": 378,
         "CollegeID": 99,
         "Name": "Histology (Microscopic Anatomy)",
         "Description": "Description: This department studies the microscopic structure of animal tissues and cells, examining their composition, function, and how they contribute to the overall physiology of the animal. Special focus is given to understanding tissue differentiation and cellular organization.\nYears of Study: Taught in the 1st and 2nd years."
     },
     {
-        "MajorID": 379,
         "CollegeID": 99,
         "Name": "Physiology",
         "Description": "Description: Focuses on understanding the normal biological functions of animals, including how organs and systems interact and respond to external and internal changes. It covers topics such as neurophysiology, cardiovascular systems, respiratory systems, digestive systems, and hormonal regulation.\nYears of Study: Primarily covered in the 1st and 2nd years."
     },
     {
-        "MajorID": 380,
         "CollegeID": 99,
         "Name": "Biochemistry",
         "Description": "Description: Explores the chemical processes and substances that occur within living organisms, including metabolism, enzyme activity, molecular biology, and genetics. It also covers the biochemical basis of diseases and nutritional biochemistry.\nYears of Study: Mostly taught during the 1st and 2nd years."
     },
     {
-        "MajorID": 381,
         "CollegeID": 99,
         "Name": "Pharmacology",
         "Description": "Description: Studies the effects, mechanisms, and therapeutic uses of drugs in animals, including safe usage, dosages, toxicology, pharmacokinetics, and pharmacodynamics. It prepares students to understand drug interactions and their clinical applications.\nYears of Study: Covered in the 3rd year."
     },
     {
-        "MajorID": 382,
         "CollegeID": 99,
         "Name": "Microbiology and Immunology",
         "Description": "Description: Focuses on microorganisms (bacteria, viruses, fungi) that cause diseases in animals, along with the immune system's responses to these pathogens. Topics include bacteriology, virology, mycology, immunology, and vaccination techniques.\nYears of Study: Taught in the 2nd and 3rd years."
     },
     {
-        "MajorID": 383,
         "CollegeID": 99,
         "Name": "Parasitology",
         "Description": "Description: Studies parasites (internal and external) affecting animals, their life cycles, disease transmission, diagnosis, prevention, and control methods. Topics include protozoology, helminthology, and arthropodology.\nYears of Study: Mainly covered in the 3rd year."
     },
     {
-        "MajorID": 384,
         "CollegeID": 99,
         "Name": "Internal Medicine",
         "Description": "Description: Deals with diagnosing, preventing, and treating non-surgical diseases affecting various organs and systems in animals. It focuses on clinical examination, case analysis, disease management, and animal welfare.\nYears of Study: Taught during the 4th and 5th years."
     },
     {
-        "MajorID": 385,
         "CollegeID": 99,
         "Name": "Surgery, Anesthesiology, and Radiology",
         "Description": "Description: Provides knowledge and practical skills in surgical procedures, anesthesia administration, diagnostic imaging techniques (such as X-rays, ultrasound), wound management, and postoperative care.\nYears of Study: Primarily covered in the 4th and 5th years."
     },
     {
-        "MajorID": 386,
         "CollegeID": 99,
         "Name": "Poultry Diseases",
         "Description": "Description: Specializes in the diagnosis, treatment, and prevention of diseases affecting poultry species. It covers infectious diseases, metabolic disorders, nutritional deficiencies, and biosecurity measures.\nYears of Study: Taught in the 4th and 5th years."
     },
     {
-        "MajorID": 387,
         "CollegeID": 99,
         "Name": "Zoonotic Diseases (Common Diseases)",
         "Description": "Description: Studies diseases that are transmissible between animals and humans. Topics include epidemiology, diagnosis, control, prevention, and public health safety.\nYears of Study: Covered during the 4th and 5th years."
     },
     {
-        "MajorID": 388,
         "CollegeID": 99,
         "Name": "Food Hygiene and Control",
         "Description": "Description: Ensures the safety and quality of animal-derived food products through inspection, quality control, and preventive measures. It also covers food-borne diseases, contamination control, and processing standards.\nYears of Study: Taught in the 4th and 5th years."
     },
     {
-        "MajorID": 389,
         "CollegeID": 99,
         "Name": "Obstetrics, Reproduction, and Artificial Insemination",
         "Description": "Description: Focuses on animal reproduction, reproductive physiology, obstetric procedures, artificial insemination, pregnancy diagnosis, and reproductive health management.\nYears of Study: Mainly covered in the 4th and 5th years."
     },
     {
-        "MajorID": 390,
         "CollegeID": 100,
         "Name": "Computer Science (CS)",
         "Description": "Description: This department focuses on studying algorithms, data structures, programming languages, operating systems, and computational theories. It aims at developing software and understanding fundamental concepts in computer science.\nYears of Study: The curriculum is covered over four years."
     },
     {
-        "MajorID": 391,
         "CollegeID": 100,
         "Name": "Artificial Intelligence (AI)",
         "Description": "Description: This department focuses on designing and developing intelligent systems capable of learning, reasoning, and making decisions. Topics include machine learning, natural language processing, computer vision, and robotics.\nYears of Study: The courses are offered over four years."
     },
     {
-        "MajorID": 392,
         "CollegeID": 100,
         "Name": "Information Systems (IS)",
         "Description": "Description: This department studies how to effectively collect, store, and retrieve information. It emphasizes designing and developing information systems to support administrative operations and decision-making processes.\nYears of Study: The program is taught over four years."
     },
     {
-        "MajorID": 393,
         "CollegeID": 100,
         "Name": "Information Technology (IT)",
         "Description": "Description: This department focuses on applying technology in business and industrial sectors. Topics include networking, cybersecurity, database management, software engineering, and cloud computing.\nYears of Study: The courses are provided over four years."
     },
     {
-        "MajorID": 394,
         "CollegeID": 101,
         "Name": "Anatomy and Embryology",
         "Description": "Description: This department focuses on the structure of the human body and the development of the embryo from conception to birth. Students learn about the anatomy of organs, tissues, and systems, using both theoretical and practical approaches, including dissection and imaging techniques.\nYears of Study: Mainly covered during the 1st and 2nd years."
     },
     {
-        "MajorID": 395,
         "CollegeID": 101,
         "Name": "Physiology",
         "Description": "Description: This department studies the functions of various body systems, including the cardiovascular, respiratory, nervous, endocrine, digestive, and musculoskeletal systems. It aims to explain how these systems work individually and collectively to maintain homeostasis.\nYears of Study: Primarily covered during the 1st and 2nd years."
     },
     {
-        "MajorID": 396,
         "CollegeID": 101,
         "Name": "Biochemistry",
         "Description": "Description: This department focuses on the chemical processes that occur within living organisms. It covers essential topics like metabolism, enzymology, molecular biology, genetics, and the biochemical basis of diseases.\nYears of Study: Mostly taught during the 1st and 2nd years."
     },
     {
-        "MajorID": 397,
         "CollegeID": 101,
         "Name": "Pathology",
         "Description": "Description: This department studies the nature and causes of diseases by examining tissues, organs, and bodily fluids. It aims to understand disease mechanisms, classifications, and their effects on body functions. Pathology serves as a bridge between basic sciences and clinical medicine.\nYears of Study: Primarily covered during the 3rd and 4th years."
     },
     {
-        "MajorID": 398,
         "CollegeID": 101,
         "Name": "Pharmacology",
         "Description": "Description: This department studies the effects of drugs on the human body. Topics include drug mechanisms, therapeutic uses, side effects, pharmacokinetics (absorption, distribution, metabolism, and excretion), and pharmacodynamics (drug-receptor interactions).\nYears of Study: Taught during the 3rd and 4th years."
     },
     {
-        "MajorID": 399,
         "CollegeID": 101,
         "Name": "Microbiology and Immunology",
         "Description": "Description: This department focuses on microorganisms (bacteria, viruses, fungi, parasites) that cause diseases in humans and the body's immune response to these pathogens. It covers topics like immunology, virology, bacteriology, and mycology.\nYears of Study: Mostly covered during the 2nd and 3rd years."
     },
     {
-        "MajorID": 400,
         "CollegeID": 101,
         "Name": "Community Medicine and Public Health",
         "Description": "Description: This department focuses on the health of populations, emphasizing disease prevention, epidemiology, health education, and primary healthcare. It also includes training in conducting research and statistical analysis.\nYears of Study: Covered during the 4th and 5th years."
     },
     {
-        "MajorID": 401,
         "CollegeID": 101,
         "Name": "Forensic Medicine and Toxicology",
         "Description": "Description: This department deals with applying medical knowledge to legal cases, including injury analysis, cause of death, and poison detection. It also covers the study of toxins and their effects on the human body.\nYears of Study: Taught during the 4th year."
     },
     {
-        "MajorID": 402,
         "CollegeID": 101,
         "Name": "Clinical Departments (Medicine, Surgery, Pediatrics, Obstetrics & Gynecology, etc.)",
         "Description": "Description: These departments provide practical and theoretical training in various medical and surgical specialties. Students gain hands-on experience through clinical rotations in areas such as General Medicine, General Surgery, Pediatrics, Obstetrics & Gynecology, Dermatology, Psychiatry, Orthopedics, Ophthalmology, ENT, and Emergency Medicine.\nYears of Study: Covered during the 4th, 5th, and 6th years."
     },
     {
-        "MajorID": 403,
         "CollegeID": 101,
         "Name": "Medical Education and Research",
         "Description": "Description: A relatively new department focusing on modern teaching methodologies, medical ethics, and research skills. It aims to prepare students for future medical research and evidence-based practice.\nYears of Study: Integrated throughout the six years of study."
     },
     {
-        "MajorID": 404,
         "CollegeID": 102,
         "Name": "Oral and Maxillofacial Surgery",
         "Description": "Description: This department focuses on the diagnosis and surgical treatment of conditions affecting the mouth, jaws, and face. It includes complex tooth extractions, corrective jaw surgeries, and facial trauma management.\nYears of Study: Mainly covered during the 4th and 5th years."
     },
     {
-        "MajorID": 405,
         "CollegeID": 102,
         "Name": "Orthodontics",
         "Description": "Description: This department deals with diagnosing and correcting dental and facial misalignments. It includes using braces, aligners, and other appliances to improve oral function and aesthetics.\nYears of Study: Primarily covered during the 4th and 5th years."
     },
     {
-        "MajorID": 406,
         "CollegeID": 102,
         "Name": "Endodontics",
         "Description": "Description: This department focuses on treating diseases of the dental pulp and periapical tissues. It includes procedures like root canal therapy aimed at preserving natural teeth.\nYears of Study: Taught during the 3rd and 4th years."
     },
     {
-        "MajorID": 407,
         "CollegeID": 102,
         "Name": "Pediatric Dentistry",
         "Description": "Description: This department provides specialized oral healthcare for children and adolescents. It emphasizes preventive care, behavioral management, and treatment of dental issues affecting young patients.\nYears of Study: Covered during the 4th and 5th years."
     },
     {
-        "MajorID": 408,
         "CollegeID": 102,
         "Name": "Prosthodontics",
         "Description": "Description: This department deals with restoring and replacing damaged or missing teeth using fixed and removable prostheses such as crowns, bridges, and dentures. It focuses on functional rehabilitation and aesthetic restoration.\nYears of Study: Mainly covered during the 4th and 5th years."
     },
     {
-        "MajorID": 409,
         "CollegeID": 102,
         "Name": "Periodontology",
         "Description": "Description: This department focuses on the prevention, diagnosis, and treatment of periodontal (gum) diseases. It includes surgical and non-surgical therapies to manage gum infections and promote oral health.\nYears of Study: Taught during the 3rd and 4th years."
     },
     {
-        "MajorID": 410,
         "CollegeID": 102,
         "Name": "Oral Medicine and Diagnosis",
         "Description": "Description: This department specializes in diagnosing and managing diseases affecting the oral and maxillofacial region. It also involves developing appropriate treatment plans for various oral conditions.\nYears of Study: Covered during the 3rd and 4th years."
     },
     {
-        "MajorID": 411,
         "CollegeID": 102,
         "Name": "Dental Materials",
         "Description": "Description: This department studies the properties, uses, and biocompatibility of various materials used in dental treatments. It ensures the quality and safety of restorative materials applied in clinical practice.\nYears of Study: Integrated throughout the 2nd, 3rd, and 4th years."
     },
     {
-        "MajorID": 412,
         "CollegeID": 102,
         "Name": "Oral Biology",
         "Description": "Description: This department focuses on the biological structure and function of oral tissues, including teeth, gums, and supporting structures. It provides foundational knowledge crucial for clinical practice.\nYears of Study: Mainly covered during the 1st and 2nd years."
     },
     {
-        "MajorID": 413,
         "CollegeID": 102,
         "Name": "Oral and Maxillofacial Radiology",
         "Description": "Description: This department deals with diagnostic imaging of the oral and maxillofacial regions using X-rays, CT scans, and other radiographic techniques to detect and manage various conditions.\nYears of Study: Taught during the 3rd and 4th years."
     },
     {
-        "MajorID": 414,
         "CollegeID": 103,
         "Name": "Adult Health Nursing",
         "Description": "Description: This department focuses on providing nursing care to adult patients with acute and chronic health conditions. It includes comprehensive assessment, diagnosis, planning, implementation, and evaluation of care. Emphasis is placed on promoting health, preventing illness, managing chronic diseases, and rehabilitating patients to their optimal level of health. Students also learn to utilize evidence-based practice to deliver safe and effective care.\nYears of Study: Covered mainly during the 2nd, 3rd, and 4th years."
     },
     {
-        "MajorID": 415,
         "CollegeID": 103,
         "Name": "Maternal and Newborn Health Nursing",
         "Description": "Description: This department provides specialized training in caring for women during pregnancy, childbirth, and the postpartum period, as well as newborns. Students learn to manage prenatal care, labor and delivery, postpartum recovery, and complications that may arise during these stages. Additionally, emphasis is placed on reproductive health education, family planning, and neonatal care.\nYears of Study: Primarily taught during the 3rd and 4th years."
     },
     {
-        "MajorID": 416,
         "CollegeID": 103,
         "Name": "Pediatric Nursing",
         "Description": "Description: Pediatric Nursing focuses on providing nursing care to children from infancy through adolescence. The curriculum covers growth and development, pediatric health assessment, managing common childhood illnesses, and promoting health and wellness in children. Students also gain skills in communicating with children and their families to ensure holistic and family-centered care.\nYears of Study: Mainly covered during the 3rd and 4th years"
     },
     {
-        "MajorID": 417,
         "CollegeID": 103,
         "Name": "Community Health Nursing",
         "Description": "Description: This department emphasizes promoting health and preventing disease at the community level. Students learn to assess community health needs, design and implement health promotion programs, and evaluate their effectiveness. They are also trained in conducting epidemiological studies, disaster management, and providing culturally competent care to diverse populations.\nYears of Study: Taught throughout the 2nd, 3rd, and 4th years."
     },
     {
-        "MajorID": 418,
         "CollegeID": 103,
         "Name": "Mental Health Nursing",
         "Description": "Description: Mental Health Nursing focuses on providing nursing care to individuals with mental health disorders. This department teaches students how to assess, diagnose, and treat patients experiencing psychiatric conditions, such as anxiety, depression, schizophrenia, and mood disorders. Additionally, students learn therapeutic communication techniques, crisis intervention, and rehabilitation strategies to support patients' recovery and improve their quality of life.\nYears of Study: Primarily taught during the 3rd and 4th years."
     },
     {
-        "MajorID": 419,
         "CollegeID": 103,
         "Name": "Nursing Administration",
         "Description": "Description: Nursing Administration prepares students to become leaders and managers within the healthcare system. It focuses on developing skills in organizational management, health policy, quality improvement, financial management, and effective leadership. Students learn to supervise nursing teams, manage healthcare resources, and ensure high-quality patient care through strategic decision-making.\nYears of Study: Covered mainly during the 4th year."
     },
     {
-        "MajorID": 420,
         "CollegeID": 103,
         "Name": "Critical Care Nursing (Specialization)",
         "Description": "Description: This specialized area focuses on providing advanced nursing care to critically ill patients in intensive care units (ICUs). It includes managing life-threatening conditions, using specialized equipment, and performing high-level monitoring and interventions. Students also learn to collaborate effectively with interdisciplinary teams to provide comprehensive care.\nYears of Study: Typically an elective or specialization covered in the 4th year."
     },
     {
-        "MajorID": 421,
         "CollegeID": 103,
         "Name": "Midwifery Nursing (Specialization)",
         "Description": "Description: Midwifery Nursing focuses on providing holistic care to women during pregnancy, childbirth, and the postpartum period. Students are trained to conduct prenatal examinations, assist in labor and delivery, and offer postpartum care, including breastfeeding support. The curriculum also includes reproductive health education, family planning, and managing high-risk pregnancies.\nYears of Study: Usually offered as an elective or specialization during the 4th year."
     },
     {
-        "MajorID": 422,
         "CollegeID": 103,
         "Name": "Geriatric Nursing (Specialization)",
         "Description": "Description: This department focuses on providing specialized care to the elderly population. Students learn to address the unique health challenges associated with aging, such as chronic diseases, dementia, mobility issues, and end-of-life care. The curriculum emphasizes promoting dignity, autonomy, and improving the quality of life for older adults.\nYears of Study: Taught primarily during the 4th year."
     },
     {
-        "MajorID": 423,
         "CollegeID": 104,
         "Name": "Department of English Language",
         "Description": "Description: Focuses on developing advanced skills in English language, literature, and linguistics. Students engage in comprehensive studies of English-speaking cultures, enhancing their proficiency in reading, writing, speaking, and critical analysis.\nYears of Study: Throughout the 4-year program."
     },
     {
-        "MajorID": 424,
         "CollegeID": 104,
         "Name": "Department of French Language",
         "Description": "Description: Centers on mastering the French language, exploring Francophone literature, and understanding the cultural nuances of French-speaking regions. The curriculum includes translation studies and applied linguistics.\nYears of Study: Throughout the 4-year program"
     },
     {
-        "MajorID": 425,
         "CollegeID": 104,
         "Name": "Department of German Language",
         "Description": "Description: Aims to provide proficiency in German, coupled with studies in German literature, culture, and applied linguistics. Students learn translation techniques and gain insights into German-speaking societies.\nYears of Study: Throughout the 4-year program"
     },
     {
-        "MajorID": 426,
         "CollegeID": 104,
         "Name": "Department of Spanish Language",
         "Description": "Description: Offers in-depth knowledge of the Spanish language, its literature, and the diverse cultures of Spanish-speaking countries. The program emphasizes translation skills and cultural studies.\nYears of Study: Throughout the 4-year program."
     },
     {
-        "MajorID": 427,
         "CollegeID": 104,
         "Name": "Department of Italian Language",
         "Description": "Description: Provides comprehensive training in Italian language and literature, along with insights into Italy's rich cultural heritage. The curriculum includes translation practices and applied linguistic studies.\nYears of Study: Throughout the 4-year program."
     },
     {
-        "MajorID": 428,
         "CollegeID": 104,
         "Name": "Department of Chinese Language",
         "Description": "Description: Focuses on Mandarin Chinese proficiency, exploring Chinese literature, culture, and societal structures. Students engage in translation studies and gain a deep understanding of China's global influence.\nYears of Study: Throughout the 4-year program."
     },
     {
-        "MajorID": 429,
         "CollegeID": 104,
         "Name": "Department of Japanese Language",
         "Description": "Description: Emphasizes the Japanese language, literature, and cultural studies. The program includes translation techniques and offers insights into Japan's historical and contemporary society.\nYears of Study: Throughout the 4-year program."
     },
     {
-        "MajorID": 430,
         "CollegeID": 104,
         "Name": "Department of Korean Language",
         "Description": "Description: Aims to develop proficiency in Korean, with studies in Korean literature, culture, and applied linguistics. Students learn translation skills and explore Korea's role in global contexts.\nYears of Study: Throughout the 4-year program."
     },
     {
-        "MajorID": 431,
         "CollegeID": 104,
         "Name": "Department of Russian Language",
         "Description": "Description: Offers training in the Russian language, literature, and cultural studies. The curriculum includes translation practices and an exploration of Russia's historical and geopolitical significance.\nYears of Study: Throughout the 4-year program."
     },
     {
-        "MajorID": 432,
         "CollegeID": 104,
         "Name": "Department of Translation and Interpretation",
         "Description": "Description: Specializes in developing skills for translating and interpreting between languages. The program covers various translation theories, simultaneous and consecutive interpreting techniques, and practical applications in diverse fields.\nYears of Study: Typically introduced in the 3rd and 4th years."
     },
     {
-        "MajorID": 433,
         "CollegeID": 105,
         "Name": "Interior Architecture Program",
         "Description": "Description: This program focuses on designing functional and aesthetically pleasing interior spaces. Students learn about spatial design, materials, lighting, and ergonomics to create environments that enhance user experience. The curriculum emphasizes creativity, technical skills, and sustainability in interior architecture. \n\nDuration: The program spans 4 academic years (8 semesters)."
     },
     {
-        "MajorID": 434,
         "CollegeID": 105,
         "Name": "Graphic Design and Branding Program",
         "Description": "Description: This program engages students in interdisciplinary problem-solving, combining visual experience with skills and knowledge in communication, technology, and business. Students learn to create visual content for various media, develop branding strategies, and understand the impact of design on consumer behavior. \nDuration: The program spans 4 academic years (8 semesters)."
     },
     {
-        "MajorID": 435,
         "CollegeID": 106,
         "Name": "Hotel and Resort Management Program",
         "Description": "Description: This program focuses on developing students' skills in managing hotels and resorts, emphasizing operational efficiency, customer service excellence, and strategic planning. Students learn about various aspects of hospitality management, including front office operations, housekeeping, food and beverage management, and event planning. The curriculum integrates theoretical knowledge with practical training to prepare students for leadership roles in the hospitality industry.\nDuration: The program spans 4 academic years (8 semesters)."
     },
     {
-        "MajorID": 436,
         "CollegeID": 106,
         "Name": "Recreation and Tourism Management Program",
         "Description": "Description: This program aims to equip students with the knowledge and skills necessary to manage recreational activities and tourism services. It covers areas such as tourism planning, sustainable tourism development, leisure management, and cultural heritage tourism. Students gain insights into designing and promoting tourism experiences that cater to diverse markets while ensuring environmental and cultural sustainability.\nDuration: The program spans 4 academic years (8 semesters)."
     },
     {
-        "MajorID": 437,
         "CollegeID": 106,
         "Name": "Event Management in Hospitality and Tourism Program",
         "Description": "Description: This program prepares students to plan, organize, and manage events within the hospitality and tourism sectors. It encompasses event planning, marketing, logistics, risk management, and stakeholder engagement. Students learn to coordinate various types of events, including conferences, exhibitions, festivals, and corporate functions, with a focus on delivering memorable experiences and achieving organizational objectives.\nDuration: The program spans 4 academic years (8 semesters)."
     },
     {
-        "MajorID": 438,
         "CollegeID": 107,
         "Name": "Architecture and Building Sciences",
         "Description": "Description: This track focuses on the principles of architectural design, construction materials, structural systems, and building technologies. Students engage in designing functional and aesthetic spaces, considering both form and function.\nDuration: Integrated within the 5-year program."
     },
     {
-        "MajorID": 439,
         "CollegeID": 107,
         "Name": "Urban Planning",
         "Description": "Description: This track emphasizes the planning and development of urban areas, addressing issues such as land use, transportation, environmental sustainability, and community development. Students learn to design urban spaces that enhance the quality of life.\nDuration: Integrated within the 5-year program."
     },
     {
-        "MajorID": 440,
         "CollegeID": 108,
         "Name": "Accounting and Information Systems",
         "Description": "4 years\nThis program combines the fundamentals of accounting with modern information systems, equipping students with the skills to manage financial records and analyze data in business contexts. Graduates will be proficient in preparing financial statements, auditing, and utilizing accounting software to enhance business efficiency. The program also emphasizes the importance of information technology in modern accounting practices."
     },
     {
-        "MajorID": 441,
         "CollegeID": 108,
         "Name": "Investment and Finance",
         "Description": "4 years\nThe Investment and Finance program prepares students for careers in the financial sector. It covers core concepts such as financial analysis, investment strategies, risk management, and corporate finance. Students will learn how to evaluate investment opportunities, understand market behavior, and manage financial portfolios. The program aims to develop strong analytical and decision-making skills necessary for success in finance-related professions."
     },
     {
-        "MajorID": 442,
         "CollegeID": 108,
         "Name": "Marketing and International Business",
         "Description": "4 years\nThis program focuses on the global aspects of marketing and business management. Students will learn how to create effective marketing strategies, understand consumer behavior, and manage international business operations. The curriculum includes courses in digital marketing, international trade, market research, and cross-cultural communication. The goal is to prepare students for careers in global marketing and international business environments."
     },
     {
-        "MajorID": 443,
         "CollegeID": 109,
         "Name": "Applied Agricultural Economics",
         "Description": "4 years\nThis department focuses on the application of economic principles in the agricultural sector. It covers topics such as consumer behavior, market analysis, agricultural policy evaluation, and the financial aspects of agricultural businesses. The program aims to equip students with the analytical skills needed to solve economic problems related to farming, rural development, and agricultural policy."
     },
     {
-        "MajorID": 444,
         "CollegeID": 109,
         "Name": "Animal and Fish Production",
         "Description": "4 years\nThe Animal and Fish Production department emphasizes the breeding and management of livestock and fish. Students learn about improving productivity, managing animal health, and producing high-quality animal and fish products. The program covers topics like animal husbandry, aquaculture, and sustainable production methods, aiming to prepare students for careers in both terrestrial and aquatic animal industries."
     },
     {
-        "MajorID": 445,
         "CollegeID": 109,
         "Name": "Poultry Science",
         "Description": "4 years\nThis program is centered around poultry farming, focusing on the breeding, health, and management of poultry species. Students gain in-depth knowledge of the techniques used in egg and meat production. The program includes the study of poultry diseases, nutrition, breeding practices, and environmental control methods, preparing graduates for roles in poultry production and management."
     },
     {
-        "MajorID": 446,
         "CollegeID": 109,
         "Name": "Ruminant Science",
         "Description": "4 years\nRuminant Science studies the breeding, management, and nutrition of ruminants like cattle, sheep, and goats. Students learn to improve productivity and manage the health of these animals. The program covers topics such as ruminant nutrition, breeding techniques, and disease management. The focus is on enhancing the efficiency of ruminant production, which is crucial for both food security and sustainable agriculture."
     },
     {
-        "MajorID": 447,
         "CollegeID": 109,
         "Name": "Fisheries Science",
         "Description": "4 years\nFisheries Science is dedicated to the study of aquatic ecosystems, fish production, and fishery management. Students explore sustainable practices in fish farming and the conservation of marine resources. The program covers topics such as aquatic biology, fish health management, and environmental issues related to fishery sustainability. Graduates are prepared to work in aquaculture, fishery management, and research fields."
     },
     {
-        "MajorID": 448,
         "CollegeID": 109,
         "Name": "Water Science",
         "Description": "4 years\nWater Science focuses on water resources management, irrigation techniques, and sustainable water usage in agriculture. Students learn about water conservation, water treatment technologies, and how to optimize water resources for agricultural production. The program provides essential knowledge to address global water challenges and ensures the sustainability of agricultural practices that rely on water."
     },
     {
-        "MajorID": 449,
         "CollegeID": 109,
         "Name": "Food Science and Technology",
         "Description": "4 years\nThis department focuses on the scientific and technological aspects of food production, preservation, and safety. Students explore food processing, packaging, and product development, along with food safety and quality assurance practices. The program also covers the innovation of new food products and their nutritional benefits. Graduates are equipped for careers in food processing, quality control, and the development of new food technologies."
     },
     {
-        "MajorID": 450,
         "CollegeID": 109,
         "Name": "Plant Protection ",
         "Description": "4 years\nThe Plant Protection department teaches students how to protect crops from pests, diseases, and weeds. Students gain knowledge in pest management techniques, plant disease identification, and integrated pest management strategies. This program is crucial for ensuring crop health and improving yields while minimizing the use of harmful chemicals. The goal is to provide students with practical solutions for sustainable agriculture practices."
     },
     {
-        "MajorID": 451,
         "CollegeID": 110,
         "Name": "Petroleum Chemistry",
         "Description": "4 years\nThis program focuses on the chemistry involved in petroleum extraction, refining processes, and the development of new techniques for the petroleum industry. Students learn about the chemical composition of petroleum products and the latest advancements in energy resources."
     },
     {
-        "MajorID": 452,
         "CollegeID": 110,
         "Name": "Marine Biology ",
         "Description": "4 years\nThe Marine Biology program is dedicated to studying marine organisms and their environments. It covers topics like the impact of environmental changes on marine life and strategies for preserving marine biodiversity. Students gain practical and theoretical knowledge to contribute to marine conservation and sustainable fisheries management."
     },
     {
-        "MajorID": 453,
         "CollegeID": 110,
         "Name": "Biotechnology",
         "Description": "4 years\nThe Biotechnology program emphasizes the application of biotechnology in various fields such as medicine, agriculture, and industry. Students learn how to develop new drugs, improve crop production, and create bio-based materials using biotechnological advancements."
