@@ -1,0 +1,1562 @@
+[
+    {
+        "CollegeID": 1,
+        "TestID": 1,
+        "Min_Score": 6.5
+    },
+    {
+        "CollegeID": 1,
+        "TestID": 2,
+        "Min_Score": 79
+    },
+    {
+        "CollegeID": 1,
+        "TestID": 3,
+        "Min_Score": 53
+    },
+    {
+        "CollegeID": 1,
+        "TestID": 4,
+        "Min_Score": 105
+    },
+    {
+        "CollegeID": 1,
+        "TestID": 5,
+        "Min_Score": 75
+    },
+    {
+        "CollegeID": 2,
+        "TestID": 1,
+        "Min_Score": 6.5
+    },
+    {
+        "CollegeID": 2,
+        "TestID": 2,
+        "Min_Score": 79
+    },
+    {
+        "CollegeID": 2,
+        "TestID": 3,
+        "Min_Score": 53
+    },
+    {
+        "CollegeID": 2,
+        "TestID": 4,
+        "Min_Score": 105
+    },
+    {
+        "CollegeID": 2,
+        "TestID": 5,
+        "Min_Score": 75
+    },
+    {
+        "CollegeID": 3,
+        "TestID": 1,
+        "Min_Score": 6.5
+    },
+    {
+        "CollegeID": 3,
+        "TestID": 2,
+        "Min_Score": 79
+    },
+    {
+        "CollegeID": 3,
+        "TestID": 3,
+        "Min_Score": 53
+    },
+    {
+        "CollegeID": 3,
+        "TestID": 4,
+        "Min_Score": 105
+    },
+    {
+        "CollegeID": 3,
+        "TestID": 5,
+        "Min_Score": 75
+    },
+    {
+        "CollegeID": 4,
+        "TestID": 1,
+        "Min_Score": 6.5
+    },
+    {
+        "CollegeID": 4,
+        "TestID": 2,
+        "Min_Score": 79
+    },
+    {
+        "CollegeID": 4,
+        "TestID": 3,
+        "Min_Score": 53
+    },
+    {
+        "CollegeID": 4,
+        "TestID": 4,
+        "Min_Score": 105
+    },
+    {
+        "CollegeID": 4,
+        "TestID": 5,
+        "Min_Score": 75
+    },
+    {
+        "CollegeID": 5,
+        "TestID": 1,
+        "Min_Score": 6.5
+    },
+    {
+        "CollegeID": 5,
+        "TestID": 2,
+        "Min_Score": 79
+    },
+    {
+        "CollegeID": 5,
+        "TestID": 3,
+        "Min_Score": 53
+    },
+    {
+        "CollegeID": 5,
+        "TestID": 4,
+        "Min_Score": 105
+    },
+    {
+        "CollegeID": 5,
+        "TestID": 5,
+        "Min_Score": 75
+    },
+    {
+        "CollegeID": 6,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 6,
+        "TestID": 2,
+        "Min_Score": 75
+    },
+    {
+        "CollegeID": 6,
+        "TestID": 3,
+        "Min_Score": 46
+    },
+    {
+        "CollegeID": 6,
+        "TestID": 4,
+        "Min_Score": 105
+    },
+    {
+        "CollegeID": 7,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 7,
+        "TestID": 2,
+        "Min_Score": 75
+    },
+    {
+        "CollegeID": 7,
+        "TestID": 3,
+        "Min_Score": 46
+    },
+    {
+        "CollegeID": 7,
+        "TestID": 4,
+        "Min_Score": 105
+    },
+    {
+        "CollegeID": 8,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 8,
+        "TestID": 2,
+        "Min_Score": 75
+    },
+    {
+        "CollegeID": 8,
+        "TestID": 3,
+        "Min_Score": 46
+    },
+    {
+        "CollegeID": 8,
+        "TestID": 4,
+        "Min_Score": 105
+    },
+    {
+        "CollegeID": 9,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 9,
+        "TestID": 2,
+        "Min_Score": 75
+    },
+    {
+        "CollegeID": 9,
+        "TestID": 3,
+        "Min_Score": 46
+    },
+    {
+        "CollegeID": 9,
+        "TestID": 4,
+        "Min_Score": 105
+    },
+    {
+        "CollegeID": 10,
+        "TestID": 1,
+        "Min_Score": 4.5
+    },
+    {
+        "CollegeID": 10,
+        "TestID": 2,
+        "Min_Score": 75
+    },
+    {
+        "CollegeID": 10,
+        "TestID": 3,
+        "Min_Score": 40
+    },
+    {
+        "CollegeID": 11,
+        "TestID": 1,
+        "Min_Score": 4.5
+    },
+    {
+        "CollegeID": 11,
+        "TestID": 3,
+        "Min_Score": 48
+    },
+    {
+        "CollegeID": 11,
+        "TestID": 6,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 12,
+        "TestID": 1,
+        "Min_Score": 4.5
+    },
+    {
+        "CollegeID": 12,
+        "TestID": 3,
+        "Min_Score": 48
+    },
+    {
+        "CollegeID": 12,
+        "TestID": 6,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 13,
+        "TestID": 1,
+        "Min_Score": 4.5
+    },
+    {
+        "CollegeID": 13,
+        "TestID": 3,
+        "Min_Score": 48
+    },
+    {
+        "CollegeID": 13,
+        "TestID": 6,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 14,
+        "TestID": 1,
+        "Min_Score": 4.5
+    },
+    {
+        "CollegeID": 14,
+        "TestID": 3,
+        "Min_Score": 48
+    },
+    {
+        "CollegeID": 14,
+        "TestID": 6,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 15,
+        "TestID": 1,
+        "Min_Score": 4.5
+    },
+    {
+        "CollegeID": 15,
+        "TestID": 3,
+        "Min_Score": 48
+    },
+    {
+        "CollegeID": 15,
+        "TestID": 6,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 16,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 16,
+        "TestID": 2,
+        "Min_Score": 79
+    },
+    {
+        "CollegeID": 17,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 17,
+        "TestID": 2,
+        "Min_Score": 79
+    },
+    {
+        "CollegeID": 18,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 18,
+        "TestID": 2,
+        "Min_Score": 79
+    },
+    {
+        "CollegeID": 19,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 19,
+        "TestID": 2,
+        "Min_Score": 79
+    },
+    {
+        "CollegeID": 20,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 20,
+        "TestID": 2,
+        "Min_Score": 72
+    },
+    {
+        "CollegeID": 21,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 21,
+        "TestID": 2,
+        "Min_Score": 72
+    },
+    {
+        "CollegeID": 22,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 22,
+        "TestID": 2,
+        "Min_Score": 72
+    },
+    {
+        "CollegeID": 23,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 23,
+        "TestID": 2,
+        "Min_Score": 72
+    },
+    {
+        "CollegeID": 24,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 24,
+        "TestID": 2,
+        "Min_Score": 72
+    },
+    {
+        "CollegeID": 25,
+        "TestID": 1,
+        "Min_Score": 5
+    },
+    {
+        "CollegeID": 25,
+        "TestID": 2,
+        "Min_Score": 45
+    },
+    {
+        "CollegeID": 25,
+        "TestID": 3,
+        "Min_Score": 29
+    },
+    {
+        "CollegeID": 25,
+        "TestID": 4,
+        "Min_Score": 75
+    },
+    {
+        "CollegeID": 26,
+        "TestID": 1,
+        "Min_Score": 4.5
+    },
+    {
+        "CollegeID": 26,
+        "TestID": 2,
+        "Min_Score": 34
+    },
+    {
+        "CollegeID": 26,
+        "TestID": 3,
+        "Min_Score": 23
+    },
+    {
+        "CollegeID": 26,
+        "TestID": 4,
+        "Min_Score": 65
+    },
+    {
+        "CollegeID": 27,
+        "TestID": 1,
+        "Min_Score": 4.5
+    },
+    {
+        "CollegeID": 27,
+        "TestID": 2,
+        "Min_Score": 34
+    },
+    {
+        "CollegeID": 27,
+        "TestID": 3,
+        "Min_Score": 23
+    },
+    {
+        "CollegeID": 27,
+        "TestID": 4,
+        "Min_Score": 65
+    },
+    {
+        "CollegeID": 28,
+        "TestID": 1,
+        "Min_Score": 4.5
+    },
+    {
+        "CollegeID": 28,
+        "TestID": 2,
+        "Min_Score": 34
+    },
+    {
+        "CollegeID": 28,
+        "TestID": 3,
+        "Min_Score": 23
+    },
+    {
+        "CollegeID": 28,
+        "TestID": 4,
+        "Min_Score": 65
+    },
+    {
+        "CollegeID": 29,
+        "TestID": 1,
+        "Min_Score": 5
+    },
+    {
+        "CollegeID": 29,
+        "TestID": 2,
+        "Min_Score": 45
+    },
+    {
+        "CollegeID": 29,
+        "TestID": 3,
+        "Min_Score": 29
+    },
+    {
+        "CollegeID": 29,
+        "TestID": 4,
+        "Min_Score": 75
+    },
+    {
+        "CollegeID": 30,
+        "TestID": 1,
+        "Min_Score": 4.5
+    },
+    {
+        "CollegeID": 30,
+        "TestID": 2,
+        "Min_Score": 34
+    },
+    {
+        "CollegeID": 30,
+        "TestID": 3,
+        "Min_Score": 23
+    },
+    {
+        "CollegeID": 30,
+        "TestID": 4,
+        "Min_Score": 65
+    },
+    {
+        "CollegeID": 31,
+        "TestID": 1,
+        "Min_Score": 4.5
+    },
+    {
+        "CollegeID": 31,
+        "TestID": 2,
+        "Min_Score": 34
+    },
+    {
+        "CollegeID": 31,
+        "TestID": 3,
+        "Min_Score": 23
+    },
+    {
+        "CollegeID": 31,
+        "TestID": 4,
+        "Min_Score": 65
+    },
+    {
+        "CollegeID": 32,
+        "TestID": 1,
+        "Min_Score": 4.5
+    },
+    {
+        "CollegeID": 32,
+        "TestID": 2,
+        "Min_Score": 34
+    },
+    {
+        "CollegeID": 32,
+        "TestID": 3,
+        "Min_Score": 23
+    },
+    {
+        "CollegeID": 32,
+        "TestID": 4,
+        "Min_Score": 65
+    },
+    {
+        "CollegeID": 33,
+        "TestID": 1,
+        "Min_Score": 4.5
+    },
+    {
+        "CollegeID": 33,
+        "TestID": 2,
+        "Min_Score": 34
+    },
+    {
+        "CollegeID": 33,
+        "TestID": 3,
+        "Min_Score": 23
+    },
+    {
+        "CollegeID": 33,
+        "TestID": 4,
+        "Min_Score": 65
+    },
+    {
+        "CollegeID": 34,
+        "TestID": 1,
+        "Min_Score": 4.5
+    },
+    {
+        "CollegeID": 34,
+        "TestID": 2,
+        "Min_Score": 34
+    },
+    {
+        "CollegeID": 34,
+        "TestID": 3,
+        "Min_Score": 23
+    },
+    {
+        "CollegeID": 34,
+        "TestID": 4,
+        "Min_Score": 65
+    },
+    {
+        "CollegeID": 35,
+        "TestID": 1,
+        "Min_Score": 6.5
+    },
+    {
+        "CollegeID": 35,
+        "TestID": 2,
+        "Min_Score": 79
+    },
+    {
+        "CollegeID": 35,
+        "TestID": 3,
+        "Min_Score": 65
+    },
+    {
+        "CollegeID": 36,
+        "TestID": 1,
+        "Min_Score": 6.5
+    },
+    {
+        "CollegeID": 36,
+        "TestID": 2,
+        "Min_Score": 79
+    },
+    {
+        "CollegeID": 36,
+        "TestID": 3,
+        "Min_Score": 65
+    },
+    {
+        "CollegeID": 37,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 37,
+        "TestID": 2,
+        "Min_Score": 71
+    },
+    {
+        "CollegeID": 37,
+        "TestID": 3,
+        "Min_Score": 58
+    },
+    {
+        "CollegeID": 38,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 38,
+        "TestID": 2,
+        "Min_Score": 71
+    },
+    {
+        "CollegeID": 38,
+        "TestID": 3,
+        "Min_Score": 58
+    },
+    {
+        "CollegeID": 39,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 39,
+        "TestID": 2,
+        "Min_Score": 61
+    },
+    {
+        "CollegeID": 39,
+        "TestID": 3,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 40,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 40,
+        "TestID": 2,
+        "Min_Score": 61
+    },
+    {
+        "CollegeID": 40,
+        "TestID": 3,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 41,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 41,
+        "TestID": 2,
+        "Min_Score": 71
+    },
+    {
+        "CollegeID": 41,
+        "TestID": 3,
+        "Min_Score": 58
+    },
+    {
+        "CollegeID": 42,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 42,
+        "TestID": 2,
+        "Min_Score": 71
+    },
+    {
+        "CollegeID": 42,
+        "TestID": 3,
+        "Min_Score": 58
+    },
+    {
+        "CollegeID": 43,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 43,
+        "TestID": 2,
+        "Min_Score": 61
+    },
+    {
+        "CollegeID": 43,
+        "TestID": 3,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 44,
+        "TestID": 1,
+        "Min_Score": 6.5
+    },
+    {
+        "CollegeID": 44,
+        "TestID": 2,
+        "Min_Score": 79
+    },
+    {
+        "CollegeID": 44,
+        "TestID": 3,
+        "Min_Score": 65
+    },
+    {
+        "CollegeID": 45,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 45,
+        "TestID": 2,
+        "Min_Score": 61
+    },
+    {
+        "CollegeID": 45,
+        "TestID": 3,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 46,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 46,
+        "TestID": 2,
+        "Min_Score": 61
+    },
+    {
+        "CollegeID": 46,
+        "TestID": 3,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 47,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 47,
+        "TestID": 2,
+        "Min_Score": 61
+    },
+    {
+        "CollegeID": 47,
+        "TestID": 3,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 48,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 48,
+        "TestID": 2,
+        "Min_Score": 71
+    },
+    {
+        "CollegeID": 48,
+        "TestID": 3,
+        "Min_Score": 58
+    },
+    {
+        "CollegeID": 49,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 49,
+        "TestID": 2,
+        "Min_Score": 71
+    },
+    {
+        "CollegeID": 49,
+        "TestID": 3,
+        "Min_Score": 58
+    },
+    {
+        "CollegeID": 50,
+        "TestID": 1,
+        "Min_Score": 6.5
+    },
+    {
+        "CollegeID": 50,
+        "TestID": 2,
+        "Min_Score": 79
+    },
+    {
+        "CollegeID": 50,
+        "TestID": 3,
+        "Min_Score": 65
+    },
+    {
+        "CollegeID": 51,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 51,
+        "TestID": 2,
+        "Min_Score": 71
+    },
+    {
+        "CollegeID": 51,
+        "TestID": 3,
+        "Min_Score": 58
+    },
+    {
+        "CollegeID": 52,
+        "TestID": 1,
+        "Min_Score": 6.5
+    },
+    {
+        "CollegeID": 52,
+        "TestID": 2,
+        "Min_Score": 79
+    },
+    {
+        "CollegeID": 52,
+        "TestID": 3,
+        "Min_Score": 65
+    },
+    {
+        "CollegeID": 53,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 53,
+        "TestID": 2,
+        "Min_Score": 61
+    },
+    {
+        "CollegeID": 53,
+        "TestID": 3,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 54,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 54,
+        "TestID": 2,
+        "Min_Score": 71
+    },
+    {
+        "CollegeID": 54,
+        "TestID": 3,
+        "Min_Score": 58
+    },
+    {
+        "CollegeID": 55,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 55,
+        "TestID": 2,
+        "Min_Score": 71
+    },
+    {
+        "CollegeID": 55,
+        "TestID": 3,
+        "Min_Score": 58
+    },
+    {
+        "CollegeID": 56,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 56,
+        "TestID": 2,
+        "Min_Score": 61
+    },
+    {
+        "CollegeID": 57,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 57,
+        "TestID": 2,
+        "Min_Score": 45
+    },
+    {
+        "CollegeID": 58,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 58,
+        "TestID": 2,
+        "Min_Score": 45
+    },
+    {
+        "CollegeID": 59,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 59,
+        "TestID": 2,
+        "Min_Score": 61
+    },
+    {
+        "CollegeID": 60,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 60,
+        "TestID": 2,
+        "Min_Score": 61
+    },
+    {
+        "CollegeID": 61,
+        "TestID": 1,
+        "Min_Score": 5
+    },
+    {
+        "CollegeID": 61,
+        "TestID": 2,
+        "Min_Score": 45
+    },
+    {
+        "CollegeID": 62,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 62,
+        "TestID": 2,
+        "Min_Score": 45
+    },
+    {
+        "CollegeID": 63,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 63,
+        "TestID": 2,
+        "Min_Score": 45
+    },
+    {
+        "CollegeID": 64,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 64,
+        "TestID": 2,
+        "Min_Score": 80
+    },
+    {
+        "CollegeID": 64,
+        "TestID": 7,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 65,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 65,
+        "TestID": 2,
+        "Min_Score": 80
+    },
+    {
+        "CollegeID": 65,
+        "TestID": 7,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 66,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 66,
+        "TestID": 2,
+        "Min_Score": 80
+    },
+    {
+        "CollegeID": 66,
+        "TestID": 7,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 67,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 67,
+        "TestID": 2,
+        "Min_Score": 80
+    },
+    {
+        "CollegeID": 67,
+        "TestID": 7,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 68,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 68,
+        "TestID": 2,
+        "Min_Score": 80
+    },
+    {
+        "CollegeID": 68,
+        "TestID": 7,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 69,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 69,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 69,
+        "TestID": 8,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 70,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 70,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 70,
+        "TestID": 8,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 71,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 71,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 71,
+        "TestID": 8,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 72,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 72,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 72,
+        "TestID": 8,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 73,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 73,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 73,
+        "TestID": 8,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 74,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 74,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 74,
+        "TestID": 8,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 75,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 75,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 75,
+        "TestID": 8,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 76,
+        "TestID": 2,
+        "Min_Score": 61
+    },
+    {
+        "CollegeID": 77,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 78,
+        "TestID": 2,
+        "Min_Score": 61
+    },
+    {
+        "CollegeID": 79,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 79,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 80,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 80,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 81,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 81,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 82,
+        "TestID": 1,
+        "Min_Score": 5
+    },
+    {
+        "CollegeID": 82,
+        "TestID": 2,
+        "Min_Score": 61
+    },
+    {
+        "CollegeID": 83,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 83,
+        "TestID": 2,
+        "Min_Score": 65
+    },
+    {
+        "CollegeID": 83,
+        "TestID": 3,
+        "Min_Score": 50
+    },
+    {
+        "CollegeID": 84,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 84,
+        "TestID": 2,
+        "Min_Score": 80
+    },
+    {
+        "CollegeID": 85,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 85,
+        "TestID": 2,
+        "Min_Score": 80
+    },
+    {
+        "CollegeID": 86,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 86,
+        "TestID": 2,
+        "Min_Score": 75
+    },
+    {
+        "CollegeID": 87,
+        "TestID": 1,
+        "Min_Score": 6.5
+    },
+    {
+        "CollegeID": 87,
+        "TestID": 2,
+        "Min_Score": 85
+    },
+    {
+        "CollegeID": 88,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 88,
+        "TestID": 2,
+        "Min_Score": 80
+    },
+    {
+        "CollegeID": 89,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 89,
+        "TestID": 2,
+        "Min_Score": 80
+    },
+    {
+        "CollegeID": 90,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 90,
+        "TestID": 2,
+        "Min_Score": 75
+    },
+    {
+        "CollegeID": 91,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 91,
+        "TestID": 2,
+        "Min_Score": 80
+    },
+    {
+        "CollegeID": 92,
+        "TestID": 1,
+        "Min_Score": 6.5
+    },
+    {
+        "CollegeID": 92,
+        "TestID": 2,
+        "Min_Score": 85
+    },
+    {
+        "CollegeID": 93,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 93,
+        "TestID": 2,
+        "Min_Score": 80
+    },
+    {
+        "CollegeID": 94,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 94,
+        "TestID": 2,
+        "Min_Score": 80
+    },
+    {
+        "CollegeID": 95,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 95,
+        "TestID": 2,
+        "Min_Score": 80
+    },
+    {
+        "CollegeID": 96,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 96,
+        "TestID": 2,
+        "Min_Score": 70
+    },
+    {
+        "CollegeID": 97,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 97,
+        "TestID": 2,
+        "Min_Score": 70
+    },
+    {
+        "CollegeID": 98,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 98,
+        "TestID": 2,
+        "Min_Score": 75
+    },
+    {
+        "CollegeID": 99,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 99,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 99,
+        "TestID": 4,
+        "Min_Score": 85
+    },
+    {
+        "CollegeID": 100,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 100,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 100,
+        "TestID": 4,
+        "Min_Score": 85
+    },
+    {
+        "CollegeID": 101,
+        "TestID": 1,
+        "Min_Score": 6.5
+    },
+    {
+        "CollegeID": 101,
+        "TestID": 2,
+        "Min_Score": 80
+    },
+    {
+        "CollegeID": 101,
+        "TestID": 4,
+        "Min_Score": 105
+    },
+    {
+        "CollegeID": 102,
+        "TestID": 1,
+        "Min_Score": 6.5
+    },
+    {
+        "CollegeID": 102,
+        "TestID": 2,
+        "Min_Score": 80
+    },
+    {
+        "CollegeID": 102,
+        "TestID": 4,
+        "Min_Score": 105
+    },
+    {
+        "CollegeID": 103,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 103,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 103,
+        "TestID": 4,
+        "Min_Score": 85
+    },
+    {
+        "CollegeID": 104,
+        "TestID": 1,
+        "Min_Score": 6
+    },
+    {
+        "CollegeID": 104,
+        "TestID": 2,
+        "Min_Score": 70
+    },
+    {
+        "CollegeID": 104,
+        "TestID": 4,
+        "Min_Score": 95
+    },
+    {
+        "CollegeID": 105,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 105,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 105,
+        "TestID": 4,
+        "Min_Score": 85
+    },
+    {
+        "CollegeID": 106,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 106,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 106,
+        "TestID": 4,
+        "Min_Score": 85
+    },
+    {
+        "CollegeID": 107,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 107,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 107,
+        "TestID": 4,
+        "Min_Score": 85
+    },
+    {
+        "CollegeID": 108,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 108,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 108,
+        "TestID": 4,
+        "Min_Score": 85
+    },
+    {
+        "CollegeID": 109,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 109,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 109,
+        "TestID": 4,
+        "Min_Score": 85
+    },
+    {
+        "CollegeID": 110,
+        "TestID": 1,
+        "Min_Score": 5.5
+    },
+    {
+        "CollegeID": 110,
+        "TestID": 2,
+        "Min_Score": 60
+    },
+    {
+        "CollegeID": 110,
+        "TestID": 4,
+        "Min_Score": 85
+    }
+]

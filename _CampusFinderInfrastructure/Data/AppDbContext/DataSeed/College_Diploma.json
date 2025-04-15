@@ -1,0 +1,3092 @@
+[
+    {
+        "CollegeID":1,
+        "DiplomaID":1,
+        "Min_Grade":"75%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":1,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL "
+    },
+    {
+        "CollegeID":1,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":1,
+        "DiplomaID":4,
+        "Min_Grade":"70%",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":1,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":2,
+        "DiplomaID":1,
+        "Min_Grade":"85%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":2,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 Ol Include math"
+    },
+    {
+        "CollegeID":2,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"inlude math"
+    },
+    {
+        "CollegeID":2,
+        "DiplomaID":4,
+        "Min_Grade":"80%",
+        "Requirments":"inlude math"
+    },
+    {
+        "CollegeID":2,
+        "DiplomaID":5,
+        "Min_Grade":"30",
+        "Requirments":"inlude math"
+    },
+    {
+        "CollegeID":3,
+        "DiplomaID":1,
+        "Min_Grade":"75%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":3,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"9 OL"
+    },
+    {
+        "CollegeID":3,
+        "DiplomaID":3,
+        "Min_Grade":"2.8",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":3,
+        "DiplomaID":4,
+        "Min_Grade":"75%",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":3,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":4,
+        "DiplomaID":1,
+        "Min_Grade":"85%",
+        "Requirments":"Math Section"
+    },
+    {
+        "CollegeID":4,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL Include math and other science"
+    },
+    {
+        "CollegeID":4,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"inlude math"
+    },
+    {
+        "CollegeID":4,
+        "DiplomaID":4,
+        "Min_Grade":"80%",
+        "Requirments":"inlude math"
+    },
+    {
+        "CollegeID":4,
+        "DiplomaID":5,
+        "Min_Grade":"30",
+        "Requirments":"inlude math"
+    },
+    {
+        "CollegeID":5,
+        "DiplomaID":1,
+        "Min_Grade":"80%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":5,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL"
+    },
+    {
+        "CollegeID":5,
+        "DiplomaID":3,
+        "Min_Grade":"2.8",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":5,
+        "DiplomaID":4,
+        "Min_Grade":"75%",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":5,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":6,
+        "DiplomaID":1,
+        "Min_Grade":"60%",
+        "Requirments":"Math and science section"
+    },
+    {
+        "CollegeID":6,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"4OL + 1 As include Math , 5 OL include math"
+    },
+    {
+        "CollegeID":6,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"8 subjects include 1 math subject"
+    },
+    {
+        "CollegeID":6,
+        "DiplomaID":4,
+        "Min_Grade":"50%",
+        "Requirments":"6 subjects include Maths"
+    },
+    {
+        "CollegeID":6,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 subjects include Maths"
+    },
+    {
+        "CollegeID":7,
+        "DiplomaID":1,
+        "Min_Grade":"60%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":7,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"4OL + 1 As include Math , 5 OL include math"
+    },
+    {
+        "CollegeID":7,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"8 subjects include 1 math subject"
+    },
+    {
+        "CollegeID":7,
+        "DiplomaID":4,
+        "Min_Grade":"50%",
+        "Requirments":"6 subjects include Maths"
+    },
+    {
+        "CollegeID":7,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 subjects include Maths"
+    },
+    {
+        "CollegeID":8,
+        "DiplomaID":1,
+        "Min_Grade":"60%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":8,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"4OL + 1 As include Math , 5 OL include math"
+    },
+    {
+        "CollegeID":8,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"8 subjects include 1 math subject"
+    },
+    {
+        "CollegeID":8,
+        "DiplomaID":4,
+        "Min_Grade":"50%",
+        "Requirments":"6 subjects include Maths"
+    },
+    {
+        "CollegeID":8,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 subjects include Maths"
+    },
+    {
+        "CollegeID":9,
+        "DiplomaID":1,
+        "Min_Grade":"60%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":9,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"4OL + 1 As include Math , 5 OL include math"
+    },
+    {
+        "CollegeID":9,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"8 subjects include 1 math subject"
+    },
+    {
+        "CollegeID":9,
+        "DiplomaID":4,
+        "Min_Grade":"50%",
+        "Requirments":"6 subjects include Maths"
+    },
+    {
+        "CollegeID":9,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 subjects include Maths"
+    },
+    {
+        "CollegeID":10,
+        "DiplomaID":1,
+        "Min_Grade":"65%",
+        "Requirments":"Math Section"
+    },
+    {
+        "CollegeID":10,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL + 1AS Math"
+    },
+    {
+        "CollegeID":10,
+        "DiplomaID":3,
+        "Min_Grade":"2.9",
+        "Requirments":"include math"
+    },
+    {
+        "CollegeID":10,
+        "DiplomaID":4,
+        "Min_Grade":"50%",
+        "Requirments":"include math"
+    },
+    {
+        "CollegeID":10,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"include math"
+    },
+    {
+        "CollegeID":11,
+        "DiplomaID":1,
+        "Min_Grade":"55%",
+        "Requirments":"Math Section"
+    },
+    {
+        "CollegeID":11,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL include Math"
+    },
+    {
+        "CollegeID":11,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"6 subjects include math"
+    },
+    {
+        "CollegeID":11,
+        "DiplomaID":4,
+        "Min_Grade":"50%",
+        "Requirments":"6 subjects include math"
+    },
+    {
+        "CollegeID":11,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 subjects include math"
+    },
+    {
+        "CollegeID":12,
+        "DiplomaID":1,
+        "Min_Grade":"55%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":12,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL"
+    },
+    {
+        "CollegeID":12,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":12,
+        "DiplomaID":4,
+        "Min_Grade":"50%",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":12,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":13,
+        "DiplomaID":1,
+        "Min_Grade":"65%",
+        "Requirments":"Science section"
+    },
+    {
+        "CollegeID":13,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL include biology"
+    },
+    {
+        "CollegeID":13,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"6 Subjects include Biology"
+    },
+    {
+        "CollegeID":13,
+        "DiplomaID":4,
+        "Min_Grade":"50%",
+        "Requirments":"6 Subjects include Biology"
+    },
+    {
+        "CollegeID":13,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 Subjects include Biology"
+    },
+    {
+        "CollegeID":14,
+        "DiplomaID":1,
+        "Min_Grade":"65%",
+        "Requirments":"Science Section"
+    },
+    {
+        "CollegeID":14,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL include biology"
+    },
+    {
+        "CollegeID":14,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"6 Subjects include Biology"
+    },
+    {
+        "CollegeID":14,
+        "DiplomaID":4,
+        "Min_Grade":"50%",
+        "Requirments":"6 Subjects include Biology"
+    },
+    {
+        "CollegeID":14,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 Subjects include Biology"
+    },
+    {
+        "CollegeID":15,
+        "DiplomaID":1,
+        "Min_Grade":"55%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":15,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL "
+    },
+    {
+        "CollegeID":15,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":15,
+        "DiplomaID":4,
+        "Min_Grade":"50%",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":15,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":16,
+        "DiplomaID":1,
+        "Min_Grade":"65%",
+        "Requirments":"Math section"
+    },
+    {
+        "CollegeID":16,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL + 1 AS , 8 OL Including Math"
+    },
+    {
+        "CollegeID":16,
+        "DiplomaID":3,
+        "Min_Grade":"2",
+        "Requirments":"8 subjects include 1 math subject , 1 science subject "
+    },
+    {
+        "CollegeID":16,
+        "DiplomaID":4,
+        "Min_Grade":"50%",
+        "Requirments":"6 subjects include Maths , English , Science Subject"
+    },
+    {
+        "CollegeID":16,
+        "DiplomaID":5,
+        "Min_Grade":"25",
+        "Requirments":"6 Subjects Include Math and science of Minimum 4"
+    },
+    {
+        "CollegeID":17,
+        "DiplomaID":1,
+        "Min_Grade":"60%",
+        "Requirments":"Math , Science section"
+    },
+    {
+        "CollegeID":17,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL + 1 AS , 8 OL Including Math"
+    },
+    {
+        "CollegeID":17,
+        "DiplomaID":3,
+        "Min_Grade":"2",
+        "Requirments":"8 subjects include 1 math subject , 1 science subject "
+    },
+    {
+        "CollegeID":17,
+        "DiplomaID":4,
+        "Min_Grade":"50%",
+        "Requirments":"6 subjects include Maths , English , Science Subject"
+    },
+    {
+        "CollegeID":17,
+        "DiplomaID":5,
+        "Min_Grade":"25",
+        "Requirments":"6 Subjects Include Math and science of Minimum 4"
+    },
+    {
+        "CollegeID":18,
+        "DiplomaID":1,
+        "Min_Grade":"55%",
+        "Requirments":"Any Section "
+    },
+    {
+        "CollegeID":18,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL + 1 AS , 8 OL "
+    },
+    {
+        "CollegeID":18,
+        "DiplomaID":3,
+        "Min_Grade":"2",
+        "Requirments":"8 subjects include 1 math subject"
+    },
+    {
+        "CollegeID":18,
+        "DiplomaID":4,
+        "Min_Grade":"50%",
+        "Requirments":"6 subjects include Maths and English  Subject"
+    },
+    {
+        "CollegeID":18,
+        "DiplomaID":5,
+        "Min_Grade":"25",
+        "Requirments":"6 Subjects Include Math of Minimum 4"
+    },
+    {
+        "CollegeID":19,
+        "DiplomaID":1,
+        "Min_Grade":"55%",
+        "Requirments":"Any Section "
+    },
+    {
+        "CollegeID":19,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL + 1 AS , 8 OL "
+    },
+    {
+        "CollegeID":19,
+        "DiplomaID":3,
+        "Min_Grade":"2",
+        "Requirments":"8 subjects include 1 math subject"
+    },
+    {
+        "CollegeID":19,
+        "DiplomaID":4,
+        "Min_Grade":"50%",
+        "Requirments":"6 subjects include Maths Subject"
+    },
+    {
+        "CollegeID":19,
+        "DiplomaID":5,
+        "Min_Grade":"25",
+        "Requirments":"6 Subjects Include Math of Minimum 4"
+    },
+    {
+        "CollegeID":20,
+        "DiplomaID":1,
+        "Min_Grade":"55%",
+        "Requirments":"Any section "
+    },
+    {
+        "CollegeID":20,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL + 1 AS , 8 OL "
+    },
+    {
+        "CollegeID":20,
+        "DiplomaID":3,
+        "Min_Grade":"2",
+        "Requirments":"8 subjects include 1 math subject"
+    },
+    {
+        "CollegeID":20,
+        "DiplomaID":4,
+        "Min_Grade":"50%",
+        "Requirments":"6 subjects include Maths Subject"
+    },
+    {
+        "CollegeID":20,
+        "DiplomaID":5,
+        "Min_Grade":"25",
+        "Requirments":"6 Subjects Include Math of Minimum 4"
+    },
+    {
+        "CollegeID":21,
+        "DiplomaID":1,
+        "Min_Grade":"70%",
+        "Requirments":"Math Section"
+    },
+    {
+        "CollegeID":21,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5Ol include Math,Physics and Chemistry + 1 AS Math"
+    },
+    {
+        "CollegeID":21,
+        "DiplomaID":3,
+        "Min_Grade":"2",
+        "Requirments":"Math + Chemistry + Physics + English + any other subjects "
+    },
+    {
+        "CollegeID":21,
+        "DiplomaID":4,
+        "Min_Grade":"60%.",
+        "Requirments":"6 Subjects including Math , Physics and chemistry "
+    },
+    {
+        "CollegeID":21,
+        "DiplomaID":5,
+        "Min_Grade":"25\u00a0",
+        "Requirments":"6 Subjects including Math , Physics and chemistry "
+    },
+    {
+        "CollegeID":22,
+        "DiplomaID":1,
+        "Min_Grade":"70%",
+        "Requirments":"Math Section"
+    },
+    {
+        "CollegeID":22,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5Ol include Math,Physics and Chemistry + 1 AS Math"
+    },
+    {
+        "CollegeID":22,
+        "DiplomaID":3,
+        "Min_Grade":"2",
+        "Requirments":"Math + Chemistry + Physics + English + any other subjects "
+    },
+    {
+        "CollegeID":22,
+        "DiplomaID":4,
+        "Min_Grade":"60%.",
+        "Requirments":"6 Subjects including Math , Physics and chemistry "
+    },
+    {
+        "CollegeID":22,
+        "DiplomaID":5,
+        "Min_Grade":"25\u00a0",
+        "Requirments":"6 Subjects including Math , Physics and chemistry "
+    },
+    {
+        "CollegeID":23,
+        "DiplomaID":1,
+        "Min_Grade":"65%",
+        "Requirments":"Any section"
+    },
+    {
+        "CollegeID":23,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL include Math + 1 Math AS"
+    },
+    {
+        "CollegeID":23,
+        "DiplomaID":3,
+        "Min_Grade":"2",
+        "Requirments":"Math+ English + any other subjects "
+    },
+    {
+        "CollegeID":23,
+        "DiplomaID":4,
+        "Min_Grade":"60%.",
+        "Requirments":"6 Subjects including Math "
+    },
+    {
+        "CollegeID":23,
+        "DiplomaID":5,
+        "Min_Grade":"25\u00a0",
+        "Requirments":"6 Subjects including Math "
+    },
+    {
+        "CollegeID":24,
+        "DiplomaID":1,
+        "Min_Grade":"65%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":24,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL include Math + 1 Math AS"
+    },
+    {
+        "CollegeID":24,
+        "DiplomaID":3,
+        "Min_Grade":"2",
+        "Requirments":"Math+ English + any other subjects "
+    },
+    {
+        "CollegeID":24,
+        "DiplomaID":4,
+        "Min_Grade":"60%.",
+        "Requirments":"6 Subjects including Math "
+    },
+    {
+        "CollegeID":24,
+        "DiplomaID":5,
+        "Min_Grade":"25\u00a0",
+        "Requirments":"6 Subjects including Math "
+    },
+    {
+        "CollegeID":25,
+        "DiplomaID":1,
+        "Min_Grade":"\u00a061%",
+        "Requirments":" Science Section"
+    },
+    {
+        "CollegeID":25,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL subjects\u00a0, 5 OL subjects and one AS\/AL ,  8 OL subjects inclde chemistry and any other science subject"
+    },
+    {
+        "CollegeID":25,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"8 include Chemistry , Any scientific Subject , above C "
+    },
+    {
+        "CollegeID":25,
+        "DiplomaID":4,
+        "Min_Grade":"70%",
+        "Requirments":"Chemistry , Any scientific Subject , above C "
+    },
+    {
+        "CollegeID":25,
+        "DiplomaID":5,
+        "Min_Grade":"25",
+        "Requirments":"6 subjects include Chemistry and any other science subject"
+    },
+    {
+        "CollegeID":26,
+        "DiplomaID":1,
+        "Min_Grade":"60%",
+        "Requirments":" Science Section"
+    },
+    {
+        "CollegeID":26,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL subjects\u00a0, 5 OL subjects and one AS\/AL ,  8 OL subjects inclde chemistry and any other science subject"
+    },
+    {
+        "CollegeID":26,
+        "DiplomaID":3,
+        "Min_Grade":"2.3",
+        "Requirments":"8 include Chemistry , Any scientific Subject , above C "
+    },
+    {
+        "CollegeID":26,
+        "DiplomaID":4,
+        "Min_Grade":"65%",
+        "Requirments":"Chemistry , Any scientific Subject , above C "
+    },
+    {
+        "CollegeID":26,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 subjects include Chemistry and any other science subject"
+    },
+    {
+        "CollegeID":27,
+        "DiplomaID":1,
+        "Min_Grade":"55%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":27,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL subjects\u00a0, 5 OL subjects and one AS\/AL ,  8 OL subjects inclde chemistry and any other science subject"
+    },
+    {
+        "CollegeID":27,
+        "DiplomaID":3,
+        "Min_Grade":"2.3",
+        "Requirments":"8 include Chemistry , Any scientific Subject , above C "
+    },
+    {
+        "CollegeID":27,
+        "DiplomaID":4,
+        "Min_Grade":"65%",
+        "Requirments":"Chemistry , Any scientific Subject , above C "
+    },
+    {
+        "CollegeID":27,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 subjects include Chemistry and any other science subject"
+    },
+    {
+        "CollegeID":28,
+        "DiplomaID":1,
+        "Min_Grade":"60%",
+        "Requirments":" Science Section"
+    },
+    {
+        "CollegeID":28,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL subjects\u00a0, 5 OL subjects and one AS\/AL ,  8 OL subjects inclde chemistry and any other science subject"
+    },
+    {
+        "CollegeID":28,
+        "DiplomaID":3,
+        "Min_Grade":"2.3",
+        "Requirments":"8 include Chemistry , Any scientific Subject , above C "
+    },
+    {
+        "CollegeID":28,
+        "DiplomaID":4,
+        "Min_Grade":"65%",
+        "Requirments":"Chemistry , Any scientific Subject , above C "
+    },
+    {
+        "CollegeID":28,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 subjects include Chemistry and any other science subject"
+    },
+    {
+        "CollegeID":29,
+        "DiplomaID":1,
+        "Min_Grade":"64%",
+        "Requirments":" Science Section"
+    },
+    {
+        "CollegeID":29,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL subjects\u00a0, 5 OL subjects and one AS\/AL ,  8 OL subjects inclde Biology and any other science subject"
+    },
+    {
+        "CollegeID":29,
+        "DiplomaID":3,
+        "Min_Grade":"2.7",
+        "Requirments":"8 include Biology , Any scientific Subject , above C "
+    },
+    {
+        "CollegeID":29,
+        "DiplomaID":4,
+        "Min_Grade":"75%",
+        "Requirments":"Biology , Any scientific Subject , above C "
+    },
+    {
+        "CollegeID":29,
+        "DiplomaID":5,
+        "Min_Grade":"26",
+        "Requirments":"6 subjects include Biology and any other science subject"
+    },
+    {
+        "CollegeID":30,
+        "DiplomaID":1,
+        "Min_Grade":"60%",
+        "Requirments":"Math section"
+    },
+    {
+        "CollegeID":30,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL subjects\u00a0, 5 OL subjects and one AS\/AL ,  8 OL subjects inclde Math and any other science subject"
+    },
+    {
+        "CollegeID":30,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"8 include Math , Any scientific Subject , above C "
+    },
+    {
+        "CollegeID":30,
+        "DiplomaID":4,
+        "Min_Grade":"70%",
+        "Requirments":"Math , Any scientific Subject , above C "
+    },
+    {
+        "CollegeID":30,
+        "DiplomaID":5,
+        "Min_Grade":"25",
+        "Requirments":"6 subjects include Math and any other science subject "
+    },
+    {
+        "CollegeID":31,
+        "DiplomaID":1,
+        "Min_Grade":"60%",
+        "Requirments":"Math , Science section"
+    },
+    {
+        "CollegeID":31,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL subjects\u00a0, 5 OL subjects and one AS\/AL ,  8 OL subjects inclde Math and any other science subject"
+    },
+    {
+        "CollegeID":31,
+        "DiplomaID":3,
+        "Min_Grade":"2",
+        "Requirments":"8 include Math , Any scientific Subject , above C "
+    },
+    {
+        "CollegeID":31,
+        "DiplomaID":4,
+        "Min_Grade":"65%",
+        "Requirments":"Math , Any scientific Subject , above C "
+    },
+    {
+        "CollegeID":31,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 subjects include Math and any other science subject "
+    },
+    {
+        "CollegeID":32,
+        "DiplomaID":1,
+        "Min_Grade":"53%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":32,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL subjects\u00a0, 5 OL subjects and one AS\/AL ,  8 OL subjects "
+    },
+    {
+        "CollegeID":32,
+        "DiplomaID":3,
+        "Min_Grade":"2",
+        "Requirments":"8 subjects"
+    },
+    {
+        "CollegeID":32,
+        "DiplomaID":4,
+        "Min_Grade":"60%",
+        "Requirments":"Any Subjects"
+    },
+    {
+        "CollegeID":32,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":33,
+        "DiplomaID":1,
+        "Min_Grade":"53%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":33,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL subjects\u00a0, 5 OL subjects and one AS\/AL ,  8 OL subjects "
+    },
+    {
+        "CollegeID":33,
+        "DiplomaID":3,
+        "Min_Grade":"2",
+        "Requirments":"8 subjects"
+    },
+    {
+        "CollegeID":33,
+        "DiplomaID":4,
+        "Min_Grade":"60%",
+        "Requirments":"Any Subjects"
+    },
+    {
+        "CollegeID":33,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":34,
+        "DiplomaID":1,
+        "Min_Grade":"53%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":34,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL subjects\u00a0, 5 OL subjects and one AS\/AL ,  8 OL subjects "
+    },
+    {
+        "CollegeID":34,
+        "DiplomaID":3,
+        "Min_Grade":"2",
+        "Requirments":"8 subjects"
+    },
+    {
+        "CollegeID":34,
+        "DiplomaID":4,
+        "Min_Grade":"60%",
+        "Requirments":"Any Subjects"
+    },
+    {
+        "CollegeID":34,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 Subjects"
+    },
+    {
+        "CollegeID":35,
+        "DiplomaID":1,
+        "Min_Grade":"90",
+        "Requirments":"Science Section"
+    },
+    {
+        "CollegeID":35,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Biology , Chemistry , physics , math"
+    },
+    {
+        "CollegeID":35,
+        "DiplomaID":3,
+        "Min_Grade":"3.5",
+        "Requirments":"include Biology , Chemistry , physics and math"
+    },
+    {
+        "CollegeID":35,
+        "DiplomaID":4,
+        "Min_Grade":"90",
+        "Requirments":"include Biology , Chemistry , physics "
+    },
+    {
+        "CollegeID":35,
+        "DiplomaID":5,
+        "Min_Grade":"38",
+        "Requirments":"include Biology , Chemistry "
+    },
+    {
+        "CollegeID":36,
+        "DiplomaID":1,
+        "Min_Grade":"88",
+        "Requirments":"Science Section"
+    },
+    {
+        "CollegeID":36,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Biology , Chemistry , physics , math"
+    },
+    {
+        "CollegeID":36,
+        "DiplomaID":3,
+        "Min_Grade":"3.3",
+        "Requirments":"include Biology , Chemistry , physics and math"
+    },
+    {
+        "CollegeID":36,
+        "DiplomaID":4,
+        "Min_Grade":"88",
+        "Requirments":"include Biology , Chemistry , physics"
+    },
+    {
+        "CollegeID":36,
+        "DiplomaID":5,
+        "Min_Grade":"36",
+        "Requirments":"include Biology , Chemistry "
+    },
+    {
+        "CollegeID":37,
+        "DiplomaID":1,
+        "Min_Grade":"85",
+        "Requirments":"Science Section"
+    },
+    {
+        "CollegeID":37,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Biology , Chemistry , physics , math"
+    },
+    {
+        "CollegeID":37,
+        "DiplomaID":3,
+        "Min_Grade":"3.2",
+        "Requirments":"include Biology , Chemistry and Math"
+    },
+    {
+        "CollegeID":37,
+        "DiplomaID":4,
+        "Min_Grade":"85",
+        "Requirments":"include Biology , Chemistry , physics"
+    },
+    {
+        "CollegeID":37,
+        "DiplomaID":5,
+        "Min_Grade":"34",
+        "Requirments":"include  Chemistry "
+    },
+    {
+        "CollegeID":38,
+        "DiplomaID":1,
+        "Min_Grade":"83",
+        "Requirments":"Science Section"
+    },
+    {
+        "CollegeID":38,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Biology , Chemistry , physics , math"
+    },
+    {
+        "CollegeID":38,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"Subjects include Biology , Physics and Math"
+    },
+    {
+        "CollegeID":38,
+        "DiplomaID":4,
+        "Min_Grade":"80",
+        "Requirments":"include Biology , Chemistry , physics"
+    },
+    {
+        "CollegeID":38,
+        "DiplomaID":5,
+        "Min_Grade":"32",
+        "Requirments":"include Biology  "
+    },
+    {
+        "CollegeID":39,
+        "DiplomaID":1,
+        "Min_Grade":"80",
+        "Requirments":"Science Section"
+    },
+    {
+        "CollegeID":39,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Biology , Chemistry , physics , math"
+    },
+    {
+        "CollegeID":39,
+        "DiplomaID":3,
+        "Min_Grade":"2.8",
+        "Requirments":"include Biology , Physics and Chemistry"
+    },
+    {
+        "CollegeID":39,
+        "DiplomaID":4,
+        "Min_Grade":"75",
+        "Requirments":"include Biology , Chemistry , physics"
+    },
+    {
+        "CollegeID":39,
+        "DiplomaID":5,
+        "Min_Grade":"30",
+        "Requirments":"include Biology  "
+    },
+    {
+        "CollegeID":40,
+        "DiplomaID":1,
+        "Min_Grade":"75",
+        "Requirments":"Science Section"
+    },
+    {
+        "CollegeID":40,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Biology , Chemistry , physics , math"
+    },
+    {
+        "CollegeID":40,
+        "DiplomaID":3,
+        "Min_Grade":"2.7",
+        "Requirments":"include Biology  and Chemistry"
+    },
+    {
+        "CollegeID":40,
+        "DiplomaID":4,
+        "Min_Grade":"70",
+        "Requirments":"include Biology , Chemistry , physics"
+    },
+    {
+        "CollegeID":40,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"include Biology  "
+    },
+    {
+        "CollegeID":41,
+        "DiplomaID":1,
+        "Min_Grade":"80",
+        "Requirments":"Math Section"
+    },
+    {
+        "CollegeID":41,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include  Chemistry , physics , math"
+    },
+    {
+        "CollegeID":41,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"include Chemistry , Physics and Math"
+    },
+    {
+        "CollegeID":41,
+        "DiplomaID":4,
+        "Min_Grade":"80",
+        "Requirments":"include Chemistry , Physics and Math"
+    },
+    {
+        "CollegeID":41,
+        "DiplomaID":5,
+        "Min_Grade":"32",
+        "Requirments":"include Physics and Math"
+    },
+    {
+        "CollegeID":42,
+        "DiplomaID":1,
+        "Min_Grade":"78",
+        "Requirments":"Math and Science Section"
+    },
+    {
+        "CollegeID":42,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include   physics , math"
+    },
+    {
+        "CollegeID":42,
+        "DiplomaID":3,
+        "Min_Grade":"2.7",
+        "Requirments":"include Physics and Math"
+    },
+    {
+        "CollegeID":42,
+        "DiplomaID":4,
+        "Min_Grade":"75",
+        "Requirments":"include Physics and Math"
+    },
+    {
+        "CollegeID":42,
+        "DiplomaID":5,
+        "Min_Grade":"32",
+        "Requirments":"include  Math"
+    },
+    {
+        "CollegeID":43,
+        "DiplomaID":1,
+        "Min_Grade":"70",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":43,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL"
+    },
+    {
+        "CollegeID":43,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"Include Englishh "
+    },
+    {
+        "CollegeID":43,
+        "DiplomaID":4,
+        "Min_Grade":"70",
+        "Requirments":"Include Englishh "
+    },
+    {
+        "CollegeID":43,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"include  English"
+    },
+    {
+        "CollegeID":44,
+        "DiplomaID":1,
+        "Min_Grade":"70",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":44,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL"
+    },
+    {
+        "CollegeID":44,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"Include Englishh "
+    },
+    {
+        "CollegeID":44,
+        "DiplomaID":4,
+        "Min_Grade":"70",
+        "Requirments":"Include Englishh "
+    },
+    {
+        "CollegeID":44,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"include  English"
+    },
+    {
+        "CollegeID":45,
+        "DiplomaID":1,
+        "Min_Grade":"65",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":45,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL"
+    },
+    {
+        "CollegeID":45,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"Include Englishh "
+    },
+    {
+        "CollegeID":45,
+        "DiplomaID":4,
+        "Min_Grade":"70",
+        "Requirments":"Include Englishh "
+    },
+    {
+        "CollegeID":45,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"include  English"
+    },
+    {
+        "CollegeID":46,
+        "DiplomaID":1,
+        "Min_Grade":"55",
+        "Requirments":"Any Section "
+    },
+    {
+        "CollegeID":46,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include English"
+    },
+    {
+        "CollegeID":46,
+        "DiplomaID":3,
+        "Min_Grade":"2.4",
+        "Requirments":"include English"
+    },
+    {
+        "CollegeID":46,
+        "DiplomaID":4,
+        "Min_Grade":"70",
+        "Requirments":"include English"
+    },
+    {
+        "CollegeID":46,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"include English"
+    },
+    {
+        "CollegeID":47,
+        "DiplomaID":1,
+        "Min_Grade":"55",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":47,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include English"
+    },
+    {
+        "CollegeID":47,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"include English"
+    },
+    {
+        "CollegeID":47,
+        "DiplomaID":4,
+        "Min_Grade":"70",
+        "Requirments":"include English"
+    },
+    {
+        "CollegeID":47,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"include English"
+    },
+    {
+        "CollegeID":48,
+        "DiplomaID":1,
+        "Min_Grade":"75",
+        "Requirments":"Science Section"
+    },
+    {
+        "CollegeID":48,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Biology, Chemistry and Physics"
+    },
+    {
+        "CollegeID":48,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"include Biology and Chemistry"
+    },
+    {
+        "CollegeID":48,
+        "DiplomaID":4,
+        "Min_Grade":"80",
+        "Requirments":"include Biology and Chemistry"
+    },
+    {
+        "CollegeID":48,
+        "DiplomaID":5,
+        "Min_Grade":"32",
+        "Requirments":"include Biology and Chemistry"
+    },
+    {
+        "CollegeID":49,
+        "DiplomaID":1,
+        "Min_Grade":"70",
+        "Requirments":"Math and Science Section "
+    },
+    {
+        "CollegeID":49,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Math  and Physics"
+    },
+    {
+        "CollegeID":49,
+        "DiplomaID":3,
+        "Min_Grade":"2.8",
+        "Requirments":"include Math"
+    },
+    {
+        "CollegeID":49,
+        "DiplomaID":4,
+        "Min_Grade":"75",
+        "Requirments":"include Math and Physics"
+    },
+    {
+        "CollegeID":49,
+        "DiplomaID":5,
+        "Min_Grade":"30",
+        "Requirments":"include Math and Physics"
+    },
+    {
+        "CollegeID":50,
+        "DiplomaID":1,
+        "Min_Grade":"85",
+        "Requirments":"Sience section"
+    },
+    {
+        "CollegeID":50,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Physics , Biology and Chemistry"
+    },
+    {
+        "CollegeID":50,
+        "DiplomaID":3,
+        "Min_Grade":"33",
+        "Requirments":"include Biology and Chemistry"
+    },
+    {
+        "CollegeID":50,
+        "DiplomaID":4,
+        "Min_Grade":"88",
+        "Requirments":"include Biology and Chemistry"
+    },
+    {
+        "CollegeID":50,
+        "DiplomaID":5,
+        "Min_Grade":"36",
+        "Requirments":"include Biology and Chemistry"
+    },
+    {
+        "CollegeID":51,
+        "DiplomaID":1,
+        "Min_Grade":"75",
+        "Requirments":"Math Section "
+    },
+    {
+        "CollegeID":51,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Math , physics and Chemistry"
+    },
+    {
+        "CollegeID":51,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"include Math and Physics"
+    },
+    {
+        "CollegeID":51,
+        "DiplomaID":4,
+        "Min_Grade":"80",
+        "Requirments":"include Math and Physics"
+    },
+    {
+        "CollegeID":51,
+        "DiplomaID":5,
+        "Min_Grade":"32",
+        "Requirments":"include Math and Physics"
+    },
+    {
+        "CollegeID":52,
+        "DiplomaID":1,
+        "Min_Grade":"60",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":52,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include English"
+    },
+    {
+        "CollegeID":52,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"include English"
+    },
+    {
+        "CollegeID":52,
+        "DiplomaID":4,
+        "Min_Grade":"70",
+        "Requirments":"include English"
+    },
+    {
+        "CollegeID":52,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"include English"
+    },
+    {
+        "CollegeID":53,
+        "DiplomaID":1,
+        "Min_Grade":"60",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":53,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include English , Math"
+    },
+    {
+        "CollegeID":53,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"include English and Math"
+    },
+    {
+        "CollegeID":53,
+        "DiplomaID":4,
+        "Min_Grade":"70",
+        "Requirments":"include English and Math"
+    },
+    {
+        "CollegeID":53,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"include English and Math"
+    },
+    {
+        "CollegeID":54,
+        "DiplomaID":1,
+        "Min_Grade":"80",
+        "Requirments":"Sience Section"
+    },
+    {
+        "CollegeID":54,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Biology , Chemistry and Physics"
+    },
+    {
+        "CollegeID":54,
+        "DiplomaID":3,
+        "Min_Grade":"3.2",
+        "Requirments":"include Chemistry  and Biology"
+    },
+    {
+        "CollegeID":54,
+        "DiplomaID":4,
+        "Min_Grade":"85",
+        "Requirments":"include Chemistry  and Biology"
+    },
+    {
+        "CollegeID":54,
+        "DiplomaID":5,
+        "Min_Grade":"34",
+        "Requirments":"include Chemistry  and Biology"
+    },
+    {
+        "CollegeID":55,
+        "DiplomaID":1,
+        "Min_Grade":"75",
+        "Requirments":"Sience Section"
+    },
+    {
+        "CollegeID":55,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Biology  and Physics"
+    },
+    {
+        "CollegeID":55,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"include  Biology"
+    },
+    {
+        "CollegeID":55,
+        "DiplomaID":4,
+        "Min_Grade":"80",
+        "Requirments":"include  Biology and Physics"
+    },
+    {
+        "CollegeID":55,
+        "DiplomaID":5,
+        "Min_Grade":"32",
+        "Requirments":"include  Biology and Physics"
+    },
+    {
+        "CollegeID":56,
+        "DiplomaID":1,
+        "Min_Grade":"90",
+        "Requirments":"Sience Section"
+    },
+    {
+        "CollegeID":56,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Biology and Chemistry"
+    },
+    {
+        "CollegeID":56,
+        "DiplomaID":3,
+        "Min_Grade":"3.5",
+        "Requirments":"Include Biology And chemistry"
+    },
+    {
+        "CollegeID":56,
+        "DiplomaID":4,
+        "Min_Grade":"90",
+        "Requirments":"Include Biology And chemistry"
+    },
+    {
+        "CollegeID":56,
+        "DiplomaID":5,
+        "Min_Grade":"34",
+        "Requirments":"Include Biology And chemistry"
+    },
+    {
+        "CollegeID":57,
+        "DiplomaID":1,
+        "Min_Grade":"75",
+        "Requirments":"Science Section "
+    },
+    {
+        "CollegeID":57,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Biology and Chemistry"
+    },
+    {
+        "CollegeID":57,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"Include Biology And chemistry"
+    },
+    {
+        "CollegeID":57,
+        "DiplomaID":4,
+        "Min_Grade":"75",
+        "Requirments":"Include Biology And chemistry"
+    },
+    {
+        "CollegeID":57,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"Include Biology And chemistry"
+    },
+    {
+        "CollegeID":58,
+        "DiplomaID":1,
+        "Min_Grade":"85",
+        "Requirments":"Science Section"
+    },
+    {
+        "CollegeID":58,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Biology and Chemistry"
+    },
+    {
+        "CollegeID":58,
+        "DiplomaID":3,
+        "Min_Grade":"3.2",
+        "Requirments":"Include Biology And chemistry"
+    },
+    {
+        "CollegeID":58,
+        "DiplomaID":4,
+        "Min_Grade":"80",
+        "Requirments":"Include Biology And chemistry"
+    },
+    {
+        "CollegeID":58,
+        "DiplomaID":5,
+        "Min_Grade":"30",
+        "Requirments":"Include Biology And chemistry"
+    },
+    {
+        "CollegeID":59,
+        "DiplomaID":1,
+        "Min_Grade":"85",
+        "Requirments":"Science Section "
+    },
+    {
+        "CollegeID":59,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Biology and Chemistry"
+    },
+    {
+        "CollegeID":59,
+        "DiplomaID":3,
+        "Min_Grade":"3.2",
+        "Requirments":"Include Biology And chemistry"
+    },
+    {
+        "CollegeID":59,
+        "DiplomaID":4,
+        "Min_Grade":"80",
+        "Requirments":"Include Biology And chemistry"
+    },
+    {
+        "CollegeID":59,
+        "DiplomaID":5,
+        "Min_Grade":"32",
+        "Requirments":"Include  chemistry"
+    },
+    {
+        "CollegeID":60,
+        "DiplomaID":1,
+        "Min_Grade":"90",
+        "Requirments":"Science Section"
+    },
+    {
+        "CollegeID":60,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Biology and Chemistry"
+    },
+    {
+        "CollegeID":60,
+        "DiplomaID":3,
+        "Min_Grade":"3.5",
+        "Requirments":"Include Biology And chemistry"
+    },
+    {
+        "CollegeID":60,
+        "DiplomaID":4,
+        "Min_Grade":"85",
+        "Requirments":"Include Biology And chemistry"
+    },
+    {
+        "CollegeID":60,
+        "DiplomaID":5,
+        "Min_Grade":"34",
+        "Requirments":"Include  chemistry"
+    },
+    {
+        "CollegeID":61,
+        "DiplomaID":1,
+        "Min_Grade":"70",
+        "Requirments":"science Section "
+    },
+    {
+        "CollegeID":61,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Biology "
+    },
+    {
+        "CollegeID":61,
+        "DiplomaID":3,
+        "Min_Grade":"2.8",
+        "Requirments":"Include Biology "
+    },
+    {
+        "CollegeID":61,
+        "DiplomaID":4,
+        "Min_Grade":"70",
+        "Requirments":"Include Biology"
+    },
+    {
+        "CollegeID":61,
+        "DiplomaID":5,
+        "Min_Grade":"26",
+        "Requirments":"Include Biology "
+    },
+    {
+        "CollegeID":62,
+        "DiplomaID":1,
+        "Min_Grade":"80",
+        "Requirments":"Science Section"
+    },
+    {
+        "CollegeID":62,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 OL include Biology and Chemistry"
+    },
+    {
+        "CollegeID":62,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"Include Biology And chemistry"
+    },
+    {
+        "CollegeID":62,
+        "DiplomaID":4,
+        "Min_Grade":"75",
+        "Requirments":"Include Biology And chemistry"
+    },
+    {
+        "CollegeID":62,
+        "DiplomaID":5,
+        "Min_Grade":"30",
+        "Requirments":"Include  chemistry"
+    },
+    {
+        "CollegeID":63,
+        "DiplomaID":1,
+        "Min_Grade":"80",
+        "Requirments":"Math Section"
+    },
+    {
+        "CollegeID":63,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"5 OL + 1 AS , 8 OL Including Math"
+    },
+    {
+        "CollegeID":63,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"8 subjects include 1 math subject , 1 science subject "
+    },
+    {
+        "CollegeID":63,
+        "DiplomaID":4,
+        "Min_Grade":"70",
+        "Requirments":"6 subjects include Maths , English , Science Subject"
+    },
+    {
+        "CollegeID":63,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"6 Subjects Include Math and science of Minimum 4"
+    },
+    {
+        "CollegeID":64,
+        "DiplomaID":1,
+        "Min_Grade":"70%",
+        "Requirments":"Math section"
+    },
+    {
+        "CollegeID":64,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":" minimum of 8 subjects at O-Level, AS-Level, or A-Level.\n \u2022 A minimum grade of C in each subject.\n \u2022 Minimum admission score: 85% is preferred for Engineering programs."
+    },
+    {
+        "CollegeID":64,
+        "DiplomaID":3,
+        "Min_Grade":"85%",
+        "Requirments":"Completion of the High School Diploma.\n \u2022 SAT I score of at least 800 out of 1600.\n \u2022 SAT II score of at least 900 out of 1600, with a minimum of 500 in each subject."
+    },
+    {
+        "CollegeID":64,
+        "DiplomaID":4,
+        "Min_Grade":"85%",
+        "Requirments":"Completion of 12 years of education.\n \u2022 SAT II score of at least 900 out of 1600, with a minimum of 500 in each subject.\n \u2022 Minimum admission score: 85% is preferred for Engineering programs."
+    },
+    {
+        "CollegeID":64,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"Completion of the IB Diploma Program.\n \u2022 A total of at least 24 points.\n \u2022 A minimum score of 4 in each core subject.\n \u2022 Minimum admission score: 85% is preferred for Engineering programs."
+    },
+    {
+        "CollegeID":65,
+        "DiplomaID":1,
+        "Min_Grade":"70%",
+        "Requirments":"Math , Science section"
+    },
+    {
+        "CollegeID":65,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"Completion of at least 8 subjects at O-Level or A-Level.\n \u2022 Minimum grade of C in each subject.\n \u2022 It is recommended to include Mathematics and Physics as core subjects."
+    },
+    {
+        "CollegeID":65,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"Completion of High School Diploma.\n \u2022 Minimum SAT I score of 800.\n \u2022 It is recommended to take SAT II in Mathematics and Physics."
+    },
+    {
+        "CollegeID":65,
+        "DiplomaID":4,
+        "Min_Grade":"70%",
+        "Requirments":"Completion of the Canadian High School Diploma.\n \u2022 Minimum average of 70%.\n \u2022 It is recommended to include Mathematics and Physics as core subjects."
+    },
+    {
+        "CollegeID":65,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"Successful completion of the IB Diploma.\n \u2022 Minimum total score of 24 points.\n \u2022 Minimum score of 4 in each core subject."
+    },
+    {
+        "CollegeID":66,
+        "DiplomaID":1,
+        "Min_Grade":"65%",
+        "Requirments":"math , Science Section"
+    },
+    {
+        "CollegeID":66,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"Completion of at least 8 subjects at O-Level or A-Level.\n \u2022 Minimum grade of C in each subject."
+    },
+    {
+        "CollegeID":66,
+        "DiplomaID":3,
+        "Min_Grade":"2",
+        "Requirments":"Completion of High School Diploma.\n \u2022 Minimum SAT I score of 800."
+    },
+    {
+        "CollegeID":66,
+        "DiplomaID":4,
+        "Min_Grade":"70%",
+        "Requirments":"Completion of the Canadian High School Diploma.\n \u2022 Minimum average of 70%."
+    },
+    {
+        "CollegeID":66,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"Minimum total score of 24 points.\n \u2022 Minimum score of 4 in each core subject.\n"
+    },
+    {
+        "CollegeID":67,
+        "DiplomaID":1,
+        "Min_Grade":"70%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":67,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"A minimum of 8 subjects at O-Level or A-Level.\n \u2022 Minimum grade C in each subject.\n \u2022 It is recommended to include English Language and Social Sciences as core subjects."
+    },
+    {
+        "CollegeID":67,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"Completion of High School Diploma.\n \u2022 Minimum SAT I score of 800.\n \u2022 It is recommended to take SAT II in subjects relevant to the chosen major."
+    },
+    {
+        "CollegeID":67,
+        "DiplomaID":4,
+        "Min_Grade":"70%",
+        "Requirments":"Completion of the Canadian High School Diploma.\n \u2022 Minimum average of 70%.\n \u2022 It is recommended to include English Language and Social Sciences as core subjects."
+    },
+    {
+        "CollegeID":67,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"Successful completion of the IB Diploma.\n \u2022 Minimum total score of 24 points.\n \u2022 Minimum score of 4 in each core subject.\n"
+    },
+    {
+        "CollegeID":68,
+        "DiplomaID":1,
+        "Min_Grade":"55%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":68,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"Completion of at least 8 subjects at O-Level or A-Level.\n \u2022 Minimum grade of C in each subject.\n \u2022 It is recommended to include Art and Design subjects."
+    },
+    {
+        "CollegeID":68,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"Completion of High School Diploma.\n \u2022 Minimum SAT I score of 800.\n \u2022 It is recommended to take SAT II in Art and Design-related subjects."
+    },
+    {
+        "CollegeID":68,
+        "DiplomaID":4,
+        "Min_Grade":"70%",
+        "Requirments":"Completion of the Canadian High School Diploma.\n \u2022 Minimum average of 70%.\n \u2022 It is recommended to include Art and Design subjects."
+    },
+    {
+        "CollegeID":68,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"Successful completion of the IB Diploma.\n \u2022 Minimum total score of 24 points.\n \u2022 Minimum score of 4 in each core subject"
+    },
+    {
+        "CollegeID":69,
+        "DiplomaID":1,
+        "Min_Grade":"85%",
+        "Requirments":"Math Section "
+    },
+    {
+        "CollegeID":69,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 O-Levels (~70%+ equivalent) + A-Level Math (minimum B)."
+    },
+    {
+        "CollegeID":69,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"SAT I ~1100-1200 (Math emphasis)."
+    },
+    {
+        "CollegeID":69,
+        "DiplomaID":4,
+        "Min_Grade":"85%",
+        "Requirments":"Grade 12 Math and Physics required"
+    },
+    {
+        "CollegeID":69,
+        "DiplomaID":5,
+        "Min_Grade":"34",
+        "Requirments":"HL Math + Physics, minimum 5"
+    },
+    {
+        "CollegeID":70,
+        "DiplomaID":1,
+        "Min_Grade":"90%",
+        "Requirments":"Science Section"
+    },
+    {
+        "CollegeID":70,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 O-Levels (~80%+ equivalent) + A-Level Biology or Chemistry (minimum B)"
+    },
+    {
+        "CollegeID":70,
+        "DiplomaID":3,
+        "Min_Grade":"3.2",
+        "Requirments":"SAT I ~1200+ (SAT II Biology + Chemistry\/Math, 900+)."
+    },
+    {
+        "CollegeID":70,
+        "DiplomaID":4,
+        "Min_Grade":"90%",
+        "Requirments":"Grade 12 Biology and Chemistry required"
+    },
+    {
+        "CollegeID":70,
+        "DiplomaID":5,
+        "Min_Grade":"36",
+        "Requirments":"HL Biology + Chemistry, minimum 5"
+    },
+    {
+        "CollegeID":71,
+        "DiplomaID":1,
+        "Min_Grade":"90%",
+        "Requirments":"Science Section"
+    },
+    {
+        "CollegeID":71,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 O-Levels (~80%+ equivalent) + A-Level Biology (minimum B)"
+    },
+    {
+        "CollegeID":71,
+        "DiplomaID":3,
+        "Min_Grade":"3.2",
+        "Requirments":"SAT I ~1200+ (SAT II Biology + another science, 900+)."
+    },
+    {
+        "CollegeID":71,
+        "DiplomaID":4,
+        "Min_Grade":"90%",
+        "Requirments":"Grade 12 Biology and Chemistry required"
+    },
+    {
+        "CollegeID":71,
+        "DiplomaID":5,
+        "Min_Grade":"36",
+        "Requirments":"HL Biology + Chemistry, minimum 5"
+    },
+    {
+        "CollegeID":72,
+        "DiplomaID":1,
+        "Min_Grade":"85%",
+        "Requirments":"Math Section"
+    },
+    {
+        "CollegeID":72,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 O-Levels (~70%+ equivalent) + A-Level Math (minimum B)."
+    },
+    {
+        "CollegeID":72,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"SAT I ~1100-1200 (Math emphasis)."
+    },
+    {
+        "CollegeID":72,
+        "DiplomaID":4,
+        "Min_Grade":"85%",
+        "Requirments":"Grade 12 Math required"
+    },
+    {
+        "CollegeID":72,
+        "DiplomaID":5,
+        "Min_Grade":"34",
+        "Requirments":"HL Math, minimum 5"
+    },
+    {
+        "CollegeID":73,
+        "DiplomaID":1,
+        "Min_Grade":"65%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":73,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 O-Levels (~60%-65% equivalent)."
+    },
+    {
+        "CollegeID":73,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"SAT I ~1000."
+    },
+    {
+        "CollegeID":73,
+        "DiplomaID":4,
+        "Min_Grade":"75%",
+        "Requirments":"Any 6 Subjects"
+    },
+    {
+        "CollegeID":73,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"Any 6 Subjects"
+    },
+    {
+        "CollegeID":74,
+        "DiplomaID":1,
+        "Min_Grade":"65%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":74,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 O-Levels (~60%-65% equivalent)."
+    },
+    {
+        "CollegeID":74,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"SAT I ~1000."
+    },
+    {
+        "CollegeID":74,
+        "DiplomaID":4,
+        "Min_Grade":"75%",
+        "Requirments":"Any 6 Subjects"
+    },
+    {
+        "CollegeID":74,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"Any 6 Subjects"
+    },
+    {
+        "CollegeID":75,
+        "DiplomaID":1,
+        "Min_Grade":"65%",
+        "Requirments":"Any Section"
+    },
+    {
+        "CollegeID":75,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"8 O-Levels (~60%-65% equivalent)."
+    },
+    {
+        "CollegeID":75,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"SAT I ~1000."
+    },
+    {
+        "CollegeID":75,
+        "DiplomaID":4,
+        "Min_Grade":"75%",
+        "Requirments":"Any 6 Subjects"
+    },
+    {
+        "CollegeID":75,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"Any 6 Subjects"
+    },
+    {
+        "CollegeID":76,
+        "DiplomaID":1,
+        "Min_Grade":"85%",
+        "Requirments":"Mathematics (Must be taken at the required level)\nPhysics\nChemistry (For certain engineering programs)\nEnglish (for general communication and instruction)"
+    },
+    {
+        "CollegeID":76,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"Mathematics (Must be taken at the higher level)\nPhysics\nChemistry or another science-related subject (depending on the engineering specialization)\nEnglish (For general communication)"
+    },
+    {
+        "CollegeID":76,
+        "DiplomaID":3,
+        "Min_Grade":"80%",
+        "Requirments":"Mathematics (Algebra, Calculus, etc.)\nPhysics\nChemistry or another science subject (for certain specializations)\nEnglish (For general communication)"
+    },
+    {
+        "CollegeID":76,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"Mathematics (Higher Level or Standard Level depending on the program)\nPhysics (Higher Level or Standard Level, depending on the specialization)\nChemistry or another science-related subject\nEnglish (For general communication)"
+    },
+    {
+        "CollegeID":77,
+        "DiplomaID":1,
+        "Min_Grade":"55%",
+        "Requirments":"Arabic Language\nFirst Foreign Language (e.g., English, French, German)\nMathematics\nSciences\nSocial Studies"
+    },
+    {
+        "CollegeID":77,
+        "DiplomaID":3,
+        "Min_Grade":"55%",
+        "Requirments":"English\nMathematics\nRecommended Additional Subjects:\nEconomics\nBusiness Studies\nAccounting\nComputer Science\nAdvanced Mathematics"
+    },
+    {
+        "CollegeID":77,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"English Language\nMathematics\nRecommended Additional Subjects:\nEconomics\nBusiness Studies\nAccounting\nInformation Technology\nAdditional Mathematics"
+    },
+    {
+        "CollegeID":77,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"English A (Language and Literature or Language Acquisition)\nMathematics (Standard Level or Higher Level)\nEconomics (Standard Level or Higher Level, if available)\n2. Recommended Additional Subjects:\n\nBusiness and Management\nAccounting\nComputer Science\nSocial Sciences"
+    },
+    {
+        "CollegeID":78,
+        "DiplomaID":1,
+        "Min_Grade":"90%",
+        "Requirments":"Mathematics (Must be taken at the required level)\nEnglish (For general communication and instruction)\nPhysics (Depending on the program)\nChemistry (For specific engineering programs)\nOther subjects may vary depending on the program selected (e.g., Business Administration, International Business, etc.)"
+    },
+    {
+        "CollegeID":78,
+        "DiplomaID":3,
+        "Min_Grade":"SAT score of 1000",
+        "Requirments":"Mathematics (Algebra, Calculus, etc.)\nPhysics\nChemistry or another science subject (For specific specializations)\nEnglish (For general communication)"
+    },
+    {
+        "CollegeID":78,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"Mathematics (Higher Level or Standard Level, depending on the program)\nPhysics (Higher Level or Standard Level, depending on the program)\nChemistry or another science-related subject\nEnglish (For general communication)\nOther subjects may vary depending on the program (e.g., Business Management, Economics, etc.)"
+    },
+    {
+        "CollegeID":78,
+        "DiplomaID":2,
+        "Min_Grade":"C ",
+        "Requirments":"Mathematics (Must be taken at the higher level)\nPhysics\nChemistry or another science-related subject\nEnglish (For general communication)"
+    },
+    {
+        "CollegeID":79,
+        "DiplomaID":1,
+        "Min_Grade":"72%",
+        "Requirments":" Arabic, English, History, Geography, Psychology, Sociology (depending on the specialization)."
+    },
+    {
+        "CollegeID":79,
+        "DiplomaID":2,
+        "Min_Grade":"C ",
+        "Requirments":" English, History, Psychology (depending on the specialization)."
+    },
+    {
+        "CollegeID":79,
+        "DiplomaID":3,
+        "Min_Grade":"2",
+        "Requirments":" English, History, Sociology, Psychology (depending on the specialization)."
+    },
+    {
+        "CollegeID":79,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":" Higher Level English, History, Sociology, or Psychology (depending on the specialization)."
+    },
+    {
+        "CollegeID":80,
+        "DiplomaID":1,
+        "Min_Grade":"60%",
+        "Requirments":"Mathematics, Computer Science (if available), Physics."
+    },
+    {
+        "CollegeID":80,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"Mathematics, Computer Science (if available), Physics."
+    },
+    {
+        "CollegeID":80,
+        "DiplomaID":3,
+        "Min_Grade":"GPA of 2.0",
+        "Requirments":" Mathematics, Computer Science, Physics (recommended)."
+    },
+    {
+        "CollegeID":80,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":" Higher Level Mathematics, Computer Science (if available), Physics."
+    },
+    {
+        "CollegeID":81,
+        "DiplomaID":1,
+        "Min_Grade":"60%",
+        "Requirments":"Chemistry, Biology, Physics (some branches may require Math)."
+    },
+    {
+        "CollegeID":81,
+        "DiplomaID":3,
+        "Min_Grade":"900",
+        "Requirments":"Chemistry, Biology, Math (sometimes)."
+    },
+    {
+        "CollegeID":81,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":" Chemistry, Biology, Mathematics."
+    },
+    {
+        "CollegeID":81,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"Higher Level Chemistry, Biology, (Physics or Mathematics recommended)."
+    },
+    {
+        "CollegeID":82,
+        "DiplomaID":1,
+        "Min_Grade":"90%",
+        "Requirments":"Biology, Chemistry, Physics, and Mathematics."
+    },
+    {
+        "CollegeID":82,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"Biology, Chemistry, Physics, and Mathematics."
+    },
+    {
+        "CollegeID":82,
+        "DiplomaID":3,
+        "Min_Grade":"800",
+        "Requirments":"Biology, Chemistry, Physics, and Mathematics."
+    },
+    {
+        "CollegeID":82,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"Completion of the full IB Diploma.\nMust study Higher Level (HL) subjects in Biology and Chemistry."
+    },
+    {
+        "CollegeID":83,
+        "DiplomaID":1,
+        "Min_Grade":"90%",
+        "Requirments":"Mathematics\nChemistry\nBiology\nPhysics"
+    },
+    {
+        "CollegeID":83,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"Mathematics\nBiology\nChemistry\nPhysics (or another equivalent science subject)"
+    },
+    {
+        "CollegeID":83,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"Biology\nChemistry\nMathematics"
+    },
+    {
+        "CollegeID":83,
+        "DiplomaID":4,
+        "Min_Grade":"60%",
+        "Requirments":"Mathematics\nBiology\nChemistry\nPhysics (or another equivalent subject)"
+    },
+    {
+        "CollegeID":84,
+        "DiplomaID":1,
+        "Min_Grade":"90%",
+        "Requirments":"Chemistry, Physics, and Biology "
+    },
+    {
+        "CollegeID":84,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"Chemistry, Physics, and Biology, Mathematics."
+    },
+    {
+        "CollegeID":84,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"Chemistry, Physics, and Biology"
+    },
+    {
+        "CollegeID":84,
+        "DiplomaID":5,
+        "Min_Grade":"30",
+        "Requirments":"Chemistry, Physics, and Biology"
+    },
+    {
+        "CollegeID":85,
+        "DiplomaID":1,
+        "Min_Grade":"80%",
+        "Requirments":"Biology, Physics, Chemistry, Mathematics"
+    },
+    {
+        "CollegeID":85,
+        "DiplomaID":2,
+        "Min_Grade":" B",
+        "Requirments":"Biology, Physics, Chemistry"
+    },
+    {
+        "CollegeID":85,
+        "DiplomaID":3,
+        "Min_Grade":"2.8",
+        "Requirments":" Biology, Chemistry, Physics, Mathematics (preferable)"
+    },
+    {
+        "CollegeID":85,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"Biology, Chemistry, Physics, Mathematics (optional)"
+    },
+    {
+        "CollegeID":86,
+        "DiplomaID":1,
+        "Min_Grade":"80%",
+        "Requirments":" Physics, Mathematics, Chemistry"
+    },
+    {
+        "CollegeID":86,
+        "DiplomaID":2,
+        "Min_Grade":" B",
+        "Requirments":" Physics, Mathematics, Chemistry"
+    },
+    {
+        "CollegeID":86,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"Physics, Mathematics, Chemistry (optional)"
+    },
+    {
+        "CollegeID":86,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":" Physics, Mathematics, Chemistry"
+    },
+    {
+        "CollegeID":87,
+        "DiplomaID":1,
+        "Min_Grade":"75%",
+        "Requirments":"Business studies and Mathematics are preferred"
+    },
+    {
+        "CollegeID":87,
+        "DiplomaID":2,
+        "Min_Grade":"C ",
+        "Requirments":"Business subjects are preferred"
+    },
+    {
+        "CollegeID":87,
+        "DiplomaID":3,
+        "Min_Grade":"2.8",
+        "Requirments":"Business, Mathematics, and Economics preferred"
+    },
+    {
+        "CollegeID":87,
+        "DiplomaID":5,
+        "Min_Grade":"25",
+        "Requirments":null
+    },
+    {
+        "CollegeID":88,
+        "DiplomaID":1,
+        "Min_Grade":"90%",
+        "Requirments":"The student must pass the university's entrance exam"
+    },
+    {
+        "CollegeID":88,
+        "DiplomaID":2,
+        "Min_Grade":"B",
+        "Requirments":"Biology\nChemistry\nPhysics"
+    },
+    {
+        "CollegeID":88,
+        "DiplomaID":3,
+        "Min_Grade":"3.5",
+        "Requirments":"Biology\nChemistry\nPhysics"
+    },
+    {
+        "CollegeID":88,
+        "DiplomaID":5,
+        "Min_Grade":"35",
+        "Requirments":"The student must pass the university's entrance exam"
+    },
+    {
+        "CollegeID":89,
+        "DiplomaID":1,
+        "Min_Grade":"80%",
+        "Requirments":"Biology, Chemistry, Physics, Mathematics"
+    },
+    {
+        "CollegeID":89,
+        "DiplomaID":2,
+        "Min_Grade":" B",
+        "Requirments":"Biology, Chemistry, Mathematics"
+    },
+    {
+        "CollegeID":89,
+        "DiplomaID":3,
+        "Min_Grade":"2.8",
+        "Requirments":" Biology, Chemistry, Mathematics"
+    },
+    {
+        "CollegeID":89,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"Biology, Chemistry, Mathematics"
+    },
+    {
+        "CollegeID":90,
+        "DiplomaID":1,
+        "Min_Grade":"75%",
+        "Requirments":" Art, English, Mathematics"
+    },
+    {
+        "CollegeID":90,
+        "DiplomaID":2,
+        "Min_Grade":" C",
+        "Requirments":" Art, Design, Mathematics, English"
+    },
+    {
+        "CollegeID":90,
+        "DiplomaID":3,
+        "Min_Grade":"2.8",
+        "Requirments":"Art, Design, English"
+    },
+    {
+        "CollegeID":90,
+        "DiplomaID":5,
+        "Min_Grade":"25",
+        "Requirments":" Art, Design, English, Mathematics (optional)"
+    },
+    {
+        "CollegeID":91,
+        "DiplomaID":1,
+        "Min_Grade":"75%",
+        "Requirments":"Arabic, English, Foreign Language (e.g., French, German), and other humanities subjects"
+    },
+    {
+        "CollegeID":91,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"English, Foreign Language (e.g., French, German), and Humanities subjects."
+    },
+    {
+        "CollegeID":91,
+        "DiplomaID":3,
+        "Min_Grade":"2.8",
+        "Requirments":"English, Foreign Language (e.g., French, Spanish), and other humanities-related subjects."
+    },
+    {
+        "CollegeID":91,
+        "DiplomaID":5,
+        "Min_Grade":"25",
+        "Requirments":"Language A (native language), Language B (foreign language), and Humanities subjects."
+    },
+    {
+        "CollegeID":92,
+        "DiplomaID":1,
+        "Min_Grade":"80%",
+        "Requirments":"Mathematics, Computer Science (if available), Physics"
+    },
+    {
+        "CollegeID":92,
+        "DiplomaID":2,
+        "Min_Grade":" B",
+        "Requirments":"Mathematics, Computer Science"
+    },
+    {
+        "CollegeID":92,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"Mathematics, Computer Science"
+    },
+    {
+        "CollegeID":92,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"Mathematics, Computer Science"
+    },
+    {
+        "CollegeID":93,
+        "DiplomaID":1,
+        "Min_Grade":"90%",
+        "Requirments":" Biology, Chemistry, Physics, Mathematics."
+    },
+    {
+        "CollegeID":93,
+        "DiplomaID":2,
+        "Min_Grade":" A",
+        "Requirments":"Biology, Chemistry, Mathematics (Physics optional)."
+    },
+    {
+        "CollegeID":93,
+        "DiplomaID":3,
+        "Min_Grade":"3.5",
+        "Requirments":" Biology, Chemistry, Mathematics, Physics (optional)."
+    },
+    {
+        "CollegeID":93,
+        "DiplomaID":5,
+        "Min_Grade":"35",
+        "Requirments":"Biology, Chemistry, Mathematics, Physics (optional)."
+    },
+    {
+        "CollegeID":94,
+        "DiplomaID":1,
+        "Min_Grade":"80%",
+        "Requirments":"Biology, Physics, Chemistry, Mathematics."
+    },
+    {
+        "CollegeID":94,
+        "DiplomaID":2,
+        "Min_Grade":" B",
+        "Requirments":"Biology, Physics, Chemistry."
+    },
+    {
+        "CollegeID":94,
+        "DiplomaID":3,
+        "Min_Grade":"2.8",
+        "Requirments":"Biology, Chemistry, Physics, Mathematics (preferable)."
+    },
+    {
+        "CollegeID":94,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"Biology, Chemistry, Physics, Mathematics (optional)."
+    },
+    {
+        "CollegeID":95,
+        "DiplomaID":1,
+        "Min_Grade":"85%",
+        "Requirments":"Biology, Chemistry, Physics, Mathematics"
+    },
+    {
+        "CollegeID":95,
+        "DiplomaID":2,
+        "Min_Grade":" B",
+        "Requirments":"Biology, Chemistry, Mathematics"
+    },
+    {
+        "CollegeID":95,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":" Biology, Chemistry, Mathematics"
+    },
+    {
+        "CollegeID":95,
+        "DiplomaID":5,
+        "Min_Grade":"30",
+        "Requirments":"Biology, Chemistry, Mathematics"
+    },
+    {
+        "CollegeID":96,
+        "DiplomaID":1,
+        "Min_Grade":"75%",
+        "Requirments":"Biology, Chemistry (Mathematics optional)"
+    },
+    {
+        "CollegeID":96,
+        "DiplomaID":2,
+        "Min_Grade":" C",
+        "Requirments":" Biology, Chemistry"
+    },
+    {
+        "CollegeID":96,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"Biology, Chemistry"
+    },
+    {
+        "CollegeID":96,
+        "DiplomaID":5,
+        "Min_Grade":"25",
+        "Requirments":"Biology, Chemistry, Mathematics (optional)"
+    },
+    {
+        "CollegeID":97,
+        "DiplomaID":1,
+        "Min_Grade":"75%",
+        "Requirments":" Art, English, Mathematics"
+    },
+    {
+        "CollegeID":97,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"Art, Design, Mathematics, English"
+    },
+    {
+        "CollegeID":97,
+        "DiplomaID":3,
+        "Min_Grade":"2.8",
+        "Requirments":" Art, Design, English"
+    },
+    {
+        "CollegeID":97,
+        "DiplomaID":5,
+        "Min_Grade":"25",
+        "Requirments":"Art, Design, English, Mathematics (optional)"
+    },
+    {
+        "CollegeID":98,
+        "DiplomaID":1,
+        "Min_Grade":"80%",
+        "Requirments":"Physics, Mathematics, Chemistry"
+    },
+    {
+        "CollegeID":98,
+        "DiplomaID":2,
+        "Min_Grade":" B",
+        "Requirments":" Physics, Mathematics, Chemistry"
+    },
+    {
+        "CollegeID":98,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":"Physics, Mathematics, Chemistry (optional)"
+    },
+    {
+        "CollegeID":98,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":" Physics, Mathematics, Chemistry"
+    },
+    {
+        "CollegeID":99,
+        "DiplomaID":1,
+        "Min_Grade":"80%",
+        "Requirments":"Biology, Chemistry, and Physics."
+    },
+    {
+        "CollegeID":99,
+        "DiplomaID":5,
+        "Min_Grade":"30",
+        "Requirments":"Biology (HL), Chemistry (HL), and one of Physics or Mathematics (HL)."
+    },
+    {
+        "CollegeID":99,
+        "DiplomaID":2,
+        "Min_Grade":"A",
+        "Requirments":"Biology, Chemistry, and Physics (minimum grade A or A* in at least 2 subjects)."
+    },
+    {
+        "CollegeID":99,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":" Biology, Chemistry, and Physics (with good SAT II scores)."
+    },
+    {
+        "CollegeID":100,
+        "DiplomaID":1,
+        "Min_Grade":"75%",
+        "Requirments":"Mathematics (for both Science and Mathematics Sections)."
+    },
+    {
+        "CollegeID":100,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"Mathematics (HL) and any other subjects."
+    },
+    {
+        "CollegeID":100,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"Mathematics and any other 4 subjects (minimum grade C or above)."
+    },
+    {
+        "CollegeID":100,
+        "DiplomaID":3,
+        "Min_Grade":"2.8",
+        "Requirments":"Mathematics and any other subjects (with a GPA of 2.8 or higher)."
+    },
+    {
+        "CollegeID":101,
+        "DiplomaID":1,
+        "Min_Grade":"95%",
+        "Requirments":" Biology, Chemistry, Physics, and Mathematics."
+    },
+    {
+        "CollegeID":101,
+        "DiplomaID":5,
+        "Min_Grade":"36",
+        "Requirments":"Biology (HL), Chemistry (HL), and one of Physics or Mathematics (HL)."
+    },
+    {
+        "CollegeID":101,
+        "DiplomaID":2,
+        "Min_Grade":" A",
+        "Requirments":" Biology, Chemistry, Physics, and Mathematics (minimum grade A or A* in at least 3 subjects)."
+    },
+    {
+        "CollegeID":101,
+        "DiplomaID":3,
+        "Min_Grade":"3.5",
+        "Requirments":" Biology, Chemistry, and Physics (with strong SAT II scores in these subjects)."
+    },
+    {
+        "CollegeID":102,
+        "DiplomaID":1,
+        "Min_Grade":"90%",
+        "Requirments":"Biology, Chemistry, Physics, and Mathematics."
+    },
+    {
+        "CollegeID":102,
+        "DiplomaID":5,
+        "Min_Grade":"34",
+        "Requirments":"Biology (HL), Chemistry (HL), and one of Physics or Mathematics (HL)."
+    },
+    {
+        "CollegeID":102,
+        "DiplomaID":2,
+        "Min_Grade":" A ",
+        "Requirments":"Biology, Chemistry, Physics, and Mathematics (minimum grade A or A* in at least 3 subjects)."
+    },
+    {
+        "CollegeID":102,
+        "DiplomaID":3,
+        "Min_Grade":"3.3",
+        "Requirments":"Biology, Chemistry, and Physics (with strong SAT II scores)."
+    },
+    {
+        "CollegeID":103,
+        "DiplomaID":1,
+        "Min_Grade":"70%",
+        "Requirments":"Biology (for Science Section) or no specific subjects (for Arts Section)."
+    },
+    {
+        "CollegeID":103,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"Biology (SL\/HL) and any other subjects."
+    },
+    {
+        "CollegeID":103,
+        "DiplomaID":2,
+        "Min_Grade":" C",
+        "Requirments":"Biology (SL\/HL) and any other subjects."
+    },
+    {
+        "CollegeID":103,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":" Biology and any other 4 subjects (minimum grade C or above)."
+    },
+    {
+        "CollegeID":104,
+        "DiplomaID":1,
+        "Min_Grade":"75%",
+        "Requirments":"No specific subjects (but proficiency in languages is preferred)."
+    },
+    {
+        "CollegeID":104,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"English (HL) and any other subjects."
+    },
+    {
+        "CollegeID":104,
+        "DiplomaID":2,
+        "Min_Grade":" C",
+        "Requirments":"English and any other 4 subjects (minimum grade C or above)."
+    },
+    {
+        "CollegeID":104,
+        "DiplomaID":3,
+        "Min_Grade":"2.8",
+        "Requirments":" English and any other subjects (with a GPA of 2.8 or higher)."
+    },
+    {
+        "CollegeID":105,
+        "DiplomaID":1,
+        "Min_Grade":"70%",
+        "Requirments":"No specific subjects (but a portfolio may be required)."
+    },
+    {
+        "CollegeID":105,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"Visual Arts (HL) and any other subjects."
+    },
+    {
+        "CollegeID":105,
+        "DiplomaID":2,
+        "Min_Grade":" C",
+        "Requirments":" Art & Design and any other 4 subjects (minimum grade C or above)."
+    },
+    {
+        "CollegeID":105,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":" Art-related subjects and any other subjects (with a GPA of 2.5 or higher)."
+    },
+    {
+        "CollegeID":106,
+        "DiplomaID":1,
+        "Min_Grade":"65%",
+        "Requirments":"No specific subjects (but languages and social sciences are preferred)."
+    },
+    {
+        "CollegeID":106,
+        "DiplomaID":5,
+        "Min_Grade":"22",
+        "Requirments":"English (HL) and any other subjects."
+    },
+    {
+        "CollegeID":106,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"English and any other 4 subjects (minimum grade C or above)."
+    },
+    {
+        "CollegeID":106,
+        "DiplomaID":3,
+        "Min_Grade":"2",
+        "Requirments":"English and any other subjects (with a GPA of 2.0 or higher)."
+    },
+    {
+        "CollegeID":107,
+        "DiplomaID":1,
+        "Min_Grade":"85%",
+        "Requirments":" Mathematics, Physics, and Chemistry."
+    },
+    {
+        "CollegeID":107,
+        "DiplomaID":5,
+        "Min_Grade":"32",
+        "Requirments":"Mathematics (HL), Physics (HL), and one of Chemistry or Visual Arts (HL)."
+    },
+    {
+        "CollegeID":107,
+        "DiplomaID":2,
+        "Min_Grade":" A",
+        "Requirments":" Mathematics, Physics, and Chemistry (minimum grade A or A* in at least 2 subjects)."
+    },
+    {
+        "CollegeID":107,
+        "DiplomaID":3,
+        "Min_Grade":"3",
+        "Requirments":" Mathematics, Physics, and Chemistry (with strong SAT II scores)."
+    },
+    {
+        "CollegeID":108,
+        "DiplomaID":1,
+        "Min_Grade":"75%",
+        "Requirments":"No specific subjects (but Mathematics is preferred for Accounting and Finance)."
+    },
+    {
+        "CollegeID":108,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"Mathematics (SL\/HL) and any other subjects."
+    },
+    {
+        "CollegeID":108,
+        "DiplomaID":2,
+        "Min_Grade":" C",
+        "Requirments":" Mathematics and any other 4 subjects (minimum grade C or above)."
+    },
+    {
+        "CollegeID":108,
+        "DiplomaID":3,
+        "Min_Grade":"2.8",
+        "Requirments":"Mathematics and any other subjects (with a GPA of 2.8 or higher)."
+    },
+    {
+        "CollegeID":109,
+        "DiplomaID":1,
+        "Min_Grade":"70%",
+        "Requirments":" Biology, Chemistry, and Physics."
+    },
+    {
+        "CollegeID":109,
+        "DiplomaID":5,
+        "Min_Grade":"24",
+        "Requirments":"Biology (HL), Chemistry (HL), and one of Physics or Mathematics (HL)."
+    },
+    {
+        "CollegeID":109,
+        "DiplomaID":2,
+        "Min_Grade":" C",
+        "Requirments":"Biology, Chemistry, and Physics (minimum grade C or above)."
+    },
+    {
+        "CollegeID":109,
+        "DiplomaID":3,
+        "Min_Grade":"2.5",
+        "Requirments":"Biology, Chemistry, and Physics (with good grades)."
+    },
+    {
+        "CollegeID":110,
+        "DiplomaID":1,
+        "Min_Grade":"75%",
+        "Requirments":"Mathematics, Chemistry, and Physics (for Petroleum Chemistry) or Biology and Chemistry (for Marine Biology)."
+    },
+    {
+        "CollegeID":110,
+        "DiplomaID":5,
+        "Min_Grade":"28",
+        "Requirments":"Mathematics (HL), Chemistry (HL), and one of Physics or Biology (HL)."
+    },
+    {
+        "CollegeID":110,
+        "DiplomaID":2,
+        "Min_Grade":"C",
+        "Requirments":"Mathematics, Chemistry, and Physics\/Biology (minimum grade C or above)."
+    },
+    {
+        "CollegeID":110,
+        "DiplomaID":3,
+        "Min_Grade":"2.8",
+        "Requirments":"Mathematics, Chemistry, and Physics\/Biology (with a GPA of 2.8 or higher)."
+    }
+]

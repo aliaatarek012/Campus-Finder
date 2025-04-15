@@ -1,4 +1,5 @@
 ﻿using _CampusFinderCore.Entities.UniversityEntities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -69,23 +70,80 @@ namespace _CampusFinderInfrastructure.Data.AppDbContext
 				}
 			}
 
+
             var majorsData = File.ReadAllText("../_CampusFinderInfrastructure/Data/AppDbContext/DataSeed/Major.json");
             var majors = JsonSerializer.Deserialize<List<Major>>(majorsData);
             if (majors.Count > 0)
             {
-                if (!(_dbcontext.Majors.Count() > 0))
+
+                if (!(_dbcontext.Majors.Any()))
                 {
-                    foreach (var major in majors)
+                    // Open database connection if not already open
+                    var connection = _dbcontext.Database.GetDbConnection();
+                    if (connection.State != System.Data.ConnectionState.Open)
+                        await connection.OpenAsync();
+
+                    using var transaction = await _dbcontext.Database.BeginTransactionAsync();
+
+                    try
                     {
-                        _dbcontext.Set<Major>().Add(major);
-                        Console.WriteLine($"Is Entity Tracked: {_dbcontext.Entry(major).State}");
+                        // Turn ON identity insert
+                        await _dbcontext.Database.ExecuteSqlRawAsync("SET IDENTITY_INSERT Majors ON");
+
+                        foreach (var major in majors)
+                        {
+                            _dbcontext.Majors.Add(major);
+                        }
+
+                        await _dbcontext.SaveChangesAsync();
+
+                        // Turn OFF identity insert
+                        await _dbcontext.Database.ExecuteSqlRawAsync("SET IDENTITY_INSERT Majors OFF");
+
+                        await transaction.CommitAsync();
                     }
-                    await _dbcontext.SaveChangesAsync();
-                    
+                    catch (Exception ex)
+                    {
+                        await transaction.RollbackAsync();
+                        throw; // or log the error
+                    }
                 }
             }
-        }
+			var collegeEnglishData = File.ReadAllText("../_CampusFinderInfrastructure/Data/AppDbContext/DataSeed/College-English.json");
+			var collegeEnglish = JsonSerializer.Deserialize<List<College_English>>(collegeEnglishData);
+			if (collegeEnglish.Count > 0)
+			{
+				if (!(_dbcontext.CollegeEnglishTests.Count() > 0))
+				{
+					foreach (var college in collegeEnglish)
+					{
+						_dbcontext.Set<College_English>().Add(college);
+					}
+				}
+				await _dbcontext.SaveChangesAsync();
+			}
 
-	}
+			var CollegeDiplomaData = File.ReadAllText("../_CampusFinderInfrastructure/Data/AppDbContext/DataSeed/College_Diploma.json");
+			var collegeDiplomas = JsonSerializer.Deserialize<List<College_Diploma>>(CollegeDiplomaData);
+			if (collegeDiplomas.Count > 0)
+            {
+                if (!(_dbcontext.CollegeDiplomas.Count() > 0))
+                {
+                    foreach (var college in collegeDiplomas)
+                    {
+                        _dbcontext.Set<College_Diploma>().Add(college);
+                    }
+                    await _dbcontext.SaveChangesAsync();
+                }
+            }
+
+
+		}
+>>>>>>> origin/main
+
+
+
+
+    }
 
 }
