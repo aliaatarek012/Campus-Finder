@@ -21,7 +21,8 @@ namespace _CampusFinderInfrastructure.Data.Configurations
 				.HasForeignKey(m => m.CollegeID)
 				.OnDelete(DeleteBehavior.Cascade);
 
-			builder.Property(m => m.Description)
+
+            builder.Property(m => m.Description)
 				.HasColumnType("nvarchar(max)");
 		}
 	}

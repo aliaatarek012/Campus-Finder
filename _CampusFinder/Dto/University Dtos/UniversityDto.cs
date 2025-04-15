@@ -11,15 +11,15 @@ namespace CampusFinder.Dto.University_Dtos
 
 		public string? Name { get; set; }
 		
-		//public string? Location { get; set; }
-		
+		public string? Location { get; set; }
+
 		public string? RequiredDocuments { get; set; }
 		
 		public string? UniversityType { get; set; }
 	
 		public string? DegreeType { get; set; }
-		
-		//public string? Rank { get; set; }
+
+		public string? Rank { get; set; }
 
 		public string? LearningStyle { get; set; }
 

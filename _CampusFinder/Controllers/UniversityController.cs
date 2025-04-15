@@ -2,6 +2,8 @@
 using _CampusFinder.Errors;
 using _CampusFinderCore.Entities.UniversityEntities;
 using _CampusFinderCore.Repositories.Contract;
+using _CampusFinderCore.Services.Contract;
+using _CampusFinderInfrastructure.Specifications.University_Specs;
 using AutoMapper;
 using CampusFinder.Dto.University_Dtos;
 using Microsoft.AspNetCore.Http;
@@ -14,17 +16,19 @@ namespace CampusFinder.Controllers
 	{
 		private readonly IGenericRepository<University> _universityRepo;
 		private readonly IMapper _mapper;
+        private readonly IUniversityService _universityService;
 
-		public UniversityController(IGenericRepository<University> universityRepo,IMapper mapper)
+        public UniversityController(IGenericRepository<University> universityRepo,IMapper mapper , IUniversityService universityService)
 		{
 			_universityRepo = universityRepo;
 			_mapper = mapper;
-		}
+            _universityService = universityService;
+        }
 
 		[HttpGet]
-		public async Task<ActionResult<IEnumerable<UniversityDto>>> GetUniversities()
+		public async Task<ActionResult<IEnumerable<UniversityDto>>> GetUniversities([FromQuery] UniversitySpecParams specParams)
 		{
-			var universities = await _universityRepo.GetAllAsync();
+			var universities = await _universityService.GetUniversitiesAsync(specParams);
 			var universityDtos = _mapper.Map< IEnumerable<University>,IEnumerable<UniversityDto>>(universities);
 			return Ok(universityDtos);
 		}
