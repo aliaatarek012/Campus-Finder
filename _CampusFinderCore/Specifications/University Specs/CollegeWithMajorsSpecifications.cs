@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -47,13 +48,30 @@ namespace _CampusFinderInfrastructure.Specifications.University_Specs
 
         }
 
+        public Expression<Func<College, TResult>> Selector<TResult>()
+        {
+            return c => (TResult)(object)new College
+            {
+                CollegeID = c.CollegeID,
+                Name = c.Name,
+                StandardFees = c.StandardFees,
+                University = new University
+                {
+                    UniversityID = c.University.UniversityID,
+                    Name = c.University.Name
+                },
+                Majors = c.Majors.ToList()
+            };
+        }
+
         // Constructor for fetching a specific college by ID
         public CollegeWithMajorsSpecifications(int id)
             : base(c => c.CollegeID == id)
         {
             Includes.Add(c => c.Majors);
 
-        } 
+        }
 
+       
     }
 }

@@ -54,7 +54,7 @@ namespace _CampusFinderInfrastructure.Repositories
         //To avoid repeating Code(to easy use)  
         private IQueryable<T> ApplySpecifications(ISpecifications<T> spec)
         {
-            return SpecificationsEvaluator<T>.GetQuery(_dbcontext.Set<T>(), spec);
+            return SpecificationsEvaluator<T >.GetQuery(_dbcontext.Set<T>(), spec);
         }
 
 

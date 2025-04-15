@@ -20,7 +20,8 @@ namespace _CampusFinderCore.Entities.UniversityEntities
 		[JsonPropertyName("Standard Fees")]
 		public decimal StandardFees { get; set; }
 
-		public University University { get; set; }
+        [JsonIgnore]
+        public University University { get; set; }
 
 		public ICollection<Major>? Majors { get; set; }
 		public ICollection<College_Diploma>? CollegeDiplomas { get; set; }

@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -28,28 +29,34 @@ namespace _CampusFinderInfrastructure
             else if (spec.OrderByDesc is not null)
                 query = query.OrderByDescending(spec.OrderByDesc);
 
+            //// Apply projection
+            //if (spec is ISpecifications<TEntity> specWithSelector)
+            //{
+            //    var selector = specWithSelector.Selector<TEntity>();
+            //    if (selector is not null)
+            //        return query.Select(selector);
+            //}
 
 
 
-            //query = _dbContext.Set<Product>().OrderBy(P =>P.Name)
-            //Includes
-            //1. P => P.Brand
-            //2. P => P.Category
 
             //to add (Include) with (Where) must make Aggregate(accumulate/دمج)
 
             //This line Build query with  Dynamic Way
             query = spec.Includes.Aggregate(query, (currentQuery, includeExpression) => currentQuery.Include(includeExpression));
 
-            //First iterate:
-            // _dbContext.Set<Product>().OrderBy(P =>P.Name).Include(P => P.Brand)
-            //Second iterate:            
-            // _dbContext.Set<Product>().OrderBy(P =>P.Name).Include(P => P.Brand).Include( P => P.Category)
-
-
-
 
             return query;
+        }
+
+        public static IQueryable<TResult> GetQuery<TResult>(IQueryable<TEntity> inputQuery, ISpecifications<TEntity> spec,
+        Expression<Func<TEntity, TResult>> selector)
+        {
+            // First, apply filtering, sorting, and includes
+            var query = GetQuery(inputQuery, spec);
+
+            // Then, project the results into the desired shape
+            return query.Select(selector);
         }
 
 

@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="8.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.11" NoWarn="NU1605" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="8.0.11" NoWarn="NU1605" />
@@ -21,6 +22,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
@@ -28,6 +30,7 @@
     <ProjectReference Include="..\_CampusFinderInfrastructure\_CampusFinderInfrastructure.csproj" />
     <ProjectReference Include="..\_CampusFinderInfrastructure\_CampusFinderInfrastructure.csproj" />
     <ProjectReference Include="..\_CampusFinderInfrastructure\_CampusFinderInfrastructure.csproj" />
+	  <EmbeddedResource Include="../_CampusFinderInfrastructure/Data/AppDbContext/DataSeed/University.json" />
     <ProjectReference Include="..\_CampusFinderService\_CampusFinderService.csproj" />
     <ProjectReference Include="..\_CampusFinderService\_CampusFinderService.csproj" />
     <ProjectReference Include="..\_CampusFinderInfrastructure\_CampusFinderInfrastructure.csproj" />
@@ -35,7 +38,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\images\university\" />
   </ItemGroup>
 
 </Project>

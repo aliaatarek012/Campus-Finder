@@ -5,10 +5,11 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using Twilio.TwiML.Voice;
 
 namespace _CampusFinderCore.Specifications
 {
-    public class BaseSpecifications<T> : ISpecifications<T> where T : BaseEntity
+    public abstract class BaseSpecifications<T> : ISpecifications<T> where T : BaseEntity
     {
         //Used for filtering data.
         public Expression<Func<T, bool>> Criteria { get; set; } = null;
@@ -23,6 +24,7 @@ namespace _CampusFinderCore.Specifications
         public Expression<Func<T, object>> OrderBy { get; set; } = null;
         //for sorting data in descending order.
         public Expression<Func<T, object>> OrderByDesc { get; set; } = null;
+        
 
 
         //Use cons to Create object from BaseSpecifications and Make Criteria is null and build Query Get all Universities 
@@ -47,6 +49,12 @@ namespace _CampusFinderCore.Specifications
         public void AddOrderByDesc(Expression<Func<T, object>> OrderByDescExpression)
         {
             OrderByDesc = OrderByDescExpression;
+        }
+
+        // Default implementation of Selector<TResult>
+        public virtual Expression<Func<T, TResult>> Selector<TResult>()
+        {
+            throw new NotImplementedException("Selector<TResult> is not implemented.");
         }
 
     }

@@ -23,6 +23,7 @@ namespace _CampusFinderCore.Specifications
 
         public Expression<Func<T, object>> OrderByDesc { get; set; }
 
+        Expression<Func<T, TResult>> Selector<TResult>();
 
 
 
