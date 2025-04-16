@@ -27,5 +27,6 @@ namespace _CampusFinderInfrastructure.Data.AppDbContext
 		public DbSet<English_Test> EnglishTests { get; set; }
 		public DbSet<College_English> CollegeEnglishTests { get; set; }
 		public DbSet<College_Diploma> CollegeDiplomas { get; set; }
+		public DbSet<Events> Events { get; set; }
 	}
 }
