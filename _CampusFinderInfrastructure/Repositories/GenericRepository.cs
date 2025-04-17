@@ -1,5 +1,6 @@
 ﻿using _CampusFinderCore.Entities.UniversityEntities;
 using _CampusFinderCore.Repositories.Contract;
+using _CampusFinderCore.Specifications;
 using _CampusFinderInfrastructure.Data.AppDbContext;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -28,32 +29,46 @@ namespace _CampusFinderInfrastructure.Repositories
 			//}
 			return await _dbcontext.Set<T>().ToListAsync();
 		}
-		public async Task<T> GetByIdAsync(int id) 
-		{
-			//if (typeof(T) == typeof(University))
-			//{
-			//	return await _dbcontext.Set<University>().Where(u => u.UniversityID == id).Include(u => u.Colleges).FirstOrDefaultAsync() as T;
-			//}
-			return await _dbcontext.Set<T>().FindAsync(id);
-		}
-		public async Task<T> AddAsync(T entity)
-		{
-			await _dbcontext.Set<T>().AddAsync(entity);
-			await _dbcontext.SaveChangesAsync();
-			return entity;
-		}
 
-		public async Task DeleteAsync(T entity)
-		{
-			_dbcontext.Set<T>().Remove(entity);
-			await _dbcontext.SaveChangesAsync();
-		}
+        public async Task<T> GetByIdAsync(int id)
+        {
+            //if (typeof(T) == typeof(University))
+            //{
+            //	return await _dbcontext.Set<University>().Where(u => u.UniversityID == id).Include(u => u.Colleges).FirstOrDefaultAsync() as T;
+            //}
+            return await _dbcontext.Set<T>().FindAsync(id);
+        }
+
+        public async Task<IReadOnlyList<T>> GetAllWithSpecAsync(ISpecifications<T> spec)
+        {
+            return await ApplySpecifications(spec).ToListAsync();
+        }
+
+        
+
+        public async Task<T?> GetEntityWithSpecAsync(ISpecifications<T> spec)
+        {
+            return await ApplySpecifications(spec).FirstOrDefaultAsync();
+        }
+
+        //To avoid repeating Code(to easy use)  
+        private IQueryable<T> ApplySpecifications(ISpecifications<T> spec)
+        {
+            return SpecificationsEvaluator<T >.GetQuery(_dbcontext.Set<T>(), spec);
+        }
 
 
-		public async Task UpdateAsync(T entity)
-		{
-			_dbcontext.Set<T>().Update(entity);
-			await _dbcontext.SaveChangesAsync();
-		}
-	}
+        public async Task AddAsync(T entity)
+        => await _dbcontext.AddAsync(entity);
+
+
+        public void UpdateAsync(T entity)
+        => _dbcontext.Update(entity);
+
+
+        public void DeleteAsync(T entity)
+          => _dbcontext.Remove(entity);
+
+       
+    }
 }

@@ -70,10 +70,12 @@ namespace _CampusFinderInfrastructure.Data.AppDbContext
 				}
 			}
 
-			var majorsData = File.ReadAllText("../_CampusFinderInfrastructure/Data/AppDbContext/DataSeed/Major.json");
-			var majors = JsonSerializer.Deserialize<List<Major>>(majorsData);
-			if (majors.Count > 0)
+
+            var majorsData = File.ReadAllText("../_CampusFinderInfrastructure/Data/AppDbContext/DataSeed/Major.json");
+            var majors = JsonSerializer.Deserialize<List<Major>>(majorsData);
+            if (majors.Count > 0)
             {
+
                 if (!(_dbcontext.Majors.Any()))
                 {
                     // Open database connection if not already open
