@@ -137,7 +137,19 @@ namespace _CampusFinderInfrastructure.Data.AppDbContext
                 }
             }
 
-
+			var eventsData = File.ReadAllText("../_CampusFinderInfrastructure/Data/AppDbContext/DataSeed/Events.json");
+			var events = JsonSerializer.Deserialize<List<Events>>(eventsData);
+			if (events.Count > 0)
+			{
+				if (!(_dbcontext.Events.Count() > 0))
+				{
+					foreach (var eventItem in events)
+					{
+						_dbcontext.Set<Events>().Add(eventItem);
+					}
+					await _dbcontext.SaveChangesAsync();
+				}
+			}
 		}
 
 

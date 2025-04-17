@@ -1,0 +1,72 @@
+[
+  {
+    "Name": "Edugate Cairo Fair 2025",
+    "Description": "A large-scale educational fair bringing together top Egyptian and international universities. High school and college students can explore study options, meet admission officers, and attend workshops on scholarships, application tips, and career paths.",
+    "Date": "2025-08-03T09:00:00",
+    "Location": "Kempinski Hotel",
+    "RegistrationLink": "edugate-eg.com",
+    "ContactEmail": "info@edugate-eg.com",
+    "PictureURL": "images/Events/EduGateCairo.png",
+    "UniversityID": null
+  },
+  {
+    "Name": "Edugate Alexandria Fair",
+    "Description": "An educational event focused on serving students in Northern Egypt. Universities will present their programs, offer consultations, and provide application support for students and parents.",
+    "Date": "2025-08-06T09:00:00",
+    "Location": "Hilton Green Plaza, Alex",
+    "RegistrationLink": "edugate-eg.com",
+    "ContactEmail": "info@edugate-eg.com",
+    "PictureURL": "images/Events/EduGateAlex.png",
+    "UniversityID": null
+  },
+  {
+    "Name": "UH Experience Day",
+    "Description": "Spend a day as a UH student! Attend real lectures, explore our UK-accredited programs, and meet current students and faculty.",
+    "Date": "2025-07-15T11:00:00",
+    "Location": "UH Egypt Campus (GAF), New Capital",
+    "RegistrationLink": "https://gaf.edu.eg/experience-day",
+    "ContactEmail": "events@gaf.edu.eg",
+    "PictureURL": "images/Events/UHExperienceDay.jpg",
+    "UniversityID": 10
+  },
+  {
+    "Name": "AUC Summer Academy Kickoff",
+    "Description": "Intro session for high schoolers to explore AUC’s summer programs. Includes a tour and sessions with current students and faculty.",
+    "Date": "2025-06-20T10:30:00",
+    "Location": "AUC New Cairo Campus",
+    "RegistrationLink": "https://aucegypt.edu/summer-academy",
+    "ContactEmail": "outreach@aucegypt.edu",
+    "PictureURL": "images/Events/AUC.jpg",
+    "UniversityID": 4
+  },
+  {
+    "Name": "BUE Career Path Conference",
+    "Description": "Explore career options in engineering, business, and law with alumni panels, employer booths, and CV workshops.",
+    "Date": "2025-07-10T10:00:00",
+    "Location": "BUE Campus, El Sherouk City",
+    "RegistrationLink": "https://bue.edu.eg/career-path",
+    "ContactEmail": "careers@bue.edu.eg",
+    "PictureURL": "images/Events/BUEEvent.jpg",
+    "UniversityID": 11
+  },
+  {
+    "Name": "EUE Online Open Day",
+    "Description": "Join a virtual orientation to learn how Egypt’s top e-learning university works. Includes system demos and live faculty Q&A.",
+    "Date": "2025-05-18T12:00:00",
+    "Location": "Online (Zoom)",
+    "RegistrationLink": "https://eelu.edu.eg/virtual-open-day",
+    "ContactEmail": "info@eelu.edu.eg",
+    "PictureURL": "images/Events/eue.png",
+    "UniversityID": 5
+  },
+  {
+    "Name": "ERU Engineering Showcase Day",
+    "Description": "Senior ERU students present graduation projects in robotics, construction, and AI. Industry guests and prizes included.",
+    "Date": "2025-06-12T11:00:00",
+    "Location": "ERU Campus, Badr City",
+    "RegistrationLink": "https://eru.edu.eg/showcase2025",
+    "ContactEmail": "admissions@eru.edu.eg",
+    "PictureURL": "images/Events/ERUEvents.jpeg",
+    "UniversityID": 12
+  }
+]

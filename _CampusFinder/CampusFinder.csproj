@@ -38,6 +38,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\images\Events\" />
     <Folder Include="wwwroot\images\university\" />
   </ItemGroup>
 
