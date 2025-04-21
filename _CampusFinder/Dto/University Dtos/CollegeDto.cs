@@ -7,20 +7,18 @@ namespace CampusFinder.Dto.University_Dtos
 	public class CollegeDto
 	{
         public int CollegeID { get; set; }
-
-        public int UniversityID { get; set; }
+		public string Name { get; set; }
+		
 
         public string? Description { get; set; }
 
-        [Column(TypeName = "decimal(18,2)")]
-        [JsonPropertyName("Standard Fees")]
+        
         public decimal StandardFees { get; set; }
 
-        public University University { get; set; }
 
-        public ICollection<Major>? Majors { get; set; }
-        public ICollection<College_Diploma>? CollegeDiplomas { get; set; }
+        public List<MajorDto> Majors { get; set; }
+        public List<EnglishTestRequirementDto> EnglishTestRequirements { get; set; }
 
-        public ICollection<College_English>? CollegeEnglishTests { get; set; }
+        public List<DiplomaRequirementDto> DiplomaRequirements { get; set; }
     }
 }

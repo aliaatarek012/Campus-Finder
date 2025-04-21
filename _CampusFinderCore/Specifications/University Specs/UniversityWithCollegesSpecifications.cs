@@ -44,6 +44,12 @@ namespace _CampusFinderInfrastructure.Specifications.University_Specs
 
         }
 
+        // Constructor for fetching a specific university by ID with its colleges
+        public UniversityWithCollegesSpecifications(int id) : base(u => u.UniversityID == id)
+		{
+            Includes.Add(u => u.Colleges);
+		}
+
         
     }
 }

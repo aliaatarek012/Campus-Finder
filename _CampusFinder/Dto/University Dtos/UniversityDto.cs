@@ -34,7 +34,7 @@ namespace CampusFinder.Dto.University_Dtos
 		
 		public string? PictureURL { get; set; }
 
-		public ICollection<College> Colleges { get; set; }
+		public List<CollegeBasicDto> Colleges { get; set; }
 
 	}
 }
