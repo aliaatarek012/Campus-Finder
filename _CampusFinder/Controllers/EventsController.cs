@@ -23,7 +23,7 @@ namespace CampusFinder.Controllers
 		}
 
 		[HttpGet]
-		public async Task<ActionResult<IEnumerable<EventsDto>>> GetEvents()
+		public async Task<ActionResult<IEnumerable<EventsDto>>> GetAllEvents()
 		{
 			var events = await _eventsRepo.GetAllAsync();
 			if (events == null)
@@ -31,6 +31,19 @@ namespace CampusFinder.Controllers
 				return NotFound(new ApiResponse(404).ToDictionary());
 			}
 			var eventsDtos = _mapper.Map<IEnumerable<Events>, IEnumerable<EventsDto>>(events);
+			return Ok(eventsDtos);
+		}
+
+
+		[HttpGet("EventsHome")]
+		public async Task<ActionResult<IEnumerable<EventsHomeDto>>> GetEvents()
+		{
+			var events = await _eventsRepo.GetAllAsync();
+			if (events == null)
+			{
+				return NotFound(new ApiResponse(404).ToDictionary());
+			}
+			var eventsDtos = _mapper.Map<IEnumerable<Events>, IEnumerable<EventsHomeDto>>(events);
 			return Ok(eventsDtos);
 		}
 

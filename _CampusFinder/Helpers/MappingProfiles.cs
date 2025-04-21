@@ -50,6 +50,8 @@ namespace CampusFinder.Helpers
                 //.ForMember(d => d.UniversityName, o => o.MapFrom(s => s.University.Name))
                 .ForMember(d => d.PictureURL , o => o.MapFrom<EventsPictureResolver<EventsDto>>())
                 ;
+            CreateMap<Events, EventsHomeDto>()
+				.ForMember(d => d.PictureURL, o => o.MapFrom<EventsPictureResolver<EventsHomeDto>>());
             //Unused
 			CreateMap<University, UniversityWithCollegesDto>()
                 .ForMember(d => d.UniversityID, o => o.MapFrom(s => s.UniversityID))

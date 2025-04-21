@@ -61,20 +61,74 @@ namespace CampusFinder.Controllers
 		{
 
 
-			var college = await _context.Colleges
-				.Include(c => c.Majors)
-				.Include(c => c.CollegeEnglishTests)
-					.ThenInclude(cet => cet.English_Test)
-				.Include(c => c.CollegeDiplomas)
-					//.ThenInclude(cd => cd.Diploma)
-				.FirstOrDefaultAsync(c => c.CollegeID == id);
+			//var college = await _context.Colleges
+			//	//.Include(c => c.Majors)
+			//	.Include(c => c.CollegeEnglishTests)
+			//		.ThenInclude(cet => cet.English_Test)
+			//	.Include(c => c.CollegeDiplomas)
+			//		//.ThenInclude(cd => cd.Diploma)
+			//	.FirstOrDefaultAsync(c => c.CollegeID == id);
+			//var result = from c in _context.Colleges
+			//			 join ct in _context.CollegeEnglishTests on c.CollegeID equals ct.CollegeID
+			//			 join et in _context.EnglishTests on ct.TestID equals et.TestID
+			//			 where c.CollegeID == id
+			//			 select new
+			//			 {
+			//				 c.CollegeID,
+			//				 c.Name,
+			//				 c.StandardFees,
+			//				 ct.TestID,
+			//				 EnglishTestName = et.Name,
+			//				 ct.Min_Score
+			//			 };
+			var college = _context.Colleges
+	            .Where(c => c.CollegeID == id)
+	            .Select(c => new
+	            {
+	            	c.CollegeID,
+	            	c.Name,
+					c.Description,
+	            	c.StandardFees,
+				     Diplomas = _context.CollegeDiplomas.
+					 Where(cd => cd.CollegeID == c.CollegeID)
+					 .Select( cd => new
+						{
+							DiplomaName = cd.Diploma.Name,
+							cd.Min_Grade,
+							cd.Requirments,
+						}).ToList(),
+
+	            	EnglishTests = _context.CollegeEnglishTests
+	            		.Where(ct => ct.CollegeID == c.CollegeID)
+	            		.Join(_context.EnglishTests,
+	            			  ct => ct.TestID,
+	            			  et => et.TestID,
+	            			  (ct, et) => new
+	            			  {
+	            				  ct.TestID,
+	            				  EnglishTestName = et.Name,
+	            				  ct.Min_Score
+	            			  }).ToList() ,
+
+
+					 Majors = _context.Majors
+					.Where(m => m.CollegeID == c.CollegeID)
+					.Select(m => new
+					{
+						m.Name,
+						m.Description,
+					}).ToList()
+	            })
+	            .FirstOrDefault();
+
+
 			if (college == null)
 			{
 				return NotFound(new ApiResponse(404).ToDictionary());
 			}
 
-			var collegeDto = _mapper.Map<College, CollegeDto>(college);
-			return Ok(collegeDto);
+			//var collegeDto = _mapper.Map<College, CollegeDto>(college);
+			return Ok(college);
 		}
 
 	}
