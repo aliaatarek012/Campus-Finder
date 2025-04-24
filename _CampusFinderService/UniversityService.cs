@@ -6,6 +6,7 @@ using Org.BouncyCastle.Crypto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -58,7 +59,12 @@ namespace _CampusFinderService
 
         public Task<University> GetUniversityAsync(int universityId)
         {
-            throw new NotImplementedException();
+           var university = _unitOfWork.Repository<University>().GetByIdAsync(universityId);
+            if (university == null)
+            {
+                throw new Exception("University not found");
+            }
+            return university;
         }
 
         public Task<IReadOnlyList<College>> GetCollegesAsync()
@@ -66,6 +72,26 @@ namespace _CampusFinderService
             throw new NotImplementedException();
         }
 
-        
+
+        public async Task<University> CreateUniversityAsync(University university)
+        {
+            await _unitOfWork.Repository<University>().AddAsync(university);
+            await _unitOfWork.CompleteAsync();
+            return university;
+        }
+
+        public async Task DeleteUniversityAsync(int universityId)
+        {
+            var university = await _unitOfWork.Repository<University>().GetByIdAsync(universityId);
+            
+            _unitOfWork.Repository<University>().DeleteAsync(university);
+            await _unitOfWork.CompleteAsync();
+        }
+
+        // method to load updatedUniversityDto into Database
+        //public async Task<University> UpdateUniversity(pR)
+        //{
+
+        //}
     }
 }

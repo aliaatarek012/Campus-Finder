@@ -17,6 +17,14 @@ namespace _CampusFinderCore.Services.Contract
         //Retrieve a single product based on its universityId,so not use there IReadOnlyList<University>
         Task<University> GetUniversityAsync(int universityId);
 
+        //Create a new university
+        Task<University> CreateUniversityAsync(University university);
+        //Update university
+        //Task<University> UpdateUniversity(int id);
+
+        //Delete a university
+        Task DeleteUniversityAsync(int universityId);
+
         //Retrieve all Colleges
         Task<IReadOnlyList<College>> GetCollegesAsync();
 

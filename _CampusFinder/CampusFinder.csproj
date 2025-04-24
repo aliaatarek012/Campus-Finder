@@ -30,7 +30,6 @@
     <ProjectReference Include="..\_CampusFinderInfrastructure\_CampusFinderInfrastructure.csproj" />
     <ProjectReference Include="..\_CampusFinderInfrastructure\_CampusFinderInfrastructure.csproj" />
     <ProjectReference Include="..\_CampusFinderInfrastructure\_CampusFinderInfrastructure.csproj" />
-	  <EmbeddedResource Include="../_CampusFinderInfrastructure/Data/AppDbContext/DataSeed/University.json" />
     <ProjectReference Include="..\_CampusFinderService\_CampusFinderService.csproj" />
     <ProjectReference Include="..\_CampusFinderService\_CampusFinderService.csproj" />
     <ProjectReference Include="..\_CampusFinderInfrastructure\_CampusFinderInfrastructure.csproj" />

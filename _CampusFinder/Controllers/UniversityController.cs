@@ -9,42 +9,49 @@ using AutoMapper;
 using CampusFinder.Dto.University_Dtos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.EntityFrameworkCore;
 
 namespace CampusFinder.Controllers
 {
-	
+
 	public class UniversityController : BaseApiController
 	{
 		private readonly IGenericRepository<University> _universityRepo;
 		private readonly IMapper _mapper;
-        private readonly IUniversityService _universityService;
+		private readonly IUniversityService _universityService;
 		private readonly ApplicationDbContext _context;
+		private readonly ILogger<UniversityController> _logger;
 
-		public UniversityController(IGenericRepository<University> universityRepo, IMapper mapper, IUniversityService universityService, ApplicationDbContext context)
+		public UniversityController(IGenericRepository<University> universityRepo,
+			IMapper mapper,
+			IUniversityService universityService,
+			ApplicationDbContext context,
+			ILogger<UniversityController> logger)
 		{
 			_universityRepo = universityRepo;
 			_mapper = mapper;
-            _universityService = universityService;
+			_universityService = universityService;
 			_context = context;
+			_logger = logger;
 		}
 
 		[HttpGet]
 		public async Task<ActionResult<IEnumerable<UniversityDto>>> GetUniversities([FromQuery] UniversitySpecParams specParams)
 		{
 			var universities = await _universityService.GetUniversitiesAsync(specParams);
-			var universityDtos = _mapper.Map< IEnumerable<University>,IEnumerable<UniversityDto>>(universities);
+			var universityDtos = _mapper.Map<IEnumerable<University>, IEnumerable<UniversityDto>>(universities);
 			return Ok(universityDtos);
 		}
 		[HttpGet("HomePage")]
 		public async Task<ActionResult<IEnumerable<HomePageDto>>> HomePage()
 		{
 			var universities = await _universityRepo.GetAllAsync();
-			return Ok(_mapper.Map<IEnumerable<University> , IEnumerable<HomePageDto>>(universities));
+			return Ok(_mapper.Map<IEnumerable<University>, IEnumerable<HomePageDto>>(universities));
 		}
 
 		[HttpGet("{id}")]
-		public async Task<ActionResult<University>> GetUniversity(int id)
+		public async Task<ActionResult<UniversityDto>> GetUniversity(int id)
 		{
 			var spec = new UniversityWithCollegesSpecifications(id);
 			var university = await _universityRepo.GetEntityWithSpecAsync(spec);
@@ -56,31 +63,92 @@ namespace CampusFinder.Controllers
 			return Ok(universityDtos);
 		}
 
+
+		[HttpPost]
+		public async Task<ActionResult<UniversityDto>> CreateUniversity([FromBody] CreateUniversityDto createUniversityDto)
+		{
+			try {
+				if (!ModelState.IsValid)
+				{
+					return BadRequest(new ApiResponse(400, "Invalid input data").ToDictionary());
+				}
+
+				var university = _mapper.Map<University>(createUniversityDto);
+				await _universityService.CreateUniversityAsync(university);
+
+				var universityDto = _mapper.Map<University, UniversityDto>(university);
+				return CreatedAtAction(nameof(GetUniversity), new { id = university.UniversityID }, universityDto);
+
+			}
+			catch (Exception ex)
+			{
+				_logger.LogError(ex, "Error creating university");
+				return StatusCode(500, new ApiResponse(500, ex.Message).ToDictionary());
+			}
+		}
+
+		[HttpPut("{id}")]
+		public async Task<ActionResult<UniversityDto>> UpdateUniversity(int id, [FromBody] CreateUniversityDto updateUniversityDto)
+		{
+			try
+			{
+				if (!ModelState.IsValid)
+				{
+					return BadRequest(new ApiResponse(400, "Invalid input data.").ToDictionary());
+				}
+
+				var university = await _context.Universities
+					.FirstOrDefaultAsync(u => u.UniversityID == id);
+
+				if (university == null)
+				{
+					return NotFound(new ApiResponse(404).ToDictionary());
+				}
+
+				_mapper.Map(updateUniversityDto, university);
+				await _context.SaveChangesAsync();
+
+				var universityDto = _mapper.Map<UniversityDto>(university);
+				return Ok(universityDto);
+			}
+			catch (Exception ex)
+			{
+				_logger.LogError(ex, "Error updating university with ID {UniversityId}.", id);
+				return StatusCode(500, new ApiResponse(500, ex.Message).ToDictionary());
+			}
+		}
+		
+
+		[HttpDelete("{id}")]
+		public async Task<ActionResult> DeleteUniversity(int id)
+		{
+			try { 
+			var university = await _universityService.GetUniversityAsync(id);
+			if (university == null)
+			{
+				return NotFound(new ApiResponse(404).ToDictionary());
+			}
+			await _universityService.DeleteUniversityAsync(id);
+			
+			return NoContent();
+	      	}
+			 catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error deleting university with ID {UniversityId}.", id);
+                return StatusCode(500, new ApiResponse(500, ex.Message).ToDictionary());
+            }
+        }
+	
+
+
+
+
 		[HttpGet("college/{id}")]
 		public async Task<ActionResult<CollegeDto>> GetCollege(int id)
 		{
 
 
-			//var college = await _context.Colleges
-			//	//.Include(c => c.Majors)
-			//	.Include(c => c.CollegeEnglishTests)
-			//		.ThenInclude(cet => cet.English_Test)
-			//	.Include(c => c.CollegeDiplomas)
-			//		//.ThenInclude(cd => cd.Diploma)
-			//	.FirstOrDefaultAsync(c => c.CollegeID == id);
-			//var result = from c in _context.Colleges
-			//			 join ct in _context.CollegeEnglishTests on c.CollegeID equals ct.CollegeID
-			//			 join et in _context.EnglishTests on ct.TestID equals et.TestID
-			//			 where c.CollegeID == id
-			//			 select new
-			//			 {
-			//				 c.CollegeID,
-			//				 c.Name,
-			//				 c.StandardFees,
-			//				 ct.TestID,
-			//				 EnglishTestName = et.Name,
-			//				 ct.Min_Score
-			//			 };
+			
 			var college = _context.Colleges
 	            .Where(c => c.CollegeID == id)
 	            .Select(c => new
@@ -89,6 +157,7 @@ namespace CampusFinder.Controllers
 	            	c.Name,
 					c.Description,
 	            	c.StandardFees,
+					c.YearsOfDration,
 				     Diplomas = _context.CollegeDiplomas.
 					 Where(cd => cd.CollegeID == c.CollegeID)
 					 .Select( cd => new

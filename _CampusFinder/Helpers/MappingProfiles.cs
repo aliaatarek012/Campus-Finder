@@ -31,7 +31,8 @@ namespace CampusFinder.Helpers
                 .ForMember(u => u.WebsiteURL, o => o.MapFrom(s => s.WebsiteURL))
                 .ForMember(u => u.PictureURL, o => o.MapFrom<UniPictureUrlResolver<UniversityDto>>())
                 .ForMember(u => u.Colleges, o => o.MapFrom(s => s.Colleges));
-
+            CreateMap<University, CreateUniversityDto>();
+            CreateMap<CreateUniversityDto, University>();
             CreateMap<College, CollegeBasicDto>();
 			CreateMap<College, CollegeDto>();
             CreateMap<Major, MajorDto>()

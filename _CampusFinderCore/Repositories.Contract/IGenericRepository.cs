@@ -25,6 +25,7 @@ namespace _CampusFinderCore.Repositories.Contract
         Task<IReadOnlyList<T>> GetAllWithSpecAsync(ISpecifications<T> spec);
 
         Task<T?> GetEntityWithSpecAsync(ISpecifications<T> spec);
+       
 
     }
 }

@@ -74,7 +74,7 @@ namespace _CampusFinder
 
 
 
-			string connString = "Server=db15951.public.databaseasp.net; Database=db15951; User Id=db15951; Password=2Kb@h=A8F5-q; Encrypt=True; TrustServerCertificate=True; MultipleActiveResultSets=True;";
+			string connString = "Server=db17840.public.databaseasp.net; Database=db17840; User Id=db17840; Password=q_9R2B!yj=5D; Encrypt=True; TrustServerCertificate=True; MultipleActiveResultSets=True;";
 
 			using (SqlConnection conn = new SqlConnection(connString)) // Couldn't Connect to Remote Database so I Forced it to Connect and Check the Connection
 			{
