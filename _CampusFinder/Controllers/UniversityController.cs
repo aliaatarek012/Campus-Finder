@@ -90,8 +90,7 @@ namespace CampusFinder.Controllers
 		[HttpPut("{id}")]
 		public async Task<ActionResult<UniversityDto>> UpdateUniversity(int id, [FromBody] CreateUniversityDto updateUniversityDto)
 		{
-			try
-			{
+			
 				if (!ModelState.IsValid)
 				{
 					return BadRequest(new ApiResponse(400, "Invalid input data.").ToDictionary());
@@ -110,19 +109,14 @@ namespace CampusFinder.Controllers
 
 				var universityDto = _mapper.Map<UniversityDto>(university);
 				return Ok(universityDto);
-			}
-			catch (Exception ex)
-			{
-				_logger.LogError(ex, "Error updating university with ID {UniversityId}.", id);
-				return StatusCode(500, new ApiResponse(500, ex.Message).ToDictionary());
-			}
+
 		}
 		
 
 		[HttpDelete("{id}")]
 		public async Task<ActionResult> DeleteUniversity(int id)
 		{
-			try { 
+			
 			var university = await _universityService.GetUniversityAsync(id);
 			if (university == null)
 			{
@@ -131,12 +125,8 @@ namespace CampusFinder.Controllers
 			await _universityService.DeleteUniversityAsync(id);
 			
 			return NoContent();
-	      	}
-			 catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error deleting university with ID {UniversityId}.", id);
-                return StatusCode(500, new ApiResponse(500, ex.Message).ToDictionary());
-            }
+	      	
+			 
         }
 	
 

@@ -88,10 +88,6 @@ namespace _CampusFinderService
             await _unitOfWork.CompleteAsync();
         }
 
-        // method to load updatedUniversityDto into Database
-        //public async Task<University> UpdateUniversity(pR)
-        //{
-
-        //}
+        
     }
 }

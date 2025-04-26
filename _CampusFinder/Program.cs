@@ -137,6 +137,7 @@ namespace _CampusFinder
             //Configure Schema Services
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddScoped<IUniversityService, UniversityService>();
+            builder.Services.AddScoped<ICollegeService, CollegeService>();
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             builder.Services.AddAutoMapper(typeof(MappingProfiles));
             

@@ -15,12 +15,12 @@ namespace CampusFinder.Dto.University_Dtos
         
         public decimal StandardFees { get; set; }
 
-        public string? YearsOfDration { get; set; }
+        public string? YearsOfDuration { get; set; }
 
-        public string UniPictureURL { get; set; }
-        public List<MajorDto> Majors { get; set; }
-        public List<EnglishTestRequirementDto> EnglishTestRequirements { get; set; }
+        
+        //public List<MajorDto> Majors { get; set; }
+        //public List<EnglishTestRequirementDto> EnglishTestRequirements { get; set; }
 
-        public List<DiplomaRequirementDto> DiplomaRequirements { get; set; }
+        //public List<DiplomaRequirementDto> DiplomaRequirements { get; set; }
     }
 }
