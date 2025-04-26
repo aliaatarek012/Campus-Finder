@@ -57,9 +57,25 @@ namespace _CampusFinderService
             return universities;
         }
 
+        public async Task<IReadOnlyList<University>> GetUniversitiesAsync()
+        {
+            var universities = await _unitOfWork.Repository<University>().GetAllAsync();
+            return universities;
+        }
+
         public Task<University> GetUniversityAsync(int universityId)
         {
            var university = _unitOfWork.Repository<University>().GetByIdAsync(universityId);
+            if (university == null)
+            {
+                throw new Exception("University not found");
+            }
+            return university;
+        }
+
+        public Task<University> GetUniversityBySpecAsync(UniversityWithCollegesSpecifications spec)
+        {
+            var university = _unitOfWork.Repository<University>().GetEntityWithSpecAsync(spec);
             if (university == null)
             {
                 throw new Exception("University not found");

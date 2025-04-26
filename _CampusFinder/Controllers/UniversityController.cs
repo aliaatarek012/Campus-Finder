@@ -19,19 +19,18 @@ namespace CampusFinder.Controllers
 
 	public class UniversityController : BaseApiController
 	{
-		private readonly IGenericRepository<University> _universityRepo;
 		private readonly IMapper _mapper;
 		private readonly IUniversityService _universityService;
         private readonly IAdmissionRequirementService _admissionRequirementService;
 
-        public UniversityController(IGenericRepository<University> universityRepo,
+        public UniversityController(
 			IMapper mapper,
-			IUniversityService universityService
-			, IAdmissionRequirementService admissionRequirementService)
+			IUniversityService universityService , 
+		    IAdmissionRequirementService admissionRequirementService)
 			
 			
 		{
-			_universityRepo = universityRepo;
+			
 			_mapper = mapper;
 			_universityService = universityService;
             _admissionRequirementService = admissionRequirementService;
@@ -47,7 +46,7 @@ namespace CampusFinder.Controllers
 		[HttpGet("HomePage")]
 		public async Task<ActionResult<IEnumerable<HomePageDto>>> HomePage()
 		{
-			var universities = await _universityRepo.GetAllAsync();
+			var universities = await _universityService.GetUniversitiesAsync();
 			return Ok(_mapper.Map<IEnumerable<University>, IEnumerable<HomePageDto>>(universities));
 		}
 
@@ -55,7 +54,7 @@ namespace CampusFinder.Controllers
 		public async Task<ActionResult<UniversityDto>> GetUniversity(int id)
 		{
 			var spec = new UniversityWithCollegesSpecifications(id);
-			var university = await _universityRepo.GetEntityWithSpecAsync(spec);
+			var university = await _universityService.GetUniversityBySpecAsync(spec);
 			if (university == null)
 			{
 				return NotFound(new ApiResponse(404).ToDictionary());
