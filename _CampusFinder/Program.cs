@@ -138,6 +138,10 @@ namespace _CampusFinder
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddScoped<IUniversityService, UniversityService>();
             builder.Services.AddScoped<ICollegeService, CollegeService>();
+            builder.Services.AddScoped<IMajorService, MajorService>();
+            builder.Services.AddScoped<IDiplomaService, DiplomaService>();
+            builder.Services.AddScoped<IEnglishTestService, EnglishTestService>();
+            builder.Services.AddScoped<IAdmissionRequirementService, AdmissionRequirementService>();
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             builder.Services.AddAutoMapper(typeof(MappingProfiles));
             

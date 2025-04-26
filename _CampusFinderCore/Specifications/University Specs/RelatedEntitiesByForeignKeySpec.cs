@@ -21,5 +21,8 @@ namespace _CampusFinderCore.Specifications.University_Specs
                 Includes.Add(include);
             }
         }
+
+       
+
     }
 }

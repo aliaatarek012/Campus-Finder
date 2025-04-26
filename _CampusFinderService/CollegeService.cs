@@ -21,6 +21,8 @@ namespace _CampusFinderService
         {
             _unitOfWork = unitOfWork;
         }
+
+        // Retrieve all colleges with specifications
         public Task<IReadOnlyList<College>> GetCollegesWithSpecAsync(CollegeSpecParams collegeSpec)
         {
             var spec = new CollegeWithMajorsSpecifications(collegeSpec);
@@ -29,7 +31,7 @@ namespace _CampusFinderService
 
             return colleges;
         }
-
+        // Retrieve a college by its ID
         public Task<College> GetCollegeByIdAsync(int collegeId)
         {
             var spec = new CollegeWithMajorsSpecifications(collegeId);
@@ -37,7 +39,7 @@ namespace _CampusFinderService
 
             return college;
         }
-
+        // Create a new college
         public async Task<College> CreateCollegeAsync(College college)
         {
            await _unitOfWork.Repository<College>().AddAsync(college);
@@ -46,6 +48,7 @@ namespace _CampusFinderService
             return college;
 
         }
+        // Delete a college by its ID
         public async Task DeleteCollegeAsync(int collegeId)
         {
             var college = await _unitOfWork.Repository<College>().GetByIdAsync(collegeId);
@@ -59,7 +62,7 @@ namespace _CampusFinderService
             var colleges = await _unitOfWork.Repository<College>().GetAllWithSpecAsync(spec);
 
             return colleges;
-        }
+        }   
        
     }
 }

@@ -41,15 +41,24 @@ namespace CampusFinder.Helpers
                 .ForMember(d => d.YearsOfDration, o => o.MapFrom(s => s.YearsOfDuration));
             CreateMap<Major, MajorDto>()
                 .ForMember(d => d.MajorId, o => o.MapFrom(s => s.MajorID))
-                .ForMember(d => d.Description, o => o.MapFrom(s => s.Description));
-			CreateMap<College_English, EnglishTestRequirementDto>()
-				.ForMember(dest => dest.TestName, opt => opt.MapFrom(src => src.English_Test.Name))
-				.ForMember(dest => dest.MinScore, opt => opt.MapFrom(src => src.Min_Score));
+                .ForMember(d => d.Description, o => o.MapFrom(s => s.Description))
+                .ForMember(d => d.CollegeName , o => o.MapFrom(s => s.College.Name))
+                .ForMember(d => d.CollegeId, o => o.MapFrom(s => s.College.CollegeID));
+            CreateMap<MajorDto, Major>()
+                .ForMember(d => d.MajorID, o => o.MapFrom(s => s.MajorId))
+                .ForMember(d => d.Description, o => o.MapFrom(s => s.Description))
+                .ForMember(d => d.CollegeID, o => o.MapFrom(s => s.CollegeId));
+			//CreateMap<College_English, EnglishTestRequirementDto>()
+			//	.ForMember(dest => dest.TestName, opt => opt.MapFrom(src => src.English_Test.Name))
+			//	.ForMember(dest => dest.MinScore, opt => opt.MapFrom(src => src.Min_Score));
 
-			CreateMap<College_Diploma, DiplomaRequirementDto>()
-				.ForMember(dest => dest.DiplomaName, opt => opt.MapFrom(src => src.Diploma.Name))
-				.ForMember(dest => dest.MinGrade, opt => opt.MapFrom(src => src.Min_Grade))
-				.ForMember(dest => dest.Requirements, opt => opt.MapFrom(src => src.Requirments));
+			//CreateMap<College_Diploma, DiplomaRequirementDto>()
+			//	.ForMember(dest => dest.DiplomaName, opt => opt.MapFrom(src => src.Diploma.Name))
+			//	.ForMember(dest => dest.MinGrade, opt => opt.MapFrom(src => src.Min_Grade))
+			//	.ForMember(dest => dest.Requirements, opt => opt.MapFrom(src => src.Requirments));
+
+            CreateMap<Diploma, DiplomaDto>();
+            CreateMap<DiplomaDto, Diploma>();
 
             CreateMap<Events, EventsDto>()
                 //.ForMember(d => d.UniversityName, o => o.MapFrom(s => s.University.Name))

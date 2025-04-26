@@ -1,10 +1,12 @@
 ﻿using _CampusFinder.Controllers;
 using _CampusFinder.Errors;
+using _CampusFinderCore.Dto.University_Dtos;
 using _CampusFinderCore.Entities.UniversityEntities;
 using _CampusFinderCore.Repositories.Contract;
 using _CampusFinderCore.Services.Contract;
 using _CampusFinderInfrastructure.Data.AppDbContext;
 using _CampusFinderInfrastructure.Specifications.University_Specs;
+using _CampusFinderService;
 using AutoMapper;
 using CampusFinder.Dto.University_Dtos;
 using Microsoft.AspNetCore.Http;
@@ -20,21 +22,20 @@ namespace CampusFinder.Controllers
 		private readonly IGenericRepository<University> _universityRepo;
 		private readonly IMapper _mapper;
 		private readonly IUniversityService _universityService;
-		private readonly ApplicationDbContext _context;
-		private readonly ILogger<UniversityController> _logger;
+        private readonly IAdmissionRequirementService _admissionRequirementService;
 
-		public UniversityController(IGenericRepository<University> universityRepo,
+        public UniversityController(IGenericRepository<University> universityRepo,
 			IMapper mapper,
-			IUniversityService universityService,
-			ApplicationDbContext context,
-			ILogger<UniversityController> logger)
+			IUniversityService universityService
+			, IAdmissionRequirementService admissionRequirementService)
+			
+			
 		{
 			_universityRepo = universityRepo;
 			_mapper = mapper;
 			_universityService = universityService;
-			_context = context;
-			_logger = logger;
-		}
+            _admissionRequirementService = admissionRequirementService;
+        }
 
 		[HttpGet]
 		public async Task<ActionResult<IEnumerable<UniversityDto>>> GetUniversities([FromQuery] UniversitySpecParams specParams)
@@ -67,7 +68,7 @@ namespace CampusFinder.Controllers
 		[HttpPost]
 		public async Task<ActionResult<UniversityDto>> CreateUniversity([FromBody] CreateUniversityDto createUniversityDto)
 		{
-			try {
+			
 				if (!ModelState.IsValid)
 				{
 					return BadRequest(new ApiResponse(400, "Invalid input data").ToDictionary());
@@ -79,12 +80,7 @@ namespace CampusFinder.Controllers
 				var universityDto = _mapper.Map<University, UniversityDto>(university);
 				return CreatedAtAction(nameof(GetUniversity), new { id = university.UniversityID }, universityDto);
 
-			}
-			catch (Exception ex)
-			{
-				_logger.LogError(ex, "Error creating university");
-				return StatusCode(500, new ApiResponse(500, ex.Message).ToDictionary());
-			}
+			
 		}
 
 		[HttpPut("{id}")]
@@ -96,18 +92,17 @@ namespace CampusFinder.Controllers
 					return BadRequest(new ApiResponse(400, "Invalid input data.").ToDictionary());
 				}
 
-				var university = await _context.Universities
-					.FirstOrDefaultAsync(u => u.UniversityID == id);
-
-				if (university == null)
+           var university = await _universityService.GetUniversityAsync(id);
+            if (university == null)
 				{
 					return NotFound(new ApiResponse(404).ToDictionary());
 				}
 
 				_mapper.Map(updateUniversityDto, university);
-				await _context.SaveChangesAsync();
+            await _universityService.CreateUniversityAsync(university); 
 
-				var universityDto = _mapper.Map<UniversityDto>(university);
+
+            var universityDto = _mapper.Map<UniversityDto>(university);
 				return Ok(universityDto);
 
 		}
@@ -133,62 +128,16 @@ namespace CampusFinder.Controllers
 
 
 
-		[HttpGet("college/{id}")]
-		public async Task<ActionResult<CollegeDto>> GetCollege(int id)
-		{
+		[HttpGet("college/{collegeId}")]
+        public async Task<ActionResult<AdmissionRequirementDto>> GetAllAdmissionsRequirementByCollegeId(int collegeId)
+        {
+            var admissionRequirements = await _admissionRequirementService.GetAllAdmissionsRequirementByCollegeIdAsync(collegeId);
+            if (admissionRequirements == null)
+            {
+                return NotFound(new ApiResponse(404).ToDictionary());
+            }
+            return Ok(admissionRequirements);
+        }
 
-
-			
-			var college = _context.Colleges
-	            .Where(c => c.CollegeID == id)
-	            .Select(c => new
-	            {
-	            	c.CollegeID,
-	            	c.Name,
-					c.Description,
-	            	c.StandardFees,
-					c.YearsOfDration,
-				     Diplomas = _context.CollegeDiplomas.
-					 Where(cd => cd.CollegeID == c.CollegeID)
-					 .Select( cd => new
-						{
-							DiplomaName = cd.Diploma.Name,
-							cd.Min_Grade,
-							cd.Requirments,
-						}).ToList(),
-
-	            	EnglishTests = _context.CollegeEnglishTests
-	            		.Where(ct => ct.CollegeID == c.CollegeID)
-	            		.Join(_context.EnglishTests,
-	            			  ct => ct.TestID,
-	            			  et => et.TestID,
-	            			  (ct, et) => new
-	            			  {
-	            				  ct.TestID,
-	            				  EnglishTestName = et.Name,
-	            				  ct.Min_Score
-	            			  }).ToList() ,
-
-
-					 Majors = _context.Majors
-					.Where(m => m.CollegeID == c.CollegeID)
-					.Select(m => new
-					{
-						m.Name,
-						m.Description,
-					}).ToList()
-	            })
-	            .FirstOrDefault();
-
-
-			if (college == null)
-			{
-				return NotFound(new ApiResponse(404).ToDictionary());
-			}
-
-			//var collegeDto = _mapper.Map<College, CollegeDto>(college);
-			return Ok(college);
-		}
-
-	}
+    }
 }
