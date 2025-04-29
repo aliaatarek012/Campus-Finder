@@ -36,7 +36,10 @@ namespace _CampusFinderService
 
         public async Task<IReadOnlyList<Major>> GetMajorsByCollegeIdAsync(int collegeId)
         {
-            var spec = new RelatedEntitiesByForeignKeySpec<Major>(m => m.CollegeID == collegeId , m => m.College);
+            var spec = new RelatedEntitiesByForeignKeySpec<Major>
+                (m => m.CollegeID == collegeId,
+                 m => m.College //We Can Add Many Includes because it takes list of includes
+                );
             var majors = await _unitOfWork.Repository<Major>().GetAllWithSpecAsync(spec);
 
             return majors;

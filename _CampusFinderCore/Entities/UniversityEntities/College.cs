@@ -21,6 +21,7 @@ namespace _CampusFinderCore.Entities.UniversityEntities
 		public decimal StandardFees { get; set; }
 
 		public string? YearsOfDration { get; set; }
+        public string PictureURL { get; set; }
 
         [JsonIgnore]
         public University University { get; set; }

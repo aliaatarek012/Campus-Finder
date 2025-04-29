@@ -17,7 +17,8 @@ namespace CampusFinder.Dto.University_Dtos
 
         public string? YearsOfDuration { get; set; }
 
-        
+        public string PictureURL { get; set; }
+
         //public List<MajorDto> Majors { get; set; }
         //public List<EnglishTestRequirementDto> EnglishTestRequirements { get; set; }
 

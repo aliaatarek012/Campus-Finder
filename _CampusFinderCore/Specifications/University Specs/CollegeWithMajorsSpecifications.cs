@@ -68,7 +68,7 @@ namespace _CampusFinderInfrastructure.Specifications.University_Specs
         public CollegeWithMajorsSpecifications(int id)
             : base(c => c.CollegeID == id)
         {
-            //Includes.Add(c => c.Majors);
+            Includes.Add(c => c.Majors);
             //Includes.Add(c => c.CollegeEnglishTests);
 			//Includes.Add($"{nameof(College.CollegeEnglishTests)}.{nameof(College_English.EnglishTest)}");
             //Includes.Add(c => c.CollegeDiplomas);

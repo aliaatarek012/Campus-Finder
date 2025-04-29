@@ -11,6 +11,7 @@ namespace _CampusFinderCore.Specifications.University_Specs
 {
     // This is used to return all the entities that are related to a given entity by a foreign key.
     // For Example , return all Colleges has same universityId Or all Majors has same CollegeID
+    // Get all products with CategoryId = 5
     public class RelatedEntitiesByForeignKeySpec<TEntity> : BaseSpecifications<TEntity> where TEntity : BaseEntity
     {
         public RelatedEntitiesByForeignKeySpec(Expression<Func<TEntity, bool>> criteria,params Expression<Func<TEntity, object>>[] includes)
@@ -21,8 +22,5 @@ namespace _CampusFinderCore.Specifications.University_Specs
                 Includes.Add(include);
             }
         }
-
-       
-
     }
 }

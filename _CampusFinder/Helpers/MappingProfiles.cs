@@ -33,9 +33,11 @@ namespace CampusFinder.Helpers
                 .ForMember(u => u.Colleges, o => o.MapFrom(s => s.Colleges));
             CreateMap<University, CreateUniversityDto>();
             CreateMap<CreateUniversityDto, University>();
-            CreateMap<College, CollegeBasicDto>();
-			CreateMap<College, CollegeDto>()
-                .ForMember(d => d.YearsOfDuration ,o => o.MapFrom(s => s.YearsOfDration));
+            CreateMap<College, CollegeBasicDto>()
+                .ForMember(u => u.PictureURL, o => o.MapFrom<CollegePictureResolver<CollegeBasicDto>>());
+            CreateMap<College, CollegeDto>()
+                .ForMember(d => d.YearsOfDuration ,o => o.MapFrom(s => s.YearsOfDration))
+                .ForMember(u => u.PictureURL, o => o.MapFrom<CollegePictureResolver<CollegeDto>>());
 
             CreateMap<CollegeDto, College>()
                 .ForMember(d => d.YearsOfDration, o => o.MapFrom(s => s.YearsOfDuration));

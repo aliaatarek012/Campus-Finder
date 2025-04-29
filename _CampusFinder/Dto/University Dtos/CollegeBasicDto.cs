@@ -8,6 +8,7 @@
 		public string YearsOfDration { get; set; }
 
 		public string Description { get; set; }
+        public string PictureURL { get; set; }
 
-	}
+    }
 }

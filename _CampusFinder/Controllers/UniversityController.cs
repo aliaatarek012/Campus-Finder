@@ -30,7 +30,6 @@ namespace CampusFinder.Controllers
 			
 			
 		{
-			
 			_mapper = mapper;
 			_universityService = universityService;
             _admissionRequirementService = admissionRequirementService;
