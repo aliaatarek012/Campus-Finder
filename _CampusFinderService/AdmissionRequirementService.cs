@@ -81,6 +81,16 @@ namespace _CampusFinderService
                                   TestName = et.Name,
                                   MinScore = ct.Min_Score
                               }).ToList(),
+
+                    // retrieve all majors inside the college 
+                    Majors = _dbContext.Majors
+                        .Where(m => m.CollegeID == c.CollegeID)
+                        .Select(m => new MajorsDto
+                        {
+                            MajorId = m.MajorID,
+                            Name = m.Name,
+                            Description = m.Description,
+                        }).ToList()
                 })
                 .FirstOrDefaultAsync();
 

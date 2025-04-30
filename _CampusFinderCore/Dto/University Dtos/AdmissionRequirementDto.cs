@@ -17,5 +17,7 @@ namespace _CampusFinderCore.Dto.University_Dtos
 
         public List<DiplomaRequirementDto> Diplomas { get; set; }
         public List<EnglishTestRequirementDto> EnglishTests { get; set; }
+
+        public List<MajorsDto> Majors { get; set; }
     }
 }
