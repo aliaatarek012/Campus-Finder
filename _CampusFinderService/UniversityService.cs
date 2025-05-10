@@ -104,6 +104,11 @@ namespace _CampusFinderService
             await _unitOfWork.CompleteAsync();
         }
 
-        
+        public async Task<IReadOnlyList<University>> GetTop10UniversitiesAsync()
+        {
+            var spec = new TopUniversitiesSpecification(30); // Top 10 universities id starts from 30   
+            var universities = await _unitOfWork.Repository<University>().GetAllWithSpecAsync(spec);
+            return universities;
+        }
     }
 }

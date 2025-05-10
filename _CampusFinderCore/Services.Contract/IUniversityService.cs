@@ -35,6 +35,6 @@ namespace _CampusFinderCore.Services.Contract
         //Retrieve all Colleges
         Task<IReadOnlyList<College>> GetCollegesAsync();
 
-
+        Task<IReadOnlyList<University>> GetTop10UniversitiesAsync();
     }
 }

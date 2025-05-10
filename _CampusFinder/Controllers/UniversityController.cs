@@ -49,7 +49,17 @@ namespace CampusFinder.Controllers
 			return Ok(_mapper.Map<IEnumerable<University>, IEnumerable<HomePageDto>>(universities));
 		}
 
-		[HttpGet("{id}")]
+
+
+		[HttpGet("top10")]
+		public async Task<ActionResult<IEnumerable<HomePageDto>>> GetTop10Universities()
+		{
+			var universities = await _universityService.GetTop10UniversitiesAsync();
+			var universityDtos = _mapper.Map<IEnumerable<University>, IEnumerable<HomePageDto>>(universities);
+			return Ok(universityDtos);
+		}
+
+            [HttpGet("{id}")]
 		public async Task<ActionResult<UniversityDto>> GetUniversity(int id)
 		{
 			var spec = new UniversityWithCollegesSpecifications(id);
