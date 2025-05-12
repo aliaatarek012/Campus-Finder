@@ -23,7 +23,7 @@ namespace CampusFinder.Dto.University_Dtos
         public string PrimaryLanguage { get; set; }
         [Url]
         public string WebsiteURL { get; set; }
-        [Url]
-        public string PictureURL { get; set; }
+        
+        public IFormFile Picture { get; set; }
     }
 }

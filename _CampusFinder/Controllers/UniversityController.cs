@@ -9,6 +9,7 @@ using _CampusFinderInfrastructure.Specifications.University_Specs;
 using _CampusFinderService;
 using AutoMapper;
 using CampusFinder.Dto.University_Dtos;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
@@ -22,17 +23,20 @@ namespace CampusFinder.Controllers
 		private readonly IMapper _mapper;
 		private readonly IUniversityService _universityService;
         private readonly IAdmissionRequirementService _admissionRequirementService;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
         public UniversityController(
 			IMapper mapper,
 			IUniversityService universityService , 
-		    IAdmissionRequirementService admissionRequirementService)
+		    IAdmissionRequirementService admissionRequirementService,
+            IWebHostEnvironment webHostEnvironment)
 			
 			
 		{
 			_mapper = mapper;
 			_universityService = universityService;
             _admissionRequirementService = admissionRequirementService;
+            _webHostEnvironment = webHostEnvironment;
         }
 
 		[HttpGet]
@@ -73,50 +77,121 @@ namespace CampusFinder.Controllers
 		}
 
 
-		[HttpPost]
-		public async Task<ActionResult<UniversityDto>> CreateUniversity([FromBody] CreateUniversityDto createUniversityDto)
-		{
-			
-				if (!ModelState.IsValid)
-				{
-					return BadRequest(new ApiResponse(400, "Invalid input data").ToDictionary());
-				}
+        [HttpPost]
+        public async Task<ActionResult<UniversityDto>> CreateUniversity([FromForm] CreateUniversityDto createUniversityDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(new ApiResponse(400, "Invalid input data").ToDictionary());
+            }
 
-				var university = _mapper.Map<University>(createUniversityDto);
-				await _universityService.CreateUniversityAsync(university);
+            // Validate the picture file
+            if (createUniversityDto.Picture != null)
+            {
+                var validImageTypes = new[] { "image/jpeg", "image/png", "image/gif" };
+                if (!validImageTypes.Contains(createUniversityDto.Picture.ContentType))
+                {
+                    return BadRequest(new ApiResponse(400, "Only JPEG, PNG, or  images are allowed").ToDictionary());
+                }
+                if (createUniversityDto.Picture.Length > 5 * 1024 * 1024) // 5MB limit
+                {
+                    return BadRequest(new ApiResponse(400, "Image size must not exceed 5MB").ToDictionary());
+                }
+            }
 
-				var universityDto = _mapper.Map<University, UniversityDto>(university);
-				return CreatedAtAction(nameof(GetUniversity), new { id = university.UniversityID }, universityDto);
+            // Save the image to wwwroot/images/university
+            string pictureUrl = null;
+            if (createUniversityDto.Picture != null)
+            {
+                var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images", "university");
 
-			
-		}
 
-		[HttpPut("{id}")]
-		public async Task<ActionResult<UniversityDto>> UpdateUniversity(int id, [FromBody] CreateUniversityDto updateUniversityDto)
-		{
-			
-				if (!ModelState.IsValid)
-				{
-					return BadRequest(new ApiResponse(400, "Invalid input data.").ToDictionary());
-				}
+                var uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(createUniversityDto.Picture.FileName);
+                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
-           var university = await _universityService.GetUniversityAsync(id);
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await createUniversityDto.Picture.CopyToAsync(fileStream);
+                }
+
+                pictureUrl = $"/images/university/{uniqueFileName}";
+            }
+
+            // Map DTO to University entity
+            var university = _mapper.Map<University>(createUniversityDto);
+            university.PictureURL = pictureUrl; // Set the picture URL
+
+            // Create university via service
+            await _universityService.CreateUniversityAsync(university);
+
+            // Map to DTO for response
+            var universityDto = _mapper.Map<UniversityDto>(university);
+            return CreatedAtAction(nameof(GetUniversity), new { id = university.UniversityID }, universityDto);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult<UniversityDto>> UpdateUniversity(int id, [FromForm] CreateUniversityDto updateUniversityDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(new ApiResponse(400, "Invalid input data.").ToDictionary());
+            }
+
+            var university = await _universityService.GetUniversityAsync(id);
             if (university == null)
-				{
-					return NotFound(new ApiResponse(404).ToDictionary());
-				}
+            {
+                return NotFound(new ApiResponse(404).ToDictionary());
+            }
 
-				_mapper.Map(updateUniversityDto, university);
-            await _universityService.CreateUniversityAsync(university); 
+            // Validate and handle picture file
+            string pictureUrl = university.PictureURL; // Keep existing URL if no new image
+            if (updateUniversityDto.Picture != null)
+            {
+                var validImageTypes = new[] { "image/jpeg", "image/png", "image/gif" };
+                if (!validImageTypes.Contains(updateUniversityDto.Picture.ContentType))
+                {
+                    return BadRequest(new ApiResponse(400, "Only JPEG, PNG, or images are allowed").ToDictionary());
+                }
+                if (updateUniversityDto.Picture.Length > 5 * 1024 * 1024) // 5MB limit
+                {
+                    return BadRequest(new ApiResponse(400, "Image size must not exceed 5MB").ToDictionary());
+                }
 
+                // Save new image (old image is not deleted)
+                var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images", "university");
+                if (!Directory.Exists(uploadsFolder))
+                {
+                    Directory.CreateDirectory(uploadsFolder);
+                }
+
+                var uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(updateUniversityDto.Picture.FileName);
+                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await updateUniversityDto.Picture.CopyToAsync(fileStream);
+                }
+
+                pictureUrl = $"/images/university/{uniqueFileName}";
+            }
+
+            // Map DTO to entity and set PictureURL
+            _mapper.Map(updateUniversityDto, university);
+            university.PictureURL = pictureUrl;
+
+            // Update university via service
+            await _universityService.UpdateUniversityAsync(university);
 
             var universityDto = _mapper.Map<UniversityDto>(university);
-				return Ok(universityDto);
+            return Ok(universityDto);
+        }
 
-		}
-		
 
-		[HttpDelete("{id}")]
+
+
+
+
+        [HttpDelete("{id}")]
 		public async Task<ActionResult> DeleteUniversity(int id)
 		{
 			

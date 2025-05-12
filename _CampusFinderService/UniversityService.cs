@@ -88,6 +88,12 @@ namespace _CampusFinderService
             throw new NotImplementedException();
         }
 
+        public async Task<University> UpdateUniversityAsync(University university)
+        {
+            _unitOfWork.Repository<University>().UpdateAsync(university);
+            await _unitOfWork.CompleteAsync();
+            return university;
+        }
 
         public async Task<University> CreateUniversityAsync(University university)
         {

@@ -27,7 +27,7 @@ namespace _CampusFinderCore.Services.Contract
         //Update university
         //Task<University> UpdateUniversity(int id);
 
-
+        Task<University> UpdateUniversityAsync(University university);
 
         //Delete a university
         Task DeleteUniversityAsync(int universityId);

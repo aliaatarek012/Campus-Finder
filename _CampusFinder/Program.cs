@@ -144,7 +144,7 @@ namespace _CampusFinder
             builder.Services.AddScoped<IAdmissionRequirementService, AdmissionRequirementService>();
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             builder.Services.AddAutoMapper(typeof(MappingProfiles));
-            
+            builder.Services.AddHttpContextAccessor();
             #endregion
 
             var app = builder.Build();
